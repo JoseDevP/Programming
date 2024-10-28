@@ -1,0 +1,52 @@
+El filtro sort de Windows lee lineas de texto del archivo estandar de entrada y las muestra
+en orden alfabetico en el archivo estandar de salida. El ejemplo siguiente aclara como funciona 
+el filtro sort.
+
+sort[Entrar]
+lo que puede hacerse 
+en cualquier momento
+no se hará
+en ningun momento. 
+(eof)
+en cualquier momento
+en ningun momento. 
+lo que puede hacerse 
+no se hará
+
+Se desea escribir un programa que actue como el filtro sort. Para ordenar las distintas
+lineas vamos a ir insertandolas en un arbol binario de busqueda, de tal forma que al recorrerlo
+podamos presentar las lineas en orden alfabetico. Cada nodo del arbol se ajustará
+a la definicion siguiente.
+
+typedef struct datos
+{
+    char *linea;
+    struct datos *izq, *der;
+}nodo;
+
+Para realizar esta aplicacion se pide escribir al menos las funciones siguientes:
+
+a)Una funcion que lea lineas del archivo estandar de entrada y genere un arbol binario de 
+busqueda. El prototipo de esta funcion:
+
+    nodo *crear_arbol(void);
+
+b)Una funcion que recorra un arbol de las caracteristicas anteriores y presente las 
+lineas de texto que referencian sus nodos. El prototipo de esta funcion sera
+
+    void imprimir_arbol(nodo *q, char orden);
+
+Los valores posibles del parametro orden son: a, mostrar las lineas en orden 
+alfabetico ascendente y b, mostras las lineas en orden alfabetico descendente.
+
+escribir un programa que responda la funcionalidad siguiente:
+
+-Leer lineas del archivo estandar de entrada y presentarlas en el archivo estandar de salida
+en orden alfabetico ascendente:
+
+    nombre_programa -a
+
+-Leer lineas del archivo estandar de entrada y presentarlas en el archivo estandar de salida
+en orden alfabetico ascendente:
+
+    nombre_programa -d

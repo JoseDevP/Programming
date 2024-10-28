@@ -1,0 +1,68 @@
+Se quiere escribir un programa para manipular ecuaciones algebraicas o polinomicas
+dependientes de las variables x e y, por ejemplo:
+
+2x^3y - xy^3 + 8.25  más  5x^5y - 2x^3y + 7x2 - 3   igual a 5x^5y + 7x^2 - xy^3 + 5.25
+
+para lo que se aconseja utilizar la interfaz llse. 
+
+Cada termino del polinomio será representado por una esturcutra de tipo Termino y cada polinomio,
+por una lista lineal simplemente enlazada ordenad, de elementos de este tipo.
+
+La estructura Termino puede escribirse:
+
+//Tipo termino: define una expresion de la forma a.x^n.y^m
+//              a es el coeficiente de tipo double.
+//              n y m son los exponentes enteros de x e y
+
+typedef struct
+{
+    double coeficiente;
+    int exponenteDeX;
+    int exponenteDeY;
+}Termino;
+
+Los terminos de un polinomio estarán ordenados ascendentement primero por x y despues por y.
+El algoritmo que emplearemos será el siguiente: a cada unidad del excponente x le damos un
+peso k y a cada unidad del exponente de y un peso de 1;
+La suma de ambas cantidades nos da el valor utilizado para efectuar la ordenacion requerida.
+El valor de k es la potencia de 10 que sea igual a mayor que el mayor de los exponentes
+de x e y del termino a insertar.
+
+La funcion encargada de comparar dos terminos sera:
+
+    int comparar(void *data1, void *data2);
+
+La estructura Termino representa un termino del polinomio, el cual queda perfectamente 
+definido cuando se conoce su coeficiente, el grado de la variable x y el 
+grado de la variable y: coeficiente, exponenteDeX y exponenteDeY. Es evidente
+que extender esta estructura a terminos de polinomios dependientes de más de dos variables
+no entraña ninguna dificultad, es cuestion de añadir mas miembros.
+
+A continuacion implementar las funciones siguiente:
+
+mostrarTermino para visualizar un termino en la pantalla
+
+    void mostrarTermino(Termino t);
+
+mostrarPolinomio para que invocando a la funcion mostrarTermino visualice un polinomio
+(el tipo tllseo fue definido en la interfaz llseo)
+
+    void mostrarPolinomio(tllseo *poli);
+
+sumar para sumar dos polinomios. La idea básica es construir un tercer polinomio que 
+contenga los términos de los otros dos, pero sumando los coeficientes de los terminosque 
+se repitan en ambos. Los terminos en el polinomio resultante tambien quedaran ordenados
+ascendentemente por el mismo criterio que se expuso anteriormente. Se eliminaran los terminos 
+que resulten nulos (coeficiente 0)
+
+    tllseo sumar(tllseo pA, tllseo pB);
+
+leerTermino para crear dinámicamente una estructura del tipo Termino y asignar datos solicitados 
+a traves del teclado a la misma
+
+    Termino *leerTermino();
+
+Finalmente la funcion main, utilizando la interfaz llseo y las funciones anteriores,
+leeran dos polinomios y dara como resultaod su suma.
+
+

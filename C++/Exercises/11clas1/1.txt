@@ -1,0 +1,16 @@
+Aplicacion llamada grep -> permite buscar palabras en uno o mas archivos de texto
+Resultado -> visualizara por cada archivo -> nombre nº linea  contenido -> cada linea 
+que conternga la palabra buscada
+
+clase aplicacion grep metodos:
+    a) static bool CGrep::BuscarCadena(char* cadena 1, char* cadena 2);
+        -> devuelve true si cadena 2 se encuentra dentro de cadena 1
+        -> sino devuelve false
+    
+    b)static void CGrep::BuscarEnFich(char* nomf, char* cadena);
+        -> busca cadena e imprime el numero y contenido de la linea que contiene la cadena
+    
+    c)main -> buscar palabra en uno o mas archivos
+
+Invocar a la app
+    grep palabra archivo_1 archivo_2 ... archivo_n
