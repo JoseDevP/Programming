@@ -1,0 +1,15 @@
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Prueba\bin\Debug\net6.0\Prueba.exe
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Prueba\bin\Debug\net6.0\Prueba.deps.json
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Prueba\bin\Debug\net6.0\Prueba.runtimeconfig.json
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Prueba\bin\Debug\net6.0\Prueba.dll
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Prueba\bin\Debug\net6.0\Prueba.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Prueba\obj\Debug\net6.0\Prueba.csproj.AssemblyReference.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Prueba\obj\Debug\net6.0\Prueba.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Prueba\obj\Debug\net6.0\Prueba.AssemblyInfoInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Prueba\obj\Debug\net6.0\Prueba.AssemblyInfo.cs
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Prueba\obj\Debug\net6.0\Prueba.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Prueba\obj\Debug\net6.0\Prueba.dll
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Prueba\obj\Debug\net6.0\refint\Prueba.dll
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Prueba\obj\Debug\net6.0\Prueba.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Prueba\obj\Debug\net6.0\Prueba.genruntimeconfig.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Prueba\obj\Debug\net6.0\ref\Prueba.dll

@@ -1,0 +1,6 @@
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Herencia\bin\Debug\Herencia.exe.config
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Herencia\bin\Debug\Herencia.exe
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Herencia\bin\Debug\Herencia.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Herencia\obj\Debug\Herencia.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Herencia\obj\Debug\Herencia.exe
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Herencia\obj\Debug\Herencia.pdb

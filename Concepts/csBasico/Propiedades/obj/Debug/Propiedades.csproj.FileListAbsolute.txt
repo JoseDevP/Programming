@@ -1,0 +1,6 @@
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Propiedades\bin\Debug\Propiedades.exe.config
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Propiedades\bin\Debug\Propiedades.exe
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Propiedades\bin\Debug\Propiedades.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Propiedades\obj\Debug\Propiedades.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Propiedades\obj\Debug\Propiedades.exe
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Propiedades\obj\Debug\Propiedades.pdb

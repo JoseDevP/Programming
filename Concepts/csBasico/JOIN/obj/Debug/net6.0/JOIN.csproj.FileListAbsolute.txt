@@ -1,0 +1,15 @@
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\JOIN\bin\Debug\net6.0\JOIN.exe
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\JOIN\bin\Debug\net6.0\JOIN.deps.json
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\JOIN\bin\Debug\net6.0\JOIN.runtimeconfig.json
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\JOIN\bin\Debug\net6.0\JOIN.dll
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\JOIN\bin\Debug\net6.0\JOIN.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\JOIN\obj\Debug\net6.0\JOIN.csproj.AssemblyReference.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\JOIN\obj\Debug\net6.0\JOIN.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\JOIN\obj\Debug\net6.0\JOIN.AssemblyInfoInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\JOIN\obj\Debug\net6.0\JOIN.AssemblyInfo.cs
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\JOIN\obj\Debug\net6.0\JOIN.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\JOIN\obj\Debug\net6.0\JOIN.dll
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\JOIN\obj\Debug\net6.0\refint\JOIN.dll
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\JOIN\obj\Debug\net6.0\JOIN.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\JOIN\obj\Debug\net6.0\JOIN.genruntimeconfig.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\JOIN\obj\Debug\net6.0\ref\JOIN.dll

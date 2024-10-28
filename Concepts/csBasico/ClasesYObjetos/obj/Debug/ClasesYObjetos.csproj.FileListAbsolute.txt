@@ -1,0 +1,6 @@
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\ClasesYObjetos\bin\Debug\ClasesYObjetos.exe.config
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\ClasesYObjetos\bin\Debug\ClasesYObjetos.exe
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\ClasesYObjetos\bin\Debug\ClasesYObjetos.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\ClasesYObjetos\obj\Debug\ClasesYObjetos.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\ClasesYObjetos\obj\Debug\ClasesYObjetos.exe
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\ClasesYObjetos\obj\Debug\ClasesYObjetos.pdb

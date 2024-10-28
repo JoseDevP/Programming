@@ -1,0 +1,15 @@
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\ExtensionsMethods\bin\Debug\net8.0\ExtensionsMethods.exe
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\ExtensionsMethods\bin\Debug\net8.0\ExtensionsMethods.deps.json
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\ExtensionsMethods\bin\Debug\net8.0\ExtensionsMethods.runtimeconfig.json
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\ExtensionsMethods\bin\Debug\net8.0\ExtensionsMethods.dll
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\ExtensionsMethods\bin\Debug\net8.0\ExtensionsMethods.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\ExtensionsMethods\obj\Debug\net8.0\ExtensionsMethods.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\ExtensionsMethods\obj\Debug\net8.0\ExtensionsMethods.AssemblyInfoInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\ExtensionsMethods\obj\Debug\net8.0\ExtensionsMethods.AssemblyInfo.cs
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\ExtensionsMethods\obj\Debug\net8.0\ExtensionsMethods.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\ExtensionsMethods\obj\Debug\net8.0\ExtensionsMethods.sourcelink.json
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\ExtensionsMethods\obj\Debug\net8.0\ExtensionsMethods.dll
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\ExtensionsMethods\obj\Debug\net8.0\refint\ExtensionsMethods.dll
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\ExtensionsMethods\obj\Debug\net8.0\ExtensionsMethods.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\ExtensionsMethods\obj\Debug\net8.0\ExtensionsMethods.genruntimeconfig.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\ExtensionsMethods\obj\Debug\net8.0\ref\ExtensionsMethods.dll

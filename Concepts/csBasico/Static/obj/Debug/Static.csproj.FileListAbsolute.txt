@@ -1,0 +1,6 @@
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Static\bin\Debug\Static.exe.config
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Static\bin\Debug\Static.exe
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Static\bin\Debug\Static.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Static\obj\Debug\Static.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Static\obj\Debug\Static.exe
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Static\obj\Debug\Static.pdb

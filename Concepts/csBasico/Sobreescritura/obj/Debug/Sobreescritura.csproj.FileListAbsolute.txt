@@ -1,0 +1,6 @@
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Sobreescritura\obj\Debug\Sobreescritura.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Sobreescritura\bin\Debug\Sobreescritura.exe.config
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Sobreescritura\bin\Debug\Sobreescritura.exe
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Sobreescritura\bin\Debug\Sobreescritura.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Sobreescritura\obj\Debug\Sobreescritura.exe
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Sobreescritura\obj\Debug\Sobreescritura.pdb

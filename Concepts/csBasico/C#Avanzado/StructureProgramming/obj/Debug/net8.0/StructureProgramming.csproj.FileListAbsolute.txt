@@ -1,0 +1,15 @@
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\StructureProgramming\bin\Debug\net8.0\StructureProgramming.exe
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\StructureProgramming\bin\Debug\net8.0\StructureProgramming.deps.json
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\StructureProgramming\bin\Debug\net8.0\StructureProgramming.runtimeconfig.json
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\StructureProgramming\bin\Debug\net8.0\StructureProgramming.dll
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\StructureProgramming\bin\Debug\net8.0\StructureProgramming.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\StructureProgramming\obj\Debug\net8.0\StructureProgramming.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\StructureProgramming\obj\Debug\net8.0\StructureProgramming.AssemblyInfoInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\StructureProgramming\obj\Debug\net8.0\StructureProgramming.AssemblyInfo.cs
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\StructureProgramming\obj\Debug\net8.0\StructureProgramming.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\StructureProgramming\obj\Debug\net8.0\StructureProgramming.sourcelink.json
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\StructureProgramming\obj\Debug\net8.0\StructureProgramming.dll
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\StructureProgramming\obj\Debug\net8.0\refint\StructureProgramming.dll
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\StructureProgramming\obj\Debug\net8.0\StructureProgramming.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\StructureProgramming\obj\Debug\net8.0\StructureProgramming.genruntimeconfig.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\StructureProgramming\obj\Debug\net8.0\ref\StructureProgramming.dll

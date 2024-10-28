@@ -1,0 +1,15 @@
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\TiposAnonimos\bin\Debug\net6.0\TiposAnonimos.exe
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\TiposAnonimos\bin\Debug\net6.0\TiposAnonimos.deps.json
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\TiposAnonimos\bin\Debug\net6.0\TiposAnonimos.runtimeconfig.json
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\TiposAnonimos\bin\Debug\net6.0\TiposAnonimos.dll
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\TiposAnonimos\bin\Debug\net6.0\TiposAnonimos.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\TiposAnonimos\obj\Debug\net6.0\TiposAnonimos.csproj.AssemblyReference.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\TiposAnonimos\obj\Debug\net6.0\TiposAnonimos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\TiposAnonimos\obj\Debug\net6.0\TiposAnonimos.AssemblyInfoInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\TiposAnonimos\obj\Debug\net6.0\TiposAnonimos.AssemblyInfo.cs
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\TiposAnonimos\obj\Debug\net6.0\TiposAnonimos.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\TiposAnonimos\obj\Debug\net6.0\TiposAnonimos.dll
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\TiposAnonimos\obj\Debug\net6.0\refint\TiposAnonimos.dll
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\TiposAnonimos\obj\Debug\net6.0\TiposAnonimos.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\TiposAnonimos\obj\Debug\net6.0\TiposAnonimos.genruntimeconfig.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\TiposAnonimos\obj\Debug\net6.0\ref\TiposAnonimos.dll

@@ -1,0 +1,15 @@
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SerializacionJson\bin\Debug\net6.0\SerializacionJson.exe
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SerializacionJson\bin\Debug\net6.0\SerializacionJson.deps.json
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SerializacionJson\bin\Debug\net6.0\SerializacionJson.runtimeconfig.json
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SerializacionJson\bin\Debug\net6.0\SerializacionJson.dll
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SerializacionJson\bin\Debug\net6.0\SerializacionJson.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SerializacionJson\obj\Debug\net6.0\SerializacionJson.csproj.AssemblyReference.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SerializacionJson\obj\Debug\net6.0\SerializacionJson.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SerializacionJson\obj\Debug\net6.0\SerializacionJson.AssemblyInfoInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SerializacionJson\obj\Debug\net6.0\SerializacionJson.AssemblyInfo.cs
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SerializacionJson\obj\Debug\net6.0\SerializacionJson.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SerializacionJson\obj\Debug\net6.0\SerializacionJson.dll
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SerializacionJson\obj\Debug\net6.0\refint\SerializacionJson.dll
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SerializacionJson\obj\Debug\net6.0\SerializacionJson.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SerializacionJson\obj\Debug\net6.0\SerializacionJson.genruntimeconfig.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SerializacionJson\obj\Debug\net6.0\ref\SerializacionJson.dll

@@ -1,0 +1,6 @@
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Sobrecarga\bin\Debug\Sobrecarga.exe.config
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Sobrecarga\bin\Debug\Sobrecarga.exe
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Sobrecarga\bin\Debug\Sobrecarga.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Sobrecarga\obj\Debug\Sobrecarga.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Sobrecarga\obj\Debug\Sobrecarga.exe
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Sobrecarga\obj\Debug\Sobrecarga.pdb

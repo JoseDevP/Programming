@@ -1,0 +1,15 @@
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Prueba\bin\Debug\net6.0\LINQ2.exe
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Prueba\bin\Debug\net6.0\LINQ2.deps.json
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Prueba\bin\Debug\net6.0\LINQ2.runtimeconfig.json
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Prueba\bin\Debug\net6.0\LINQ2.dll
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Prueba\bin\Debug\net6.0\LINQ2.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Prueba\obj\Debug\net6.0\LINQ2.csproj.AssemblyReference.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Prueba\obj\Debug\net6.0\LINQ2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Prueba\obj\Debug\net6.0\LINQ2.AssemblyInfoInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Prueba\obj\Debug\net6.0\LINQ2.AssemblyInfo.cs
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Prueba\obj\Debug\net6.0\LINQ2.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Prueba\obj\Debug\net6.0\LINQ2.dll
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Prueba\obj\Debug\net6.0\refint\LINQ2.dll
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Prueba\obj\Debug\net6.0\LINQ2.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Prueba\obj\Debug\net6.0\LINQ2.genruntimeconfig.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Prueba\obj\Debug\net6.0\ref\LINQ2.dll

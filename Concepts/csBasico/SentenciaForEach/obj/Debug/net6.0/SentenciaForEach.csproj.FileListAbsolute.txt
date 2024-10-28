@@ -1,0 +1,15 @@
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SentenciaForEach\bin\Debug\net6.0\SentenciaForEach.exe
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SentenciaForEach\bin\Debug\net6.0\SentenciaForEach.deps.json
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SentenciaForEach\bin\Debug\net6.0\SentenciaForEach.runtimeconfig.json
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SentenciaForEach\bin\Debug\net6.0\SentenciaForEach.dll
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SentenciaForEach\bin\Debug\net6.0\SentenciaForEach.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SentenciaForEach\obj\Debug\net6.0\SentenciaForEach.csproj.AssemblyReference.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SentenciaForEach\obj\Debug\net6.0\SentenciaForEach.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SentenciaForEach\obj\Debug\net6.0\SentenciaForEach.AssemblyInfoInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SentenciaForEach\obj\Debug\net6.0\SentenciaForEach.AssemblyInfo.cs
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SentenciaForEach\obj\Debug\net6.0\SentenciaForEach.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SentenciaForEach\obj\Debug\net6.0\SentenciaForEach.dll
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SentenciaForEach\obj\Debug\net6.0\refint\SentenciaForEach.dll
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SentenciaForEach\obj\Debug\net6.0\SentenciaForEach.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SentenciaForEach\obj\Debug\net6.0\SentenciaForEach.genruntimeconfig.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SentenciaForEach\obj\Debug\net6.0\ref\SentenciaForEach.dll

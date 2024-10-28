@@ -1,0 +1,6 @@
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SentenciaWhile\bin\Debug\SentenciaWhile.exe.config
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SentenciaWhile\bin\Debug\SentenciaWhile.exe
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SentenciaWhile\bin\Debug\SentenciaWhile.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SentenciaWhile\obj\Debug\SentenciaWhile.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SentenciaWhile\obj\Debug\SentenciaWhile.exe
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SentenciaWhile\obj\Debug\SentenciaWhile.pdb

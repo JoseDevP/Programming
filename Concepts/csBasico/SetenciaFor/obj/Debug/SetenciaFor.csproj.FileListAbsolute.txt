@@ -1,0 +1,6 @@
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SetenciaFor\bin\Debug\SetenciaFor.exe.config
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SetenciaFor\bin\Debug\SetenciaFor.exe
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SetenciaFor\bin\Debug\SetenciaFor.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SetenciaFor\obj\Debug\SetenciaFor.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SetenciaFor\obj\Debug\SetenciaFor.exe
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\SetenciaFor\obj\Debug\SetenciaFor.pdb

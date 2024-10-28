@@ -1,0 +1,15 @@
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\MetodosListas\bin\Debug\net6.0\MetodosListas.exe
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\MetodosListas\bin\Debug\net6.0\MetodosListas.deps.json
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\MetodosListas\bin\Debug\net6.0\MetodosListas.runtimeconfig.json
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\MetodosListas\bin\Debug\net6.0\MetodosListas.dll
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\MetodosListas\bin\Debug\net6.0\MetodosListas.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\MetodosListas\obj\Debug\net6.0\MetodosListas.csproj.AssemblyReference.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\MetodosListas\obj\Debug\net6.0\MetodosListas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\MetodosListas\obj\Debug\net6.0\MetodosListas.AssemblyInfoInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\MetodosListas\obj\Debug\net6.0\MetodosListas.AssemblyInfo.cs
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\MetodosListas\obj\Debug\net6.0\MetodosListas.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\MetodosListas\obj\Debug\net6.0\MetodosListas.dll
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\MetodosListas\obj\Debug\net6.0\refint\MetodosListas.dll
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\MetodosListas\obj\Debug\net6.0\MetodosListas.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\MetodosListas\obj\Debug\net6.0\MetodosListas.genruntimeconfig.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\MetodosListas\obj\Debug\net6.0\ref\MetodosListas.dll

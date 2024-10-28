@@ -1,0 +1,15 @@
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\FormatoJson\bin\Debug\net6.0\FormatoJson.exe
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\FormatoJson\bin\Debug\net6.0\FormatoJson.deps.json
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\FormatoJson\bin\Debug\net6.0\FormatoJson.runtimeconfig.json
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\FormatoJson\bin\Debug\net6.0\FormatoJson.dll
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\FormatoJson\bin\Debug\net6.0\FormatoJson.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\FormatoJson\obj\Debug\net6.0\FormatoJson.csproj.AssemblyReference.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\FormatoJson\obj\Debug\net6.0\FormatoJson.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\FormatoJson\obj\Debug\net6.0\FormatoJson.AssemblyInfoInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\FormatoJson\obj\Debug\net6.0\FormatoJson.AssemblyInfo.cs
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\FormatoJson\obj\Debug\net6.0\FormatoJson.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\FormatoJson\obj\Debug\net6.0\FormatoJson.dll
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\FormatoJson\obj\Debug\net6.0\refint\FormatoJson.dll
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\FormatoJson\obj\Debug\net6.0\FormatoJson.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\FormatoJson\obj\Debug\net6.0\FormatoJson.genruntimeconfig.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\FormatoJson\obj\Debug\net6.0\ref\FormatoJson.dll

@@ -1,0 +1,6 @@
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Funciones\bin\Debug\Funciones.exe.config
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Funciones\bin\Debug\Funciones.exe
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Funciones\bin\Debug\Funciones.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Funciones\obj\Debug\Funciones.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Funciones\obj\Debug\Funciones.exe
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\Funciones\obj\Debug\Funciones.pdb

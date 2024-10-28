@@ -1,0 +1,15 @@
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\GenericAdvanced\bin\Debug\net8.0\GenericAdvanced.exe
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\GenericAdvanced\bin\Debug\net8.0\GenericAdvanced.deps.json
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\GenericAdvanced\bin\Debug\net8.0\GenericAdvanced.runtimeconfig.json
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\GenericAdvanced\bin\Debug\net8.0\GenericAdvanced.dll
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\GenericAdvanced\bin\Debug\net8.0\GenericAdvanced.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\GenericAdvanced\obj\Debug\net8.0\GenericAdvanced.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\GenericAdvanced\obj\Debug\net8.0\GenericAdvanced.AssemblyInfoInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\GenericAdvanced\obj\Debug\net8.0\GenericAdvanced.AssemblyInfo.cs
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\GenericAdvanced\obj\Debug\net8.0\GenericAdvanced.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\GenericAdvanced\obj\Debug\net8.0\GenericAdvanced.sourcelink.json
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\GenericAdvanced\obj\Debug\net8.0\GenericAdvanced.dll
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\GenericAdvanced\obj\Debug\net8.0\refint\GenericAdvanced.dll
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\GenericAdvanced\obj\Debug\net8.0\GenericAdvanced.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\GenericAdvanced\obj\Debug\net8.0\GenericAdvanced.genruntimeconfig.cache
+C:\Users\josee\Desktop\Cursos\csharp\Udemy\csBasico\C#Avanzado\GenericAdvanced\obj\Debug\net8.0\ref\GenericAdvanced.dll
