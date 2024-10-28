@@ -1,0 +1,14 @@
+Escribir una aplicacion que permita calcular la frecuencia con la que aparecen las palabras 
+en un fichero de texto. La forma de invocar al programa seria:
+palabras fichero_de_texto
+donde fichero_de_texto es el nombre del fichero de texto del cual queremos obtener 
+la stadistica.
+
+Proceso:
+a) Leer la informacion del archivo y descompone en palabras entendiendo por palabra una
+secuencia de caracteres delimitada por espacios en blanco,tabuladores, signos de puntuacion.
+b) Cada palabra debera insertarse por orden alfabetico ascendente junyo con un contador que 
+indique su numero de apariciones, en el nodo de una estructura en arbol. Esto facilitará la 
+busqueda.
+c) Una vez construido el arbol de busqueda, se presentará por pantalla una estadistica en el 
+formato: palabra = 1 ... Total palabras 44  Total palabras diferentes 35

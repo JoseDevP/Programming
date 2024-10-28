@@ -1,0 +1,44 @@
+En un archivo en disco disponemos del nombre y del dni de un conjunto de alumno. La 
+estructura de cada registro del archivo es asi.
+
+typedef struct
+{
+    char nombre[60];
+    unsigned long dni;
+}alumno;
+
+Se desea escribir un programa para visualizar los registros del archivo, ordenados por el 
+miembro dni. Para ello leermos los registros desde el archivo y los almacenaremos en un arbol
+binario de busqueda ordenado por el dni.
+Cada nodo del arbol sera de la forma siguiente.
+
+typedef struct elem
+{
+    alumno datos;
+    struct elem *izdo;
+    struct elem *dcho;
+}nodo;
+
+a)Escribir una función inserta que permita añadir nodos a una estructura en arbol binario
+de busqueda. Los nodos estarán ordenados por el miembro dni.
+
+    nodo *insertar(nodo **raiz, alumno a);
+
+b)Escribir una funcion visu_ascen para que recorra el arbol apuntado por raiz y visualice
+los datos en orden ascendente del miembro dni;
+
+    void visu_ascen(node *raiz);
+
+c)Escribir uan funcion visu_descen para que recorra el arbol apuntado por la reiz y visualice los
+datos en orden descendente del miembro dni;
+
+    void visu_descen(node *raiz);
+
+Utilizando las funciones anteriores, escribir un programa listar que reciba a traves de la linea
+de ordenes el nombre de un archivo y el orden de presentacion y visualice los registros 
+del archivo en un orden especificado.
+
+    listar -a archivo
+    listar -d archivo
+
+
