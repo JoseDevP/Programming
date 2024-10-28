@@ -1,0 +1,18 @@
+Programa -> crear archivo nuevo
+         -> Abrir uno existente
+         -> añadir, buscar o modificar registros
+nombreArchivo -> introducido a traves del teclado
+
+registro -> nombre, direccion, telefono
+
+menu -> nuevo archivo
+     -> arbrir archivo
+     -> añadir registros
+     -> buscar registro
+     -> buscar siguiente
+     -> modificar registro
+     -> salir
+
+Opcion (1-7) : 1
+
+Nombre del archivo: telefono.dato
