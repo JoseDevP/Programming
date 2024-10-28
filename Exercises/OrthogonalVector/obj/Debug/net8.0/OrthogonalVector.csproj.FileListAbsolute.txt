@@ -1,0 +1,15 @@
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\OrthogonalVector\bin\Debug\net8.0\OrthogonalVector.exe
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\OrthogonalVector\bin\Debug\net8.0\OrthogonalVector.deps.json
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\OrthogonalVector\bin\Debug\net8.0\OrthogonalVector.runtimeconfig.json
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\OrthogonalVector\bin\Debug\net8.0\OrthogonalVector.dll
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\OrthogonalVector\bin\Debug\net8.0\OrthogonalVector.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\OrthogonalVector\obj\Debug\net8.0\OrthogonalVector.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\OrthogonalVector\obj\Debug\net8.0\OrthogonalVector.AssemblyInfoInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\OrthogonalVector\obj\Debug\net8.0\OrthogonalVector.AssemblyInfo.cs
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\OrthogonalVector\obj\Debug\net8.0\OrthogonalVector.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\OrthogonalVector\obj\Debug\net8.0\OrthogonalVector.sourcelink.json
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\OrthogonalVector\obj\Debug\net8.0\OrthogonalVector.dll
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\OrthogonalVector\obj\Debug\net8.0\refint\OrthogonalVector.dll
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\OrthogonalVector\obj\Debug\net8.0\OrthogonalVector.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\OrthogonalVector\obj\Debug\net8.0\OrthogonalVector.genruntimeconfig.cache
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\OrthogonalVector\obj\Debug\net8.0\ref\OrthogonalVector.dll

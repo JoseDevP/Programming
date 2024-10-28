@@ -1,0 +1,5 @@
+/*
+ * Create a program that reverses the order of a text string
+ * without using language functions that do it automatically.
+ * - If we passed "Hello world" it would return "odnum aloH"
+ */

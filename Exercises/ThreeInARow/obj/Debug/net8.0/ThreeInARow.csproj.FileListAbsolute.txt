@@ -1,0 +1,15 @@
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\ThreeInARow\bin\Debug\net8.0\ThreeInARow.exe
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\ThreeInARow\bin\Debug\net8.0\ThreeInARow.deps.json
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\ThreeInARow\bin\Debug\net8.0\ThreeInARow.runtimeconfig.json
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\ThreeInARow\bin\Debug\net8.0\ThreeInARow.dll
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\ThreeInARow\bin\Debug\net8.0\ThreeInARow.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\ThreeInARow\obj\Debug\net8.0\ThreeInARow.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\ThreeInARow\obj\Debug\net8.0\ThreeInARow.AssemblyInfoInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\ThreeInARow\obj\Debug\net8.0\ThreeInARow.AssemblyInfo.cs
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\ThreeInARow\obj\Debug\net8.0\ThreeInARow.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\ThreeInARow\obj\Debug\net8.0\ThreeInARow.sourcelink.json
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\ThreeInARow\obj\Debug\net8.0\ThreeInARow.dll
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\ThreeInARow\obj\Debug\net8.0\refint\ThreeInARow.dll
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\ThreeInARow\obj\Debug\net8.0\ThreeInARow.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\ThreeInARow\obj\Debug\net8.0\ThreeInARow.genruntimeconfig.cache
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\ThreeInARow\obj\Debug\net8.0\ref\ThreeInARow.dll

@@ -1,0 +1,15 @@
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\StopTime\obj\Debug\net8.0\StopTime.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\StopTime\obj\Debug\net8.0\StopTime.AssemblyInfoInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\StopTime\obj\Debug\net8.0\StopTime.AssemblyInfo.cs
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\StopTime\obj\Debug\net8.0\StopTime.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\StopTime\obj\Debug\net8.0\StopTime.sourcelink.json
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\StopTime\bin\Debug\net8.0\StopTime.exe
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\StopTime\bin\Debug\net8.0\StopTime.deps.json
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\StopTime\bin\Debug\net8.0\StopTime.runtimeconfig.json
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\StopTime\bin\Debug\net8.0\StopTime.dll
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\StopTime\bin\Debug\net8.0\StopTime.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\StopTime\obj\Debug\net8.0\StopTime.dll
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\StopTime\obj\Debug\net8.0\refint\StopTime.dll
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\StopTime\obj\Debug\net8.0\StopTime.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\StopTime\obj\Debug\net8.0\StopTime.genruntimeconfig.cache
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\StopTime\obj\Debug\net8.0\ref\StopTime.dll

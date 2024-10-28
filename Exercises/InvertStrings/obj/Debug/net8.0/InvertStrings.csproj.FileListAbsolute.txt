@@ -1,0 +1,15 @@
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\InvertStrings\bin\Debug\net8.0\InvertStrings.exe
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\InvertStrings\bin\Debug\net8.0\InvertStrings.deps.json
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\InvertStrings\bin\Debug\net8.0\InvertStrings.runtimeconfig.json
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\InvertStrings\bin\Debug\net8.0\InvertStrings.dll
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\InvertStrings\bin\Debug\net8.0\InvertStrings.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\InvertStrings\obj\Debug\net8.0\InvertStrings.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\InvertStrings\obj\Debug\net8.0\InvertStrings.AssemblyInfoInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\InvertStrings\obj\Debug\net8.0\InvertStrings.AssemblyInfo.cs
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\InvertStrings\obj\Debug\net8.0\InvertStrings.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\InvertStrings\obj\Debug\net8.0\InvertStrings.sourcelink.json
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\InvertStrings\obj\Debug\net8.0\InvertStrings.dll
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\InvertStrings\obj\Debug\net8.0\refint\InvertStrings.dll
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\InvertStrings\obj\Debug\net8.0\InvertStrings.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\InvertStrings\obj\Debug\net8.0\InvertStrings.genruntimeconfig.cache
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\InvertStrings\obj\Debug\net8.0\ref\InvertStrings.dll

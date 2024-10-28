@@ -1,0 +1,5 @@
+
+/*
+ * Write a program that is responsible for checking whether a number is prime or not.
+ * Once this is done, print the prime numbers between 1 and 100.
+ */

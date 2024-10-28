@@ -1,0 +1,15 @@
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\OrderArray\obj\Debug\net8.0\OrderArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\OrderArray\obj\Debug\net8.0\OrderArray.AssemblyInfoInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\OrderArray\obj\Debug\net8.0\OrderArray.AssemblyInfo.cs
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\OrderArray\obj\Debug\net8.0\OrderArray.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\OrderArray\obj\Debug\net8.0\OrderArray.sourcelink.json
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\OrderArray\bin\Debug\net8.0\OrderArray.exe
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\OrderArray\bin\Debug\net8.0\OrderArray.deps.json
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\OrderArray\bin\Debug\net8.0\OrderArray.runtimeconfig.json
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\OrderArray\bin\Debug\net8.0\OrderArray.dll
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\OrderArray\bin\Debug\net8.0\OrderArray.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\OrderArray\obj\Debug\net8.0\OrderArray.dll
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\OrderArray\obj\Debug\net8.0\refint\OrderArray.dll
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\OrderArray\obj\Debug\net8.0\OrderArray.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\OrderArray\obj\Debug\net8.0\OrderArray.genruntimeconfig.cache
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\OrderArray\obj\Debug\net8.0\ref\OrderArray.dll

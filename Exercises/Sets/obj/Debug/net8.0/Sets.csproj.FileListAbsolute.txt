@@ -1,0 +1,15 @@
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Sets\bin\Debug\net8.0\Sets.exe
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Sets\bin\Debug\net8.0\Sets.deps.json
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Sets\bin\Debug\net8.0\Sets.runtimeconfig.json
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Sets\bin\Debug\net8.0\Sets.dll
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Sets\bin\Debug\net8.0\Sets.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Sets\obj\Debug\net8.0\Sets.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Sets\obj\Debug\net8.0\Sets.AssemblyInfoInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Sets\obj\Debug\net8.0\Sets.AssemblyInfo.cs
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Sets\obj\Debug\net8.0\Sets.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Sets\obj\Debug\net8.0\Sets.sourcelink.json
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Sets\obj\Debug\net8.0\Sets.dll
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Sets\obj\Debug\net8.0\refint\Sets.dll
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Sets\obj\Debug\net8.0\Sets.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Sets\obj\Debug\net8.0\Sets.genruntimeconfig.cache
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Sets\obj\Debug\net8.0\ref\Sets.dll

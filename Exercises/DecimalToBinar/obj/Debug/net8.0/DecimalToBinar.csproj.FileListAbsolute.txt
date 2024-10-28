@@ -1,0 +1,15 @@
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\DecimalToBinar\bin\Debug\net8.0\DecimalToBinar.exe
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\DecimalToBinar\bin\Debug\net8.0\DecimalToBinar.deps.json
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\DecimalToBinar\bin\Debug\net8.0\DecimalToBinar.runtimeconfig.json
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\DecimalToBinar\bin\Debug\net8.0\DecimalToBinar.dll
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\DecimalToBinar\bin\Debug\net8.0\DecimalToBinar.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\DecimalToBinar\obj\Debug\net8.0\DecimalToBinar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\DecimalToBinar\obj\Debug\net8.0\DecimalToBinar.AssemblyInfoInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\DecimalToBinar\obj\Debug\net8.0\DecimalToBinar.AssemblyInfo.cs
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\DecimalToBinar\obj\Debug\net8.0\DecimalToBinar.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\DecimalToBinar\obj\Debug\net8.0\DecimalToBinar.sourcelink.json
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\DecimalToBinar\obj\Debug\net8.0\DecimalToBinar.dll
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\DecimalToBinar\obj\Debug\net8.0\refint\DecimalToBinar.dll
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\DecimalToBinar\obj\Debug\net8.0\DecimalToBinar.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\DecimalToBinar\obj\Debug\net8.0\DecimalToBinar.genruntimeconfig.cache
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\DecimalToBinar\obj\Debug\net8.0\ref\DecimalToBinar.dll

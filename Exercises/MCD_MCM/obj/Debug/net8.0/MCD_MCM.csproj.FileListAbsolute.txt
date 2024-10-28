@@ -1,0 +1,15 @@
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\MCD_MCM\bin\Debug\net8.0\MCD_MCM.exe
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\MCD_MCM\bin\Debug\net8.0\MCD_MCM.deps.json
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\MCD_MCM\bin\Debug\net8.0\MCD_MCM.runtimeconfig.json
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\MCD_MCM\bin\Debug\net8.0\MCD_MCM.dll
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\MCD_MCM\bin\Debug\net8.0\MCD_MCM.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\MCD_MCM\obj\Debug\net8.0\MCD_MCM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\MCD_MCM\obj\Debug\net8.0\MCD_MCM.AssemblyInfoInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\MCD_MCM\obj\Debug\net8.0\MCD_MCM.AssemblyInfo.cs
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\MCD_MCM\obj\Debug\net8.0\MCD_MCM.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\MCD_MCM\obj\Debug\net8.0\MCD_MCM.sourcelink.json
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\MCD_MCM\obj\Debug\net8.0\MCD_MCM.dll
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\MCD_MCM\obj\Debug\net8.0\refint\MCD_MCM.dll
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\MCD_MCM\obj\Debug\net8.0\MCD_MCM.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\MCD_MCM\obj\Debug\net8.0\MCD_MCM.genruntimeconfig.cache
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\MCD_MCM\obj\Debug\net8.0\ref\MCD_MCM.dll

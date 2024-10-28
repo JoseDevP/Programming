@@ -1,0 +1,15 @@
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Fizz_Buzz\bin\Debug\net8.0\Fizz_Buzz.exe
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Fizz_Buzz\bin\Debug\net8.0\Fizz_Buzz.deps.json
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Fizz_Buzz\bin\Debug\net8.0\Fizz_Buzz.runtimeconfig.json
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Fizz_Buzz\bin\Debug\net8.0\Fizz_Buzz.dll
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Fizz_Buzz\bin\Debug\net8.0\Fizz_Buzz.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Fizz_Buzz\obj\Debug\net8.0\Fizz_Buzz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Fizz_Buzz\obj\Debug\net8.0\Fizz_Buzz.AssemblyInfoInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Fizz_Buzz\obj\Debug\net8.0\Fizz_Buzz.AssemblyInfo.cs
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Fizz_Buzz\obj\Debug\net8.0\Fizz_Buzz.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Fizz_Buzz\obj\Debug\net8.0\Fizz_Buzz.sourcelink.json
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Fizz_Buzz\obj\Debug\net8.0\Fizz_Buzz.dll
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Fizz_Buzz\obj\Debug\net8.0\refint\Fizz_Buzz.dll
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Fizz_Buzz\obj\Debug\net8.0\Fizz_Buzz.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Fizz_Buzz\obj\Debug\net8.0\Fizz_Buzz.genruntimeconfig.cache
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Fizz_Buzz\obj\Debug\net8.0\ref\Fizz_Buzz.dll

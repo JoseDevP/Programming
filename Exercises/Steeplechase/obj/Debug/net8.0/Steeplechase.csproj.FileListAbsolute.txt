@@ -1,0 +1,15 @@
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Steeplechase\bin\Debug\net8.0\Steeplechase.exe
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Steeplechase\bin\Debug\net8.0\Steeplechase.deps.json
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Steeplechase\bin\Debug\net8.0\Steeplechase.runtimeconfig.json
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Steeplechase\bin\Debug\net8.0\Steeplechase.dll
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Steeplechase\bin\Debug\net8.0\Steeplechase.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Steeplechase\obj\Debug\net8.0\Steeplechase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Steeplechase\obj\Debug\net8.0\Steeplechase.AssemblyInfoInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Steeplechase\obj\Debug\net8.0\Steeplechase.AssemblyInfo.cs
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Steeplechase\obj\Debug\net8.0\Steeplechase.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Steeplechase\obj\Debug\net8.0\Steeplechase.sourcelink.json
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Steeplechase\obj\Debug\net8.0\Steeplechase.dll
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Steeplechase\obj\Debug\net8.0\refint\Steeplechase.dll
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Steeplechase\obj\Debug\net8.0\Steeplechase.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Steeplechase\obj\Debug\net8.0\Steeplechase.genruntimeconfig.cache
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\Steeplechase\obj\Debug\net8.0\ref\Steeplechase.dll

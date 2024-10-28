@@ -1,0 +1,7 @@
+/*
+ * Create a single function (it is important that it is only one) that is capable
+ * to calculate and return the area of ​​a polygon.
+ * - The function will receive only ONE polygon per parameter at a time.
+ * - The supported polygons will be Triangle, Square and Rectangle.
+ * - Prints the calculation of the area of ​​a polygon of each type.
+ */

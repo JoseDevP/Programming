@@ -1,0 +1,15 @@
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\PoligonArea\bin\Debug\net8.0\PoligonArea.exe
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\PoligonArea\bin\Debug\net8.0\PoligonArea.deps.json
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\PoligonArea\bin\Debug\net8.0\PoligonArea.runtimeconfig.json
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\PoligonArea\bin\Debug\net8.0\PoligonArea.dll
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\PoligonArea\bin\Debug\net8.0\PoligonArea.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\PoligonArea\obj\Debug\net8.0\PoligonArea.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\PoligonArea\obj\Debug\net8.0\PoligonArea.AssemblyInfoInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\PoligonArea\obj\Debug\net8.0\PoligonArea.AssemblyInfo.cs
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\PoligonArea\obj\Debug\net8.0\PoligonArea.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\PoligonArea\obj\Debug\net8.0\PoligonArea.sourcelink.json
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\PoligonArea\obj\Debug\net8.0\PoligonArea.dll
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\PoligonArea\obj\Debug\net8.0\refint\PoligonArea.dll
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\PoligonArea\obj\Debug\net8.0\PoligonArea.pdb
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\PoligonArea\obj\Debug\net8.0\PoligonArea.genruntimeconfig.cache
+C:\Users\josee\Desktop\Cursos\csharp\Ejercicios\PoligonArea\obj\Debug\net8.0\ref\PoligonArea.dll
