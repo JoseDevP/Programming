@@ -10,6 +10,6 @@ namespace Backend.Repository
         void Update(TEntity entity);
         void Delete(TEntity entity);
         Task Save();
-        public IEnumerable<Beer> Search(Func<Beer, bool> filter);
+        public IEnumerable<TEntity> Search(Func<TEntity, bool> filter);
     }
 }

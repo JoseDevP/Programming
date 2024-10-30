@@ -13,7 +13,7 @@ namespace Backend.Services
 
         public List<string> Errors { get; }
 
-        public BeerService(IRepository<Beer> beerRepository, IMapper mapper)
+        public BeerService([FromKeyedServices("BeerRepository")]IRepository<Beer> beerRepository, IMapper mapper)
         {
             _beerRepository = beerRepository;
             _mapper = mapper;

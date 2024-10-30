@@ -6,6 +6,7 @@ using Backend.Services;
 using Backend.Validators;
 using FluentValidation;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,9 +14,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 //BEERSERVICE
 builder.Services.AddKeyedScoped<ICommonService<BeerDTO, BeerInsertDTO, BeerUpdateDTO>, BeerService>("beerService");
+builder.Services.AddKeyedScoped<ICommonService<BrandDTO, BrandInsertDTO, BrandUpdateDTO>, BrandService>("brandService");
 
 //REPOSITORY
-builder.Services.AddScoped<IRepository<Beer>, BeerRepository>();
+builder.Services.AddKeyedScoped<IRepository<Beer>, BeerRepository>("BeerRepository");
+builder.Services.AddKeyedScoped<IRepository<Brand>, BrandRepository>("BrandRepository");
 
 //Entity Framework DB
 builder.Services.AddDbContext<StoreContext>(options =>
@@ -26,6 +29,10 @@ builder.Services.AddDbContext<StoreContext>(options =>
 //Validators
 builder.Services.AddScoped<IValidator<BeerInsertDTO>, BeerInsertValidator>();
 builder.Services.AddScoped<IValidator<BeerUpdateDTO>, BeerUpdateValidator>();
+
+builder.Services.AddScoped<IValidator<BrandInsertDTO>, BrandInsertValidator>();
+builder.Services.AddScoped<IValidator<BrandUpdateDTO>, BrandUpdateValidator>();
+
 
 //Mappers
 builder.Services.AddAutoMapper(typeof(MappingProfile));
