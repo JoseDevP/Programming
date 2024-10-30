@@ -1,8 +1,3 @@
-# Proyecto XYZ
-
-## Español
-Esta es una descripción del proyecto en español.
-
 En este Proyecto se trabaja el backend de una ficticia tienda de compra de cervezas.
 Es una API que nos permite conectarnos a una DataBase de una tienda ficticia de cervezas, la cual tiene tablas para cada tipo de cerveza 
 y cada tipo de marca de cerveza.
@@ -40,8 +35,4 @@ En este caso se suelen comunicar con un repository inyectado en esta, llamado Be
 Una vez hecho todo esto los controladores, en base a si el proceso haya sido exitoso o no devolverá el mensaje de una forma u otra. 
 
 Finalmente explicar que para no tener cada vez que se crea un dto a partir de un objeto de la clase beer o a la inversa, se han utilizado los automapper para simplificar este proceso. 
-
-
-## English
-This is a description of the project in English.
 
