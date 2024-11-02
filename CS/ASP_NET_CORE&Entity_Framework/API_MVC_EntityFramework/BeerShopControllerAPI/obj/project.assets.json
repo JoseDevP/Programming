@@ -4426,9 +4426,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE&Entity_Framework\\API_MVC_EntityFramework\\BeerShopControllerAPI\\Backend.csproj",
-      "projectName": "Backend",
-      "projectPath": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE&Entity_Framework\\API_MVC_EntityFramework\\BeerShopControllerAPI\\Backend.csproj",
+      "projectUniqueName": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE&Entity_Framework\\API_MVC_EntityFramework\\BeerShopControllerAPI\\BeerShop.csproj",
+      "projectName": "BeerShop",
+      "projectPath": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE&Entity_Framework\\API_MVC_EntityFramework\\BeerShopControllerAPI\\BeerShop.csproj",
       "packagesPath": "C:\\Users\\josee\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE&Entity_Framework\\API_MVC_EntityFramework\\BeerShopControllerAPI\\obj\\",
       "projectStyle": "PackageReference",
