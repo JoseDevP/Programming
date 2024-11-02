@@ -1,11 +1,14 @@
 using Backend.AutoMappers;
 using Backend.Configurations;
 using Backend.Data.Repository;
+using Backend.DTOs;
 using Backend.DTOs.Beer;
 using Backend.DTOs.Brand;
 using Backend.Models;
 using Backend.Services;
-using Backend.Validators;
+using Backend.Validators.Beer;
+using Backend.Validators.Brand;
+using Backend.Validators.User;
 using FluentValidation;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
@@ -39,6 +42,9 @@ builder.Services.AddScoped<IValidator<BeerUpdateDTO>, BeerUpdateValidator>();
 
 builder.Services.AddScoped<IValidator<BrandInsertDTO>, BrandInsertValidator>();
 builder.Services.AddScoped<IValidator<BrandUpdateDTO>, BrandUpdateValidator>();
+
+builder.Services.AddScoped<IValidator<UserRegisterDTO>, UserRegisterValidator>();
+builder.Services.AddScoped<IValidator<UserLogingDTO>, UserLogingValidator>();
 
 
 //Mappers

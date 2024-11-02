@@ -6,6 +6,8 @@ namespace Backend.Services
 {
     public interface IAuthService
     {
+        public List<string> Errors { get; }
+
         public Task<UserDTO> SignIn(UserLogingDTO userInsertDTO);
         public Task<UserDTO> SignUp(UserRegisterDTO userRegisterDTO, string role);
         public Task<User> FindUserByCredentials(string username, string password);
@@ -13,6 +15,9 @@ namespace Backend.Services
         bool VerifyPasswordHash(string password, string storedHash, string storedSalt);
 
         public string GenerateToken(User user);
+
+        bool validate(UserRegisterDTO user);
+        bool validate(UserLogingDTO user);
 
     }
 }

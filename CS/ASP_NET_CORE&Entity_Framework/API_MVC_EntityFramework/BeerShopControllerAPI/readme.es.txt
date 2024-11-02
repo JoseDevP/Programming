@@ -17,3 +17,25 @@ Una vez hecho todo esto, los controladores, en base a si el proceso ha sido exit
 Finalmente, explicar que para no tener que crear cada vez un DTO a partir de un objeto de la clase Beer o a la inversa, se han utilizado AutoMapper para simplificar este proceso.
 
 Este mismo proceso es utilizado también con las marcas de cerveza.
+
+Para acceder a los diferentes endpoints, muchos requieren de autorización.
+Para ello al iniciar sesión se crea un token de acceso en base al rol que ha iniciado sesión.
+Con este token al consumir la api utilizando Autorization bear {token} puedes entrar a los diferentes métodos.
+Hay tres tipos de roles : Guest, User, y Admin
+Guest solo es capaz de usar los GET
+User es capaz de utilizar casi todos los metodos de los controladores y además es capaz de crear Users
+Admin es capaz de utilizar todos los metodos de los controladores y además es capaz de crear Admins
+
+Para iniciar sesión con una cuenta ya creada hay que poner la ruta http + /User/SignIn añdiendo en el body de la
+solicitud el nombre de usuario y la contraseña
+
+Para crear un nuevo usuario hay tres formas:
+*ruta http + /User/SignUp añadiendo en el body de la solicitud el nombre de usuario, la contraseña y el email. -> Para crear Guest
+*ruta http + /User/SignUp usando token de User y añadiendo en el body de la solicitud el nombre de usuario, la contraseña 
+y el email. -> Para crear User
+*ruta http + /User/SignUp usando token de Admin y añadiendo en el body de la solicitud el nombre de usuario, la contraseña 
+y el email. -> Para crear Admin
+
+Si quieres acceder con admin para probar los endpoints o crear Users:
+"username" : "Jose"
+"password" : "12345678@"

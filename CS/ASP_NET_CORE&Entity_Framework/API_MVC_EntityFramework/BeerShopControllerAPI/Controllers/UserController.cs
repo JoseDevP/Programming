@@ -1,5 +1,6 @@
 ﻿using Backend.DTOs;
 using Backend.Services;
+using FluentValidation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -11,9 +12,16 @@ namespace Backend.Controllers
     public class UserController : ControllerBase
     {
         IAuthService _authService;
-        public UserController(IAuthService authService)
+        IValidator<UserLogingDTO> _validatorLoging;
+        IValidator<UserRegisterDTO> _validatorRegister;
+        public UserController(IAuthService authService,
+            IValidator<UserLogingDTO> validatorLoging,
+        IValidator<UserRegisterDTO> validatorRegister
+            )
         {
             _authService = authService;
+            _validatorLoging = validatorLoging;
+            _validatorRegister = validatorRegister;
         }
 
         [HttpGet("validate")]
@@ -26,8 +34,18 @@ namespace Backend.Controllers
         [HttpPost("SignIn")]
         public async Task<ActionResult<UserDTO>> SignIn(UserLogingDTO userLogingDTO)
         {
-            //Validaciones de campos (no campos nulos ni otras normas)
-            //Validaciones db 
+            var validations = _validatorLoging.Validate(userLogingDTO);
+            if (!validations.IsValid)
+            {
+                var errorMessages = string.Join(", ", validations.Errors.Select(e => e.ErrorMessage));
+                return BadRequest(errorMessages);
+            }
+
+            if(!_authService.validate(userLogingDTO))
+            {
+                return BadRequest(_authService.Errors.ToString());
+            }
+
             var userDTO = await _authService.SignIn(userLogingDTO);
             return (userDTO != null) ? Ok(userDTO) : NotFound();
         }
@@ -36,8 +54,18 @@ namespace Backend.Controllers
         [HttpPost("SignUp")]
         public async Task<ActionResult<UserDTO>> SignUp(UserRegisterDTO userRegisterDTO)
         {
-            //Validaciones de campos (no campos nulos ni otras normas)
-            //Validaciones db 
+            var validations = _validatorRegister.Validate(userRegisterDTO);
+            if (!validations.IsValid)
+            {
+                var errorMessages = string.Join(", ", validations.Errors.Select(e => e.ErrorMessage));
+                return BadRequest(errorMessages);
+            }
+
+            if (!_authService.validate(userRegisterDTO))
+            {
+                return BadRequest(_authService.Errors.ToString());
+            }
+
             var userDTO = await _authService.SignUp(userRegisterDTO, "Guest");
             return (userDTO != null) ? Ok(userDTO) : BadRequest();
         }
@@ -46,8 +74,18 @@ namespace Backend.Controllers
         [Authorize(Roles = "User,Admin")]
         public async Task<ActionResult<UserDTO>> SignUpUser(UserRegisterDTO userRegisterDTO)
         {
-            //Validaciones de campos (no campos nulos ni otras normas)
-            //Validaciones db 
+            var validations = _validatorRegister.Validate(userRegisterDTO);
+            if (!validations.IsValid)
+            {
+                var errorMessages = string.Join(", ", validations.Errors.Select(e => e.ErrorMessage));
+                return BadRequest(errorMessages);
+            }
+
+            if (!_authService.validate(userRegisterDTO))
+            {
+                return BadRequest(_authService.Errors.ToString());
+            }
+
             var userDTO = await _authService.SignUp(userRegisterDTO, "User");
             return (userDTO != null) ? Ok(userDTO) : BadRequest();
         }
@@ -56,8 +94,18 @@ namespace Backend.Controllers
         [Authorize(Roles = "Admin")]
         public async Task<ActionResult<UserDTO>> SignUpAdmin(UserRegisterDTO userRegisterDTO)
         {
-            //Validaciones de campos (no campos nulos ni otras normas)
-            //Validaciones db 
+            var validations = _validatorRegister.Validate(userRegisterDTO);
+            if (!validations.IsValid)
+            {
+                var errorMessages = string.Join(", ", validations.Errors.Select(e => e.ErrorMessage));
+                return BadRequest(errorMessages);
+            }
+
+            if (!_authService.validate(userRegisterDTO))
+            {
+                return BadRequest(_authService.Errors.ToString());
+            }
+
             var userDTO = await _authService.SignUp(userRegisterDTO, "Admin");
             return (userDTO != null) ? Ok(userDTO) : BadRequest();
         }

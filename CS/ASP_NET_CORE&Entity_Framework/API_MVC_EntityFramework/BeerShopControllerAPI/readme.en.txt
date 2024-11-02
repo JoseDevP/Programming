@@ -45,3 +45,24 @@ Finally, I would like to explain that to avoid having to create a DTO from a Bee
 each time, AutoMapper has been used to simplify this process.
 
 This same process is also used with beer brands.
+
+To access the different endpoints, many require authorization.
+When logging in, an access token is created based on the role of the logged-in user.
+With this token, you can access various API methods by including Authorization: Bearer {token} in your requests.
+
+There are three types of roles: Guest, User, and Admin.
+
+Guest: Can only use GET methods.
+User: Has access to almost all methods in the controllers and can also create new User accounts.
+Admin: Has access to all methods in the controllers and can also create new Admin accounts.
+To log in with an existing account:
+Use the path http + /User/SignIn and include the username and password in the body of the request.
+
+To create a new user, there are three ways:
+http + /User/SignUp: Add the username, password, and email in the body of the request to create a Guest.
+http + /User/SignUp (using a User token): Add the username, password, and email in the body of the request to create a User.
+http + /User/SignUp (using an Admin token): Add the username, password, and email in the body of the request to create an Admin.
+
+If you want to access with admin to check the endpoints or créate Users:
+"username" : "Jose"
+"password" : "12345678@"

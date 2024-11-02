@@ -11,16 +11,8 @@
       "RelativeMoniker": "D:0:0:{F4A369D8-BAA8-49EA-ABD6-F65933D69337}|Backend.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F4A369D8-BAA8-49EA-ABD6-F65933D69337}|Backend.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\api_mvc_entityframework\\beershopcontrollerapi\\data\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4A369D8-BAA8-49EA-ABD6-F65933D69337}|Backend.csproj|solutionrelative:data\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4A369D8-BAA8-49EA-ABD6-F65933D69337}|Backend.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\api_mvc_entityframework\\beershopcontrollerapi\\services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4A369D8-BAA8-49EA-ABD6-F65933D69337}|Backend.csproj|solutionrelative:services\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F4A369D8-BAA8-49EA-ABD6-F65933D69337}|Backend.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\api_mvc_entityframework\\beershopcontrollerapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F4A369D8-BAA8-49EA-ABD6-F65933D69337}|Backend.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F4A369D8-BAA8-49EA-ABD6-F65933D69337}|Backend.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\api_mvc_entityframework\\beershopcontrollerapi\\services\\beerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4A369D8-BAA8-49EA-ABD6-F65933D69337}|Backend.csproj|solutionrelative:services\\beerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,45 +22,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IAuthService.cs",
-              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API_MVC_EntityFramework\\BeerShopControllerAPI\\Services\\IAuthService.cs",
-              "RelativeDocumentMoniker": "Services\\IAuthService.cs",
-              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API_MVC_EntityFramework\\BeerShopControllerAPI\\Services\\IAuthService.cs",
-              "RelativeToolTip": "Services\\IAuthService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAABQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T18:41:54.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API_MVC_EntityFramework\\BeerShopControllerAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API_MVC_EntityFramework\\BeerShopControllerAPI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAABsAAABSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T18:07:55.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API_MVC_EntityFramework\\BeerShopControllerAPI\\Data\\Repository\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Data\\Repository\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API_MVC_EntityFramework\\BeerShopControllerAPI\\Data\\Repository\\UserRepository.cs",
-              "RelativeToolTip": "Data\\Repository\\UserRepository.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAA1wAoAAAAeAAAAAAAAAA==",
+              "Title": "BeerService.cs",
+              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API_MVC_EntityFramework\\BeerShopControllerAPI\\Services\\BeerService.cs",
+              "RelativeDocumentMoniker": "Services\\BeerService.cs",
+              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API_MVC_EntityFramework\\BeerShopControllerAPI\\Services\\BeerService.cs",
+              "RelativeToolTip": "Services\\BeerService.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAuwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T18:01:20.386Z",
+              "WhenOpened": "2024-11-02T20:35:21.421Z",
               "EditorCaption": ""
             },
             {
@@ -79,9 +45,9 @@
               "RelativeDocumentMoniker": "Services\\AuthService.cs",
               "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API_MVC_EntityFramework\\BeerShopControllerAPI\\Services\\AuthService.cs",
               "RelativeToolTip": "Services\\AuthService.cs",
-              "ViewState": "AgIAADYAAAAAAAAAAAAowFUAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowH4AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T15:37:17.226Z",
+              "WhenOpened": "2024-11-02T20:24:43.462Z",
               "EditorCaption": ""
             },
             {
@@ -92,7 +58,7 @@
               "RelativeDocumentMoniker": "Controllers\\UserController.cs",
               "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API_MVC_EntityFramework\\BeerShopControllerAPI\\Controllers\\UserController.cs",
               "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowD8AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-31T15:07:08.85Z",
               "EditorCaption": ""
