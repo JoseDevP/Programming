@@ -15,3 +15,5 @@ El siguiente paso que realiza el controlador es gestionar la lógica. Para esto,
 Una vez hecho todo esto, los controladores, en base a si el proceso ha sido exitoso o no, devolverán el mensaje de una forma u otra.
 
 Finalmente, explicar que para no tener que crear cada vez un DTO a partir de un objeto de la clase Beer o a la inversa, se han utilizado AutoMapper para simplificar este proceso.
+
+Este mismo proceso es utilizado también con las marcas de cerveza.

@@ -43,3 +43,5 @@ process was successful or not.
 
 Finally, I would like to explain that to avoid having to create a DTO from a Beer class object or vice versa 
 each time, AutoMapper has been used to simplify this process.
+
+This same process is also used with beer brands.
