@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
-using Backend.DTOs;
+using Backend.Data.Repository;
+using Backend.DTOs.Beer;
 using Backend.Models;
-using Backend.Repository;
 using Microsoft.EntityFrameworkCore;
 
 namespace Backend.Services

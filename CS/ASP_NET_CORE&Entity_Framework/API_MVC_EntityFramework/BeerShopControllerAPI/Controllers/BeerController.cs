@@ -1,8 +1,8 @@
-﻿using Backend.DTOs;
-using Backend.Models;
+﻿using Backend.DTOs.Beer;
 using Backend.Services;
 using Backend.Validators;
 using FluentValidation;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -32,6 +32,7 @@ namespace Backend.Controllers
         public async Task<ActionResult<BeerDTO>> GetByID(int id)=> (await _beerService.GetByID(id)) is BeerDTO beerDTO ? Ok(beerDTO) : NotFound();
 
         [HttpPost]
+        [Authorize(Roles = "User,Admin")]
         public async Task<ActionResult<BeerDTO>> Add(BeerInsertDTO beerInsertDTO)
         {
             var validationResult = await _beerInsertValidator.ValidateAsync(beerInsertDTO);
@@ -52,6 +53,7 @@ namespace Backend.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "User,Admin")]
         public async Task<ActionResult<BeerDTO>> Update(int id, BeerUpdateDTO beerUpdateDTO)
         {
             var validationResult = await _beerUpdateValidator.ValidateAsync(beerUpdateDTO);
@@ -71,6 +73,7 @@ namespace Backend.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "User,Admin")]
         public async Task<ActionResult<BeerDTO>> Delete(int id)
         {
             var beerDTO = await _beerService.Delete(id);

@@ -8,5 +8,6 @@ namespace Backend.Models
 
         public DbSet<Beer> Beers { get; set; }
         public DbSet<Brand> Brands { get; set; } 
+        public DbSet<User> Users { get; set; }
     }
 }

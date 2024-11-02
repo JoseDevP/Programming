@@ -1,4 +1,4 @@
-﻿using Backend.Models;
+﻿using Backend.DTOs.Beer;
 using FluentValidation;
 
 namespace Backend.Validators

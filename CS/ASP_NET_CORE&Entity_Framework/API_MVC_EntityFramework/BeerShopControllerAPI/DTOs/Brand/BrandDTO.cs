@@ -1,6 +1,6 @@
-﻿namespace Backend.DTOs
+﻿namespace Backend.DTOs.Brand
 {
-    public class BrandUpdateDTO
+    public class BrandDTO
     {
         public int Id { get; set; }
         public string Name { get; set; }

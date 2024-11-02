@@ -1,7 +1,7 @@
 ﻿using Backend.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Backend.Repository
+namespace Backend.Data.Repository
 {
     public class BeerRepository : IRepository<Beer>
     {
@@ -29,7 +29,7 @@ namespace Backend.Repository
 
         public async Task Save() => await _storeContext.SaveChangesAsync();
 
-        public IEnumerable<Beer> Search(Func<Beer,bool> filter) => _storeContext.Beers.Where(filter).ToList();
-        
+        public IEnumerable<Beer> Search(Func<Beer, bool> filter) => _storeContext.Beers.Where(filter).ToList();
+
     }
 }

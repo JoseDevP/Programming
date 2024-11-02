@@ -1,4 +1,4 @@
-﻿namespace Backend.DTOs
+﻿namespace Backend.DTOs.Brand
 {
     public class BrandInsertDTO
     {

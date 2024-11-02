@@ -1,7 +1,8 @@
-﻿using Backend.DTOs;
+﻿using Backend.DTOs.Brand;
 using Backend.Models;
 using Backend.Services;
 using FluentValidation;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -31,6 +32,7 @@ namespace Backend.Controllers
         public async Task<ActionResult<BrandDTO>> GetById(int id) => (await _brandService.GetByID(id)) is BrandDTO brandDTO ? Ok(brandDTO) : NotFound();
 
         [HttpPost]
+        [Authorize(Roles = "User,Admin")]
         public async Task<ActionResult<BrandDTO>> Add(BrandInsertDTO brandInsertDTO)
         {
             var validation = await _brandInsertValidator.ValidateAsync(brandInsertDTO);
@@ -47,6 +49,7 @@ namespace Backend.Controllers
         }
 
         [HttpPut("{id}")]
+        [Authorize(Roles = "User,Admin")]
         public async Task<ActionResult<BrandDTO>> Edit(int id, BrandUpdateDTO brandUpdateDTO)
         {
             var validation = await _brandUpdateValidator.ValidateAsync(brandUpdateDTO);
@@ -60,6 +63,7 @@ namespace Backend.Controllers
         }
 
         [HttpDelete("{id}")]
+        [Authorize(Roles = "User,Admin")]
         public async Task<ActionResult<BrandDTO>> Delete(int id) => (await _brandService.Delete(id)) is BrandDTO brandDTO ? Ok(brandDTO) : NotFound(null);
     }
 }

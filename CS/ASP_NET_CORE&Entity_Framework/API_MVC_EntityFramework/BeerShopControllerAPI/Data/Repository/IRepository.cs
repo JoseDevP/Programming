@@ -1,6 +1,6 @@
 ﻿using Backend.Models;
 
-namespace Backend.Repository
+namespace Backend.Data.Repository
 {
     public interface IRepository<TEntity>
     {

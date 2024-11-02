@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
 using Backend.AutoMappers;
-using Backend.DTOs;
+using Backend.Data.Repository;
+using Backend.DTOs.Brand;
 using Backend.Models;
-using Backend.Repository;
 
 namespace Backend.Services
 {
