@@ -9,8 +9,10 @@ using Backend.Services;
 using Backend.Validators.Beer;
 using Backend.Validators.Brand;
 using Backend.Validators.User;
+using BeerShop.MiddleWare;
 using FluentValidation;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
@@ -84,6 +86,22 @@ builder.Services.AddScoped<IJwt, Jwt>();
 //IAuthService
 builder.Services.AddScoped<IAuthService, AuthService>();
 
+//Cross-Origin Resource Sharing CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("localhost",
+        builder => builder.WithOrigins("https://localhost:7177")
+        .AllowAnyMethod()
+        .AllowAnyMethod());
+});
+
+//ResponseCompression
+builder.Services.AddResponseCompression(options =>
+{
+    options.EnableForHttps = true;
+    options.MimeTypes = ResponseCompressionDefaults.MimeTypes.Concat(new[] { "application/json" });
+});
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -92,6 +110,16 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+//Middleware
+app.UseRequestLoggin();
+app.UseErrorHandling();
+app.UseAuditMiddleware();
+
+app.UseCors("localhost");
+
+app.UseResponseCompression();
+
 
 app.UseHttpsRedirection();
 
@@ -103,3 +131,5 @@ app.UseAuthorization();
 app.MapControllers();
 
 app.Run();
+
+
