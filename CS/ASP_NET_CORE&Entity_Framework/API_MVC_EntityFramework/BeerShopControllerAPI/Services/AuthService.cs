@@ -21,20 +21,15 @@ namespace Backend.Services
 
         IRepository<User> _userRepository;
         private IMapper _mapper;
-        public IConfiguration _configuration;
         public IJwt _jwt;
-        public StoreContext _storeContext;
+
         public AuthService(IMapper mapper,
-            IConfiguration configuration,
             IJwt jwt,
-            StoreContext storeContext,
             [FromKeyedServices("UserRepository")]IRepository<User> userRepository
             )
         {
             _mapper = mapper;
-            _configuration = configuration;
             _jwt = jwt;
-            _storeContext = storeContext;
             _userRepository = userRepository;
             Errors = new List<string>();
         }
@@ -102,8 +97,7 @@ namespace Backend.Services
 
         public async Task<User> FindUserByCredentials(string username, string password)
         {
-            var user = await _storeContext.Users
-                .FirstOrDefaultAsync(u => u.UserName == username);
+            var user = _userRepository.Search((u => u.UserName == username)).FirstOrDefault();
 
             if (user == null)
             {

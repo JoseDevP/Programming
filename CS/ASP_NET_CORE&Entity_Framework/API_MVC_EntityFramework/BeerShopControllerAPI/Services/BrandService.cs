@@ -33,9 +33,9 @@ namespace Backend.Services
             return _mappingProfile.Map<BrandDTO>(brand);
         }
 
-        public async Task<BrandDTO> Add(BrandInsertDTO beerInsertDTO)
+        public async Task<BrandDTO> Add(BrandInsertDTO brandInsertDTO)
         {
-            var brand = _mappingProfile.Map<Brand>(beerInsertDTO);
+            var brand = _mappingProfile.Map<Brand>(brandInsertDTO);
 
             await _repository.Add(brand);
             await _repository.Save();
