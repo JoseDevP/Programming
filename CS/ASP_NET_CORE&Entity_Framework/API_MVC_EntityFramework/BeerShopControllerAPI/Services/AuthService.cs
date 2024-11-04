@@ -34,6 +34,18 @@ namespace Backend.Services
             Errors = new List<string>();
         }
 
+        public async Task<IEnumerable<UserDTO>> Get()
+        {
+            var users = await _userRepository.Get();
+            return users.Select(user => _mapper.Map<UserDTO>(user));
+        }
+
+        public async Task<UserDTO> GetById(int id)
+        {
+            var user = await _userRepository.GetById(id);
+            return _mapper.Map<UserDTO>(user);
+        }
+
 
         public async Task<UserDTO> SignIn(UserLogingDTO userLogingDTO)
         {
@@ -167,6 +179,22 @@ namespace Backend.Services
             }
 
             return true;
+        }
+
+        
+
+        public async Task<UserDTO> DeleteUser(int id)
+        {
+            var user = await _userRepository.GetById(id);
+
+            if (user == null)
+                return null;
+
+            var userDTO = _mapper.Map<UserDTO>(user);
+
+            _userRepository.Delete(user);
+
+            return userDTO;
         }
     }
 }

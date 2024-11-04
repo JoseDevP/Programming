@@ -53,6 +53,62 @@ namespace UnitTests
         }
 
         [Fact]
+        public async Task Get_ShouldReturnIEnumerableUSERDTO_WhenGet()
+        {
+            _userRepositoryMock.Setup(repo => repo.Get()).ReturnsAsync(new List<User>() {
+                new User()
+                {
+                    IdUser = 1,
+                    UserName = "Test",
+                    PasswordHash = "ASDF",
+                    PasswordSalt = "asdc",
+                    Email =" kasld",
+                    LastToken ="asdfsdf",
+                    Role = "Admin"
+                },
+                new User()
+                {
+                    IdUser = 2,
+                    UserName = "Test2",
+                    PasswordHash = "asdf",
+                    PasswordSalt = "dvfdxzvd",
+                    Email =" kaasdasdassld",
+                    LastToken ="as",
+                    Role = "User"
+                }});
+
+            var result = await _authService.Get();
+
+            result.Should().NotBeNull();
+            result.Should().HaveCount(2);
+        }
+
+        [Fact]
+        public async Task GetByID_ShouldReturnUSERDTO_WhenGettingbyid()
+        {
+            int id = 1;
+            _userRepositoryMock.Setup(repo => repo.GetById(It.IsAny<int>())).ReturnsAsync(
+
+                new User()
+                {
+                    IdUser = 1,
+                    UserName = "Test",
+                    PasswordHash = "ASDF",
+                    PasswordSalt = "asdc",
+                    Email =" kasld",
+                    LastToken ="asdfsdf",
+                    Role = "Admin"
+                });
+
+            var result = await _authService.GetById(id);
+
+            result.Should().NotBeNull();
+            result.IdUser.Should().Be(id);
+            result.UserName.Should().Be("Test");
+            result.Role.Should().Be("Admin");
+        }
+
+        [Fact]
         public async Task SignIn_ShouldReturnUSERDTO_WhenSignIn()
         {
             IEnumerable<User> users = new List<User>()
@@ -243,6 +299,33 @@ namespace UnitTests
             var result = _authService.validate(userLogingDTO);
 
             result.Should().BeTrue();
+        }
+
+        [Fact]
+        public async Task DeleteUser_ShouldReturnUserDTO_WhenId()
+        {
+            int id = 1;
+            _userRepositoryMock.Setup(repo => repo.GetById(It.IsAny<int>())).ReturnsAsync(
+
+                new User()
+                {
+                    IdUser = 1,
+                    UserName = "Test",
+                    PasswordHash = "ASDF",
+                    PasswordSalt = "asdc",
+                    Email = " kasld",
+                    LastToken = "asdfsdf",
+                    Role = "Admin"
+                });
+
+            _userRepositoryMock.Setup(repo => repo.Delete(It.IsAny<User>()));
+
+            var result = await _authService.DeleteUser(id);
+
+            result.Should().NotBeNull();
+            result.IdUser.Should().Be(id);
+            result.UserName.Should().Be("Test");
+            result.Role.Should().Be("Admin");
         }
     }
 }

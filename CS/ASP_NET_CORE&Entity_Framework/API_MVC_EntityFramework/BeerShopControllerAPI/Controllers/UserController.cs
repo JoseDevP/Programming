@@ -1,4 +1,5 @@
 ﻿using Backend.DTOs;
+using Backend.DTOs.Beer;
 using Backend.Services;
 using FluentValidation;
 using Microsoft.AspNetCore.Authorization;
@@ -24,12 +25,14 @@ namespace Backend.Controllers
             _validatorRegister = validatorRegister;
         }
 
-        [HttpGet("validate")]
-        [Authorize(Roles = "Admin")] 
-        public IActionResult ValidateToken()
-        {
-            return Ok("ok");
-        }
+        [HttpGet]
+        [Authorize(Roles = "Admin")]
+        public async Task<IEnumerable<UserDTO>> Get() => await _authService.Get();
+
+        [HttpGet("{id}")]
+        [Authorize(Roles = "Admin")]
+        public async Task<ActionResult<UserDTO>> GetByID(int id) => (await _authService.GetById(id)) is UserDTO user ? Ok(user) : NotFound();
+
 
         [HttpPost("SignIn")]
         public async Task<ActionResult<UserDTO>> SignIn(UserLogingDTO userLogingDTO)
@@ -37,13 +40,12 @@ namespace Backend.Controllers
             var validations = _validatorLoging.Validate(userLogingDTO);
             if (!validations.IsValid)
             {
-                var errorMessages = string.Join(", ", validations.Errors.Select(e => e.ErrorMessage));
-                return BadRequest(errorMessages);
+                return BadRequest(validations.Errors);
             }
 
             if(!_authService.validate(userLogingDTO))
             {
-                return BadRequest(_authService.Errors.ToString());
+                return BadRequest(_authService.Errors);
             }
 
             var userDTO = await _authService.SignIn(userLogingDTO);
@@ -57,13 +59,12 @@ namespace Backend.Controllers
             var validations = _validatorRegister.Validate(userRegisterDTO);
             if (!validations.IsValid)
             {
-                var errorMessages = string.Join(", ", validations.Errors.Select(e => e.ErrorMessage));
-                return BadRequest(errorMessages);
+                return BadRequest(validations.Errors);
             }
 
             if (!_authService.validate(userRegisterDTO))
             {
-                return BadRequest(_authService.Errors.ToString());
+                return BadRequest(_authService.Errors);
             }
 
             var userDTO = await _authService.SignUp(userRegisterDTO, "Guest");
@@ -77,13 +78,12 @@ namespace Backend.Controllers
             var validations = _validatorRegister.Validate(userRegisterDTO);
             if (!validations.IsValid)
             {
-                var errorMessages = string.Join(", ", validations.Errors.Select(e => e.ErrorMessage));
-                return BadRequest(errorMessages);
+                return BadRequest(validations.Errors);
             }
 
             if (!_authService.validate(userRegisterDTO))
             {
-                return BadRequest(_authService.Errors.ToString());
+                return BadRequest(_authService.Errors);
             }
 
             var userDTO = await _authService.SignUp(userRegisterDTO, "User");
@@ -97,20 +97,20 @@ namespace Backend.Controllers
             var validations = _validatorRegister.Validate(userRegisterDTO);
             if (!validations.IsValid)
             {
-                var errorMessages = string.Join(", ", validations.Errors.Select(e => e.ErrorMessage));
-                return BadRequest(errorMessages);
+                return BadRequest(validations.Errors);
             }
 
             if (!_authService.validate(userRegisterDTO))
             {
-                return BadRequest(_authService.Errors.ToString());
+                return BadRequest(_authService.Errors);
             }
 
             var userDTO = await _authService.SignUp(userRegisterDTO, "Admin");
             return (userDTO != null) ? Ok(userDTO) : BadRequest();
         }
 
-        //DELETE
-
+        [HttpDelete("{id}")]
+        [Authorize(Roles = "Admin")]
+        public async Task<ActionResult<UserDTO>> DeleteUser(int id) => (await _authService.DeleteUser(id)) is UserDTO userDto ? Ok(userDto) : NotFound() ;
     }
 }
