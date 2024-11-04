@@ -7,8 +7,8 @@ namespace Backend.Validators.User
     {
         public UserRegisterValidator()
         {
-            RuleFor(x => x.Username).NotEmpty().WithMessage("El nombre de usuario no puede estar vacio");
-            RuleFor(x => x.Username).MaximumLength(20).WithMessage("El nombre de usuario no puede ocupar mas de 20 caracteres");
+            RuleFor(x => x.UserName).NotEmpty().WithMessage("El nombre de usuario no puede estar vacio");
+            RuleFor(x => x.UserName).MaximumLength(20).WithMessage("El nombre de usuario no puede ocupar mas de 20 caracteres");
 
             RuleFor(x => x.Password).NotEmpty().WithMessage("La contraseña de usuario no puede estar vacio");
             RuleFor(x => x.Password)

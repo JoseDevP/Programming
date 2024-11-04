@@ -110,5 +110,7 @@ namespace Backend.Controllers
             return (userDTO != null) ? Ok(userDTO) : BadRequest();
         }
 
+        //DELETE
+
     }
 }

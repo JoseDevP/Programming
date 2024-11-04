@@ -54,7 +54,7 @@ namespace Backend.Services
             var (hash, salt) = CreatePasswordHash(userRegisterDTO.Password);
             var user = new User
             {
-                UserName = userRegisterDTO.Username,
+                UserName = userRegisterDTO.UserName,
                 PasswordHash = hash,
                 PasswordSalt = salt, 
                 Role = role,
@@ -136,7 +136,7 @@ namespace Backend.Services
 
         public bool validate(UserRegisterDTO userRegisterDTO)
         {
-            if(_userRepository.Search(u => u.UserName == userRegisterDTO.Username).Count() > 0)
+            if(_userRepository.Search(u => u.UserName == userRegisterDTO.UserName).Count() > 0)
             {
                 Errors.Add("Ya existe un usuario con ese nombre");
                 return false;

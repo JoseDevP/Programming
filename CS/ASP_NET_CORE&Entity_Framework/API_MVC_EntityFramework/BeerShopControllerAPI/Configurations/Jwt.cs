@@ -17,5 +17,13 @@ namespace Backend.Configurations
             Audience = jwtSection["Audience"];
             Subject = jwtSection["Subject"];
         }
+
+        public Jwt(string key, string issuer, string audience, string subject)
+        {
+            Key = key;
+            Issuer = issuer;
+            Audience = audience;
+            Subject = subject;
+        }
     }
 }
