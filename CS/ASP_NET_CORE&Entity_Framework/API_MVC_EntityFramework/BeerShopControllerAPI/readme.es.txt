@@ -1,5 +1,10 @@
 En este proyecto se trabaja el backend de una ficticia tienda de compra de cervezas. Es una API que nos permite conectarnos a una base de datos de una tienda ficticia de cervezas, la cual tiene tablas para cada tipo de cerveza y cada tipo de marca de cerveza.
 
+La base de datos no se puede incluir en GitHub pero gracias a EntityFramework se puede crear una a partir de aquí en tres pasos:
+1.Abrir la consola de paquetes nugget
+2.Add-Migration nombreMigracion
+3.Update-Database
+
 Los datos los tenemos en la carpeta "Models". Aquí tenemos Beer, representando la tabla Beers de la base de datos; Brand, representando la tabla Brands de la base de datos; y StoreContext, representando el contexto de la base de datos para inyectarlo desde Program al builder. En este caso se ha utilizado Entity Framework en el modo Code First. Por tanto, a partir del código se crean migraciones que se guardan en la carpeta "Migrations", y después, gracias a Entity Framework, se crea/actualiza la base de datos. Por otra parte, he inyectado el contexto en un repositorio, cosa de la que hablaré más tarde.
 
 Para poder decidir la información que enviamos, tenemos una serie de Document Transfer Objects (DTO) para Beer, que se encuentran en la carpeta "DTO". Estos son BeerDTO, que usamos para devolver información general que incluye todos los parámetros; BeerInsertDTO, que lo usamos para cuando queramos añadir una nueva Beer; y BeerUpdateDTO, que lo usaremos cuando queramos modificar una Beer.
@@ -36,6 +41,4 @@ y el email. -> Para crear User
 *ruta http + /User/SignUp usando token de Admin y añadiendo en el body de la solicitud el nombre de usuario, la contraseña 
 y el email. -> Para crear Admin
 
-Si quieres acceder con admin para probar los endpoints o crear Users:
-"username" : "Jose"
-"password" : "12345678@"
+

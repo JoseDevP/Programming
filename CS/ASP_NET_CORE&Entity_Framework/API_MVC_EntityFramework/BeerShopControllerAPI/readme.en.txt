@@ -2,6 +2,13 @@ In this project, we are working on the backend of a fictional beer purchasing st
 It is an API that allows us to connect to a database of a fictional beer store,
 which has tables for each type of beer and each type of beer brand.
 
+The database cannot be included in GitHub, but with Entity Framework, you can
+create one in three steps:
+
+Open the Package Manager Console.
+Run Add-Migration MigrationName.
+Execute Update-Database.
+
 The data is stored in the "Models" folder. Here we have Beer, representing the Beers table in the database; 
 Brand, representing the Brands table in the database; and StoreContext, 
 representing the database context to be injected from Program to the builder. 
@@ -63,6 +70,3 @@ http + /User/SignUp: Add the username, password, and email in the body of the re
 http + /User/SignUp (using a User token): Add the username, password, and email in the body of the request to create a User.
 http + /User/SignUp (using an Admin token): Add the username, password, and email in the body of the request to create an Admin.
 
-If you want to access with admin to check the endpoints or créate Users:
-"username" : "Jose"
-"password" : "12345678@"
