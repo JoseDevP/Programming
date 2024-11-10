@@ -1,0 +1,21 @@
+﻿@model CRUDMVC8.Models.Person
+
+@{
+    ViewData["Title"] = "Detalle Persona";
+}
+
+<h1 class="text-dark font-monospace text-sm-center text-decoration-underline fst-italic text-shadow">Detalle Persona</h1>
+
+<div class="row">
+    <ul class="list-group col-5 mx-auto mt-4">
+        <li class="list-group-item text-center"><i class="fa fa-user" aria-hidden="true"></i> Persona</li>
+        <li class="list-group-item list-group-item-primary text-center ">@Html.DisplayFor(m => m.Name)</li>
+        <li class="list-group-item list-group-item-secondary text-center">@Html.DisplayFor(m => m.Phone)</li>
+        <li class="list-group-item list-group-item-success text-center">@Html.DisplayFor(m => m.MobilePhone)</li>
+        <li class="list-group-item list-group-item-danger text-center">@Html.DisplayFor(m => m.Email)</li>
+        <li class="list-group-item list-group-item-warning text-center">@Html.DisplayFor(m => m.CreationDate)</li>
+    </ul>
+
+</div>
+
+<a class="btn btn-secondary col-1 d-block mt-5" asp-controller="Home" asp-action="Index">Back</a>
