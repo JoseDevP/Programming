@@ -2,33 +2,34 @@
 using Backend.Data.Repository;
 using Backend.DTOs.Beer;
 using Backend.Models;
+using BeerShop.Data.Repository;
 using Microsoft.EntityFrameworkCore;
 
 namespace Backend.Services
 {
     public class BeerService : ICommonService<BeerDTO, BeerInsertDTO, BeerUpdateDTO>
     {
-        private IRepository<Beer> _beerRepository;
+        private IUnitOfWork _unitOfWork;
         private IMapper _mapper;
 
         public List<string> Errors { get; }
 
-        public BeerService([FromKeyedServices("BeerRepository")]IRepository<Beer> beerRepository, IMapper mapper)
+        public BeerService(IUnitOfWork unitOfWork, IMapper mapper)
         {
-            _beerRepository = beerRepository;
+            _unitOfWork = unitOfWork;
             _mapper = mapper;
             Errors = new List<string>();
         }
         public async Task<IEnumerable<BeerDTO>> Get()
         {
-            var beers = await _beerRepository.Get();
+            var beers = await _unitOfWork.BeerRepository.Get();
 
             return beers.Select(beer => _mapper.Map<BeerDTO>(beer));
         }
 
         public async Task<BeerDTO> GetByID(int id)
         {
-            var beer = await _beerRepository.GetById(id);
+            var beer = await _unitOfWork.BeerRepository.GetById(id);
 
             if (beer != null)
             {
@@ -44,8 +45,8 @@ namespace Backend.Services
         {
             var beer = _mapper.Map<Beer>(beerInsertDTO);
 
-            await _beerRepository.Add(beer);
-            await _beerRepository.Save();
+            await _unitOfWork.BeerRepository.Add(beer);
+            await _unitOfWork.Save();
 
             var beerDTO = _mapper.Map<BeerDTO>(beer);
 
@@ -53,14 +54,14 @@ namespace Backend.Services
         }
         public async Task<BeerDTO> Update(int id, BeerUpdateDTO beerUpdateDTO)
         {
-            var beer = await _beerRepository.GetById(id);
+            var beer = await _unitOfWork.BeerRepository.GetById(id);
 
             if (beer != null)
             {
                 beer = _mapper.Map<BeerUpdateDTO, Beer>(beerUpdateDTO,beer);
 
-                _beerRepository.Update(beer);
-                await _beerRepository.Save();
+                _unitOfWork.BeerRepository.Update(beer);
+                await _unitOfWork.Save();
 
                 var beerDTO = _mapper.Map<BeerDTO>(beer);
 
@@ -72,14 +73,14 @@ namespace Backend.Services
 
         public async Task<BeerDTO> Delete(int id)
         {
-            var beer = await _beerRepository.GetById(id);
+            var beer = await _unitOfWork.BeerRepository.GetById(id);
 
             if (beer != null)
             {
                 var beerDTO = _mapper.Map<BeerDTO>(beer);
 
-                _beerRepository.Delete(beer);
-                await _beerRepository.Save();
+                _unitOfWork.BeerRepository.Delete(beer);
+                await _unitOfWork.Save();
 
                 return beerDTO;
             }
@@ -89,7 +90,7 @@ namespace Backend.Services
 
         public bool Validate(BeerInsertDTO beerInsertDTO)
         {
-            if(_beerRepository.Search(b => b.Name == beerInsertDTO.Name).Count() > 0)
+            if(_unitOfWork.BeerRepository.Search(b => b.Name == beerInsertDTO.Name).Count() > 0)
             {
                 Errors.Add("No puede existir una cerveza con un nombre ya existente");
                 return false;
@@ -100,7 +101,7 @@ namespace Backend.Services
 
         public bool Validate(BeerUpdateDTO beerUpdateDTO)
         {
-            if (_beerRepository.Search(b => b.Name == beerUpdateDTO.Name && b.BeerID != beerUpdateDTO.Id).Count() > 0)
+            if (_unitOfWork.BeerRepository.Search(b => b.Name == beerUpdateDTO.Name && b.BeerID != beerUpdateDTO.Id).Count() > 0)
             {
                 Errors.Add("No puede existir una cerveza con un nombre ya existente");
                 return false;

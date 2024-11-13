@@ -3,6 +3,7 @@ using Backend.AutoMappers;
 using Backend.Data.Repository;
 using Backend.DTOs.Brand;
 using Backend.Models;
+using BeerShop.Data.Repository;
 
 namespace Backend.Services
 {
@@ -10,26 +11,26 @@ namespace Backend.Services
     {
         public List<string> Errors { get; }
 
-        IRepository<Brand> _repository;
+        private IUnitOfWork _unitOfWork;
         IMapper  _mappingProfile;
 
-        public BrandService([FromKeyedServices("BrandRepository")] IRepository<Brand> repository, IMapper mappingProfile)
+        public BrandService(IUnitOfWork unitOfWork, IMapper mappingProfile)
         {
             Errors = new List<string>();
-            _repository = repository;
+            _unitOfWork = unitOfWork;
             _mappingProfile = mappingProfile;
         }
 
 
         public async Task<IEnumerable<BrandDTO>> Get()
         {
-            var brands = await _repository.Get();
+            var brands = await _unitOfWork.BrandRepository.Get();
             return brands.Select(brand => _mappingProfile.Map<BrandDTO>(brand));
         }
 
         public async Task<BrandDTO> GetByID(int id)
         {
-            var brand = await _repository.GetById(id);
+            var brand = await _unitOfWork.BrandRepository.GetById(id);
             return _mappingProfile.Map<BrandDTO>(brand);
         }
 
@@ -37,22 +38,22 @@ namespace Backend.Services
         {
             var brand = _mappingProfile.Map<Brand>(brandInsertDTO);
 
-            await _repository.Add(brand);
-            await _repository.Save();
+            await _unitOfWork.BrandRepository.Add(brand);
+            await _unitOfWork.Save();
              
             var brandDTO = _mappingProfile.Map<BrandDTO>(brand);
             return brandDTO;
         }
         public async Task<BrandDTO> Update(int id, BrandUpdateDTO brandUpdateDTO)
         {
-            var brand = await _repository.GetById(id);
+            var brand = await _unitOfWork.BrandRepository.GetById(id);
             
             if(brand != null)
             {
                 brand = _mappingProfile.Map<BrandUpdateDTO, Brand>(brandUpdateDTO,brand);
 
-                _repository.Update(brand);
-                await _repository.Save();
+                _unitOfWork.BrandRepository.Update(brand);
+                await _unitOfWork.Save();
 
                 var brandDTO = _mappingProfile.Map<BrandDTO>(brand);
                 return brandDTO;
@@ -63,12 +64,12 @@ namespace Backend.Services
 
         public async Task<BrandDTO> Delete(int id)
         {
-            var brand = await _repository.GetById(id);
+            var brand = await _unitOfWork.BrandRepository.GetById(id);
             if(brand != null)
             {
-                _repository.Delete(brand);
+                _unitOfWork.BrandRepository.Delete(brand);
                 var brandDTO = _mappingProfile.Map<BrandDTO>(brand);
-                await _repository.Save();
+                await _unitOfWork.Save();
 
                 return brandDTO;
             }
@@ -78,7 +79,7 @@ namespace Backend.Services
 
         public bool Validate(BrandInsertDTO dto)
         {
-            if(_repository.Search(b => b.Name == dto.Name).Count() > 0)
+            if(_unitOfWork.BrandRepository.Search(b => b.Name == dto.Name).Count() > 0)
             {
                 Errors.Add("Este nombre ya existe en otro registro");
                 return false;
@@ -89,7 +90,7 @@ namespace Backend.Services
 
         public bool Validate(BrandUpdateDTO dto)
         {
-            if(_repository.Search(b => b.Name == dto.Name && b.BrandID != dto.Id).Count() > 0)
+            if(_unitOfWork.BrandRepository.Search(b => b.Name == dto.Name && b.BrandID != dto.Id).Count() > 0)
             {
                 Errors.Add("Este nombre ya existe en otro registro");
                 return false;

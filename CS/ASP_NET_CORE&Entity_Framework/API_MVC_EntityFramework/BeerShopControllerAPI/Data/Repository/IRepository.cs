@@ -1,15 +1,20 @@
 ﻿using Backend.Models;
+using System.Linq.Expressions;
 
 namespace Backend.Data.Repository
 {
-    public interface IRepository<TEntity>
+    public interface IRepository<TEntity> where TEntity : class
     {
-        Task<IEnumerable<TEntity>> Get();
-        Task<TEntity> GetById(int id);
+        Task<IEnumerable<TEntity>> Get( Expression<Func<TEntity, bool>>? filter = null,
+            Func<IQueryable<TEntity>, IOrderedQueryable<TEntity>>? orderby = null,
+            string? includeProperties = null);
+        Task<TEntity?> GetById(int id);
+
+        Task<TEntity?> GetFirstOrDefault(Expression<Func<TEntity,bool>>? filter = null,
+            string? includeProperties = null);
+
         Task Add(TEntity entity);
-        void Update(TEntity entity);
         void Delete(TEntity entity);
-        Task Save();
-        public IEnumerable<TEntity> Search(Func<TEntity, bool> filter);
+        public IEnumerable<TEntity> Search(Expression<Func<TEntity, bool>> filter);
     }
 }

@@ -8,18 +8,20 @@ using Backend.Services;
 using FluentAssertions;
 using System.ComponentModel.DataAnnotations.Schema;
 using static System.Runtime.InteropServices.JavaScript.JSType;
+using BeerShop.Data.Repository;
+using System.Linq.Expressions;
 
 namespace UnitTests
 {
     public class BeerServiceTests
     {
-        private Mock<IRepository<Beer>> _beerRepositoryMock;
+        private Mock<IUnitOfWork> _unitOfWorkMock;
         private IMapper _mapper;
         private BeerService _beerService;
 
         public BeerServiceTests() 
         {
-            _beerRepositoryMock = new Mock<IRepository<Beer>>();
+            _unitOfWorkMock = new Mock<IUnitOfWork>();
 
             var config = new MapperConfiguration(opt =>
             {
@@ -32,7 +34,7 @@ namespace UnitTests
 
             _mapper = config.CreateMapper();
 
-            _beerService = new BeerService(_beerRepositoryMock.Object,_mapper);
+            _beerService = new BeerService(_unitOfWorkMock.Object,_mapper);
         }
 
         [Fact]
@@ -45,7 +47,7 @@ namespace UnitTests
                 new Beer { BeerID = 2, Name = "Test2", Alcohol = 3, BrandID = 1 }
             };
 
-            _beerRepositoryMock.Setup(repo => repo.Get()).ReturnsAsync(beers);
+            _unitOfWorkMock.Setup(repo => repo.BeerRepository.Get(null,null,null)).ReturnsAsync(beers);
 
             // Act
             var result = await _beerService.Get();
@@ -68,7 +70,7 @@ namespace UnitTests
                 new Beer { BeerID = 2, Name = "Test2", Alcohol = 3, BrandID = 1 }
             };
 
-            _beerRepositoryMock.Setup(repo => repo.GetById(It.IsAny<int>()))
+            _unitOfWorkMock.Setup(repo => repo.BeerRepository.GetById(It.IsAny<int>()))
                 .ReturnsAsync(beers.Find(b => b.BeerID == id));
 
             //Act 
@@ -92,7 +94,7 @@ namespace UnitTests
                 Alcohol = 2.5m
             };
 
-            _beerRepositoryMock.Setup(repo => repo.Add(It.IsAny<Beer>()))
+            _unitOfWorkMock.Setup(repo => repo.BeerRepository.Add(It.IsAny<Beer>()))
                 .Callback<Beer>(b => {
                     b.BeerID = 1;
                     b.Name = "Test";
@@ -101,7 +103,7 @@ namespace UnitTests
                 })
                 .Returns(Task.CompletedTask);
 
-            _beerRepositoryMock.Setup(repo => repo.Save()).Returns(Task.CompletedTask);
+            _unitOfWorkMock.Setup(repo => repo.Save()).Returns(Task.CompletedTask);
 
             //Act 
             var result = await _beerService.Add(beerInsertDTO);
@@ -134,10 +136,10 @@ namespace UnitTests
                 new Beer { BeerID = 2, Name = "Test2", Alcohol = 3, BrandID = 1 }
             };
 
-            _beerRepositoryMock.Setup(repo => repo.GetById(It.IsAny<int>())).ReturnsAsync(beers.Find(b => b.BeerID == id));
+            _unitOfWorkMock.Setup(repo => repo.BeerRepository.GetById(It.IsAny<int>())).ReturnsAsync(beers.Find(b => b.BeerID == id));
 
 
-            _beerRepositoryMock.Setup(repo => repo.Update(It.IsAny<Beer>()))
+            _unitOfWorkMock.Setup(repo => repo.BeerRepository.Update(It.IsAny<Beer>()))
                 .Callback<Beer>(b => {
                     b.BeerID = id;  
                     b.Name = beerUpdateDTO.Name;
@@ -145,7 +147,7 @@ namespace UnitTests
                     b.Alcohol = beerUpdateDTO.Alcohol;
                 });
 
-            _beerRepositoryMock.Setup(repo => repo.Save()).Returns(Task.CompletedTask);
+            _unitOfWorkMock.Setup(repo => repo.Save()).Returns(Task.CompletedTask);
 
             // Act
             var result = await _beerService.Update(id, beerUpdateDTO);
@@ -168,16 +170,16 @@ namespace UnitTests
                 new Beer { BeerID = 2, Name = "Test2", Alcohol = 3, BrandID = 1 }
             };
 
-            _beerRepositoryMock.Setup(repo => repo.GetById(It.IsAny<int>())).ReturnsAsync(beers.Find(b => b.BeerID == id));
+            _unitOfWorkMock.Setup(repo => repo.BeerRepository.GetById(It.IsAny<int>())).ReturnsAsync(beers.Find(b => b.BeerID == id));
 
-            _beerRepositoryMock.Setup(repo =>
-            repo.Delete(It.IsAny<Beer>()))
+            _unitOfWorkMock.Setup(repo =>
+            repo.BeerRepository.Delete(It.IsAny<Beer>()))
                 .Callback<Beer>(b =>
                 {
                     beers.Remove(b); 
                 });
 
-            _beerRepositoryMock.Setup(repo => repo.Save()).Returns(Task.CompletedTask);
+            _unitOfWorkMock.Setup(repo => repo.Save()).Returns(Task.CompletedTask);
 
             // Act
             var result = await _beerService.Delete(id);
@@ -198,7 +200,7 @@ namespace UnitTests
                 Alcohol = 2.5m
             };
 
-            _beerRepositoryMock.Setup(repo => repo.Search(It.IsAny<Func<Beer, bool>>()))
+            _unitOfWorkMock.Setup(repo => repo.BeerRepository.Search(It.IsAny<Expression<Func<Beer, bool>>>()))
                 .Returns(new List<Beer>()); 
 
             // Act
@@ -219,7 +221,7 @@ namespace UnitTests
                 Alcohol = 2.5m
             };
 
-            _beerRepositoryMock.Setup(repo => repo.Search(It.IsAny<Func<Beer, bool>>()))
+            _unitOfWorkMock.Setup(repo => repo.BeerRepository.Search(It.IsAny<Expression<Func<Beer, bool>>>()))
                 .Returns(new List<Beer>());
 
             // Act

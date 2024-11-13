@@ -9,6 +9,7 @@ using Backend.Services;
 using Backend.Validators.Beer;
 using Backend.Validators.Brand;
 using Backend.Validators.User;
+using BeerShop.Data.Repository;
 using BeerShop.MiddleWare;
 using FluentValidation;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -28,9 +29,7 @@ builder.Services.AddKeyedScoped<ICommonService<BeerDTO, BeerInsertDTO, BeerUpdat
 builder.Services.AddKeyedScoped<ICommonService<BrandDTO, BrandInsertDTO, BrandUpdateDTO>, BrandService>("brandService");
 
 //REPOSITORY
-builder.Services.AddKeyedScoped<IRepository<Beer>, BeerRepository>("BeerRepository");
-builder.Services.AddKeyedScoped<IRepository<Brand>, BrandRepository>("BrandRepository");
-builder.Services.AddKeyedScoped<IRepository<User>, UserRepository>("UserRepository");
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 //Entity Framework DB
 builder.Services.AddDbContext<StoreContext>(options =>

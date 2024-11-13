@@ -16,19 +16,21 @@ using FluentAssertions;
 using System.Security.Policy;
 using Backend.DTOs.Beer;
 using Backend.Models;
+using BeerShop.Data.Repository;
+using System.Linq.Expressions;
 
 namespace UnitTests
 {
     public class UserServiceTests
     {
-        Mock<IRepository<User>> _userRepositoryMock;
+        Mock<IUnitOfWork> _unitOfWorkMock;
         private IMapper _mapper;
         private Jwt _jwt;
         private AuthService _authService;
 
         public UserServiceTests()
         {
-            _userRepositoryMock = new Mock<IRepository<User>>();
+            _unitOfWorkMock = new Mock<IUnitOfWork>();
 
             var config = new MapperConfiguration(opt =>
             {
@@ -48,14 +50,14 @@ namespace UnitTests
 
             _mapper = config.CreateMapper();
 
-            _authService = new AuthService(_mapper, _jwt, _userRepositoryMock.Object);
+            _authService = new AuthService(_mapper, _jwt, _unitOfWorkMock.Object);
 
         }
 
         [Fact]
         public async Task Get_ShouldReturnIEnumerableUSERDTO_WhenGet()
         {
-            _userRepositoryMock.Setup(repo => repo.Get()).ReturnsAsync(new List<User>() {
+            _unitOfWorkMock.Setup(repo => repo.UserRepository.Get(null,null,null)).ReturnsAsync(new List<User>() {
                 new User()
                 {
                     IdUser = 1,
@@ -87,7 +89,7 @@ namespace UnitTests
         public async Task GetByID_ShouldReturnUSERDTO_WhenGettingbyid()
         {
             int id = 1;
-            _userRepositoryMock.Setup(repo => repo.GetById(It.IsAny<int>())).ReturnsAsync(
+            _unitOfWorkMock.Setup(repo => repo.UserRepository.GetById(It.IsAny<int>())).ReturnsAsync(
 
                 new User()
                 {
@@ -131,10 +133,10 @@ namespace UnitTests
                 Password = "sfxvg",
             };
 
-            _userRepositoryMock.Setup(repo=> repo.Search(It.IsAny<Func<User, bool>>()))
+            _unitOfWorkMock.Setup(repo=> repo.UserRepository.Search(It.IsAny<Expression<Func<User, bool>>>()))
                 .Returns(users);
 
-            _userRepositoryMock.Setup(repo => repo.Save());
+            _unitOfWorkMock.Setup(repo => repo.Save());
 
             var result = await _authService.SignIn(userLogingDTO);
 
@@ -157,10 +159,10 @@ namespace UnitTests
                 Email = "mail"
             };
 
-            _userRepositoryMock.Setup(repo=> repo.Add(It.IsAny<User>()))
+            _unitOfWorkMock.Setup(repo=> repo.UserRepository.Add(It.IsAny<User>()))
                 .Returns(Task.CompletedTask);
 
-            _userRepositoryMock.Setup(repo => repo.Save());
+            _unitOfWorkMock.Setup(repo => repo.Save());
 
             var result = await _authService.SignUp(userRegisterDTO, role);
             result.Should().NotBeNull();
@@ -212,7 +214,7 @@ namespace UnitTests
                 },
             };
 
-            _userRepositoryMock.Setup(repo => repo.Search(It.IsAny<Func<User, bool>>()))
+            _unitOfWorkMock.Setup(repo => repo.UserRepository.Search(It.IsAny<Expression<Func<User, bool>>>()))
                 .Returns(users);
 
             var result = await _authService.FindUserByCredentials(username,password);
@@ -258,7 +260,7 @@ namespace UnitTests
                 Email = "email"
             };
 
-            _userRepositoryMock.Setup(repo => repo.Search(It.IsAny<Func<User, bool>>()))
+            _unitOfWorkMock.Setup(repo => repo.UserRepository.Search(It.IsAny<Expression<Func<User, bool>>>()))
                 .Returns(new List<User>());
 
             var result = _authService.validate(userRegisterDTO);
@@ -293,7 +295,7 @@ namespace UnitTests
             };
 
             
-            _userRepositoryMock.Setup(repo => repo.Search(It.IsAny<Func<User, bool>>()))
+            _unitOfWorkMock.Setup(repo => repo.UserRepository.Search(It.IsAny<Expression<Func<User, bool>>>()))
                 .Returns(user);
 
             var result = _authService.validate(userLogingDTO);
@@ -305,7 +307,7 @@ namespace UnitTests
         public async Task DeleteUser_ShouldReturnUserDTO_WhenId()
         {
             int id = 1;
-            _userRepositoryMock.Setup(repo => repo.GetById(It.IsAny<int>())).ReturnsAsync(
+            _unitOfWorkMock.Setup(repo => repo.UserRepository.GetById(It.IsAny<int>())).ReturnsAsync(
 
                 new User()
                 {
@@ -318,7 +320,7 @@ namespace UnitTests
                     Role = "Admin"
                 });
 
-            _userRepositoryMock.Setup(repo => repo.Delete(It.IsAny<User>()));
+            _unitOfWorkMock.Setup(repo => repo.UserRepository.Delete(It.IsAny<User>()));
 
             var result = await _authService.DeleteUser(id);
 

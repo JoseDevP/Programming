@@ -10,18 +10,20 @@ using System.ComponentModel.DataAnnotations.Schema;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 using Backend.DTOs.Brand;
 using System.Drawing.Drawing2D;
+using BeerShop.Data.Repository;
+using System.Linq.Expressions;
 
 namespace UnitTests
 {
     public class BrandServiceTests
     {
-        private Mock<IRepository<Brand>> _repositoryMock;
+        private Mock<IUnitOfWork> _unitOfWorkMock;
         private IMapper _mappingProfile;
         private BrandService _brandService;
         
         public BrandServiceTests()
         {
-            _repositoryMock = new Mock<IRepository<Brand>>();
+            _unitOfWorkMock = new Mock<IUnitOfWork>();
 
             var config = new MapperConfiguration(opt =>           
             {
@@ -34,7 +36,7 @@ namespace UnitTests
 
             _mappingProfile = config.CreateMapper();
 
-            _brandService = new BrandService(_repositoryMock.Object,_mappingProfile);
+            _brandService = new BrandService(_unitOfWorkMock.Object,_mappingProfile);
         }
 
         [Fact]
@@ -53,7 +55,7 @@ namespace UnitTests
                     Name = "Test2"
                 },
             };
-            _repositoryMock.Setup(repo => repo.Get()).ReturnsAsync(brands);
+            _unitOfWorkMock.Setup(repo => repo.BrandRepository.Get(null,null,null)).ReturnsAsync(brands);
 
             var result = await _brandService.Get();
 
@@ -71,7 +73,7 @@ namespace UnitTests
                 Name = "Test",
             };
 
-            _repositoryMock.Setup(repo => repo.GetById(It.IsAny<int>()))
+            _unitOfWorkMock.Setup(repo => repo.BrandRepository.GetById(It.IsAny<int>()))
                 .ReturnsAsync(brand);
 
             var result = await _brandService.GetByID(1);
@@ -94,9 +96,9 @@ namespace UnitTests
                 Name = "Test",
             };
 
-            _repositoryMock.Setup(repo => repo.Add(It.IsAny<Brand>()));
+            _unitOfWorkMock.Setup(repo => repo.BrandRepository.Add(It.IsAny<Brand>()));
 
-            _repositoryMock.Setup(repo => repo.Save());
+            _unitOfWorkMock.Setup(repo => repo.Save());
 
             var result = await _brandService.Add(brandInsertDTO);
 
@@ -119,17 +121,17 @@ namespace UnitTests
                 Name = "Test",
             };
 
-            _repositoryMock.Setup(repo => repo.GetById(It.IsAny<int>()))
+            _unitOfWorkMock.Setup(repo => repo.BrandRepository.GetById(It.IsAny<int>()))
                 .ReturnsAsync(brand);
 
-            _repositoryMock.Setup(repo => repo.Update(It.IsAny<Brand>()))
+            _unitOfWorkMock.Setup(repo => repo.BrandRepository.Update(It.IsAny<Brand>()))
                 .Callback<Brand>(b =>
                 {
                     b.Name = b.Name;
                     b.BrandID = b.BrandID;
                 });
 
-            _repositoryMock.Setup(repo => repo.Save());
+            _unitOfWorkMock.Setup(repo => repo.Save());
 
             var result = await _brandService.Update(1, brandUpdateDTO);
             result.Should().NotBeNull();
@@ -146,12 +148,12 @@ namespace UnitTests
                 Name = "Test",
             };
 
-            _repositoryMock.Setup(repo => repo.GetById(It.IsAny<int>()))
+            _unitOfWorkMock.Setup(repo => repo.BrandRepository.GetById(It.IsAny<int>()))
                 .ReturnsAsync(brand);
 
-            _repositoryMock.Setup(repo => repo.Delete(It.IsAny<Brand>()));
+            _unitOfWorkMock.Setup(repo => repo.BrandRepository.Delete(It.IsAny<Brand>()));
 
-            _repositoryMock.Setup(repo => repo.Save());
+            _unitOfWorkMock.Setup(repo => repo.Save());
 
             var result = await _brandService.Delete(1);
 
@@ -167,7 +169,7 @@ namespace UnitTests
                 Name = "Test"
             };
 
-            _repositoryMock.Setup(repo => repo.Search(It.IsAny<Func<Brand, bool>>()))
+            _unitOfWorkMock.Setup(repo => repo.BrandRepository.Search(It.IsAny<Expression<Func<Brand, bool>>>()))
                 .Returns(new List<Brand>());
 
             var result =  _brandService.Validate(brandInsertDTO);
@@ -181,7 +183,7 @@ namespace UnitTests
                 Name = "Test"
             };
 
-            _repositoryMock.Setup(repo => repo.Search(It.IsAny<Func<Brand, bool>>()))
+            _unitOfWorkMock.Setup(repo => repo.BrandRepository.Search(It.IsAny<Expression<Func<Brand, bool>>>()))
                 .Returns(new List<Brand>());
 
             var result = _brandService.Validate(brandUpdateDTO);

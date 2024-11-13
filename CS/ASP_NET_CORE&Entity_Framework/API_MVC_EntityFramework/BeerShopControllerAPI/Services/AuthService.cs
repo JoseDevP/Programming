@@ -3,6 +3,7 @@ using Backend.Configurations;
 using Backend.Data.Repository;
 using Backend.DTOs;
 using Backend.Models;
+using BeerShop.Data.Repository;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Newtonsoft.Json.Linq;
@@ -19,42 +20,42 @@ namespace Backend.Services
 
         //Roles -> Admin, User, Guest
 
-        IRepository<User> _userRepository;
+        private IUnitOfWork _unitOfWork;
         private IMapper _mapper;
         public IJwt _jwt;
 
         public AuthService(IMapper mapper,
             IJwt jwt,
-            [FromKeyedServices("UserRepository")]IRepository<User> userRepository
+            IUnitOfWork unitOfWork
             )
         {
             _mapper = mapper;
             _jwt = jwt;
-            _userRepository = userRepository;
+            _unitOfWork = unitOfWork;
             Errors = new List<string>();
         }
 
         public async Task<IEnumerable<UserDTO>> Get()
         {
-            var users = await _userRepository.Get();
+            var users = await _unitOfWork.UserRepository.Get();
             return users.Select(user => _mapper.Map<UserDTO>(user));
         }
 
         public async Task<UserDTO> GetById(int id)
         {
-            var user = await _userRepository.GetById(id);
+            var user = await _unitOfWork.UserRepository.GetById(id);
             return _mapper.Map<UserDTO>(user);
         }
 
 
         public async Task<UserDTO> SignIn(UserLogingDTO userLogingDTO)
         {
-            User user = _userRepository.Search(u => u.UserName == userLogingDTO.UserName).FirstOrDefault();
+            User user = _unitOfWork.UserRepository.Search(u => u.UserName == userLogingDTO.UserName).FirstOrDefault();
 
             string tokenString = GenerateToken(user);
             user.LastToken = tokenString;
 
-            await _userRepository.Save();
+            await _unitOfWork.Save();
 
             var userDTO = _mapper.Map<UserDTO>(user);
             userDTO.LastToken = tokenString;
@@ -77,8 +78,8 @@ namespace Backend.Services
             string tokenString  = GenerateToken(user);
             user.LastToken = tokenString;
 
-            await _userRepository.Add(user);
-            await _userRepository.Save();
+            await _unitOfWork.UserRepository.Add(user);
+            await _unitOfWork.Save();
 
 
             var userDTO = _mapper.Map<UserDTO>(user);
@@ -109,7 +110,7 @@ namespace Backend.Services
 
         public async Task<User> FindUserByCredentials(string username, string password)
         {
-            var user = _userRepository.Search((u => u.UserName == username)).FirstOrDefault();
+            var user = _unitOfWork.UserRepository.Search((u => u.UserName == username)).FirstOrDefault();
 
             if (user == null)
             {
@@ -148,7 +149,7 @@ namespace Backend.Services
 
         public bool validate(UserRegisterDTO userRegisterDTO)
         {
-            if(_userRepository.Search(u => u.UserName == userRegisterDTO.UserName).Count() > 0)
+            if(_unitOfWork.UserRepository.Search(u => u.UserName == userRegisterDTO.UserName).Count() > 0)
             {
                 Errors.Add("Ya existe un usuario con ese nombre");
                 return false;
@@ -159,7 +160,7 @@ namespace Backend.Services
 
         public bool validate(UserLogingDTO userLogingDTO)
         {
-            var user = _userRepository.Search(u => u.UserName == userLogingDTO.UserName).FirstOrDefault();
+            var user = _unitOfWork.UserRepository.Search(u => u.UserName == userLogingDTO.UserName).FirstOrDefault();
 
             if (user == null)
             {
@@ -185,14 +186,14 @@ namespace Backend.Services
 
         public async Task<UserDTO> DeleteUser(int id)
         {
-            var user = await _userRepository.GetById(id);
+            var user = await _unitOfWork.UserRepository.GetById(id);
 
             if (user == null)
                 return null;
 
             var userDTO = _mapper.Map<UserDTO>(user);
 
-            _userRepository.Delete(user);
+            _unitOfWork.UserRepository.Delete(user);
 
             return userDTO;
         }
