@@ -1,15 +1,12 @@
 ﻿using Moq;
 using Xunit;
 using AutoMapper;
-using Backend.DTOs.Beer;
-using Backend.Models;
-using Backend.Data.Repository;
-using Backend.Services;
 using FluentAssertions;
-using System.ComponentModel.DataAnnotations.Schema;
-using static System.Runtime.InteropServices.JavaScript.JSType;
-using BeerShop.Data.Repository;
 using System.Linq.Expressions;
+using BeerShop.Core.Models;
+using BeerShop.Core.Interfaces;
+using BeerShop.Aplication.DTOs.Beer;
+using BeerShop.Aplication.Services;
 
 namespace UnitTests
 {

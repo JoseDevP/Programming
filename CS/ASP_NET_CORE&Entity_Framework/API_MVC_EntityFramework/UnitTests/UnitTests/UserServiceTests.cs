@@ -1,23 +1,12 @@
 ﻿using AutoMapper;
-using Backend.Configurations;
-using Backend.Data.Repository;
 using Moq;
 using Xunit;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Backend.Services;
-using Backend.DTOs;
-using Microsoft.AspNetCore.Identity;
-using System.Data;
 using FluentAssertions;
-using System.Security.Policy;
-using Backend.DTOs.Beer;
-using Backend.Models;
-using BeerShop.Data.Repository;
 using System.Linq.Expressions;
+using BeerShop.Core.Interfaces;
+using BeerShop.Aplication.DTOs;
+using BeerShop.Aplication.Services;
+using BeerShop.Infrastructure.Configurations;
 
 namespace UnitTests
 {

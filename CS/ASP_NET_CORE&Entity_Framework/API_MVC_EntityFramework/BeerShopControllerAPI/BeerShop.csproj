@@ -22,6 +22,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Core\DomainServices\" />
+    <Folder Include="Core\Specifications\" />
+    <Folder Include="Infrastructure\ExternalServices\" />
     <Folder Include="Migrations\" />
   </ItemGroup>
 
