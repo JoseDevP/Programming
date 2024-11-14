@@ -1,0 +1,15 @@
+C:\Users\josee\Desktop\Github\Programming\CS\Exercises\REGEX\REGEX1\bin\Debug\net8.0\REGEX1.exe
+C:\Users\josee\Desktop\Github\Programming\CS\Exercises\REGEX\REGEX1\bin\Debug\net8.0\REGEX1.deps.json
+C:\Users\josee\Desktop\Github\Programming\CS\Exercises\REGEX\REGEX1\bin\Debug\net8.0\REGEX1.runtimeconfig.json
+C:\Users\josee\Desktop\Github\Programming\CS\Exercises\REGEX\REGEX1\bin\Debug\net8.0\REGEX1.dll
+C:\Users\josee\Desktop\Github\Programming\CS\Exercises\REGEX\REGEX1\bin\Debug\net8.0\REGEX1.pdb
+C:\Users\josee\Desktop\Github\Programming\CS\Exercises\REGEX\REGEX1\obj\Debug\net8.0\REGEX1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josee\Desktop\Github\Programming\CS\Exercises\REGEX\REGEX1\obj\Debug\net8.0\REGEX1.AssemblyInfoInputs.cache
+C:\Users\josee\Desktop\Github\Programming\CS\Exercises\REGEX\REGEX1\obj\Debug\net8.0\REGEX1.AssemblyInfo.cs
+C:\Users\josee\Desktop\Github\Programming\CS\Exercises\REGEX\REGEX1\obj\Debug\net8.0\REGEX1.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\Github\Programming\CS\Exercises\REGEX\REGEX1\obj\Debug\net8.0\REGEX1.sourcelink.json
+C:\Users\josee\Desktop\Github\Programming\CS\Exercises\REGEX\REGEX1\obj\Debug\net8.0\REGEX1.dll
+C:\Users\josee\Desktop\Github\Programming\CS\Exercises\REGEX\REGEX1\obj\Debug\net8.0\refint\REGEX1.dll
+C:\Users\josee\Desktop\Github\Programming\CS\Exercises\REGEX\REGEX1\obj\Debug\net8.0\REGEX1.pdb
+C:\Users\josee\Desktop\Github\Programming\CS\Exercises\REGEX\REGEX1\obj\Debug\net8.0\REGEX1.genruntimeconfig.cache
+C:\Users\josee\Desktop\Github\Programming\CS\Exercises\REGEX\REGEX1\obj\Debug\net8.0\ref\REGEX1.dll

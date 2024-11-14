@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\Exercises\\LINQ\\LINQ\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{43D53EE9-C655-4F8D-8FD1-95DEE67BCAFC}|LINQ4\\LINQ4.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\exercises\\linq\\linq\\linq4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43D53EE9-C655-4F8D-8FD1-95DEE67BCAFC}|LINQ4\\LINQ4.csproj|solutionrelative:linq4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6424193D-D39D-4DBA-9D98-93524F673219}|LINQ3\\LINQ3.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\exercises\\linq\\linq\\linq3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6424193D-D39D-4DBA-9D98-93524F673219}|LINQ3\\LINQ3.csproj|solutionrelative:linq3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74F7BA5C-F972-406A-9CDB-D33CE60EDEB8}|LINQ2\\LINQ2.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\exercises\\linq\\linq\\linq2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74F7BA5C-F972-406A-9CDB-D33CE60EDEB8}|LINQ2\\LINQ2.csproj|solutionrelative:linq2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\Exercises\\LINQ\\LINQ\\LINQ4\\Program.cs",
+              "RelativeDocumentMoniker": "LINQ4\\Program.cs",
+              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\Exercises\\LINQ\\LINQ\\LINQ4\\Program.cs",
+              "RelativeToolTip": "LINQ4\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T18:22:34.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\Exercises\\LINQ\\LINQ\\LINQ3\\Program.cs",
+              "RelativeDocumentMoniker": "LINQ3\\Program.cs",
+              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\Exercises\\LINQ\\LINQ\\LINQ3\\Program.cs",
+              "RelativeToolTip": "LINQ3\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T18:16:12.894Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\Exercises\\LINQ\\LINQ\\LINQ2\\Program.cs",
+              "RelativeDocumentMoniker": "LINQ2\\Program.cs",
+              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\Exercises\\LINQ\\LINQ\\LINQ2\\Program.cs",
+              "RelativeToolTip": "LINQ2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T18:02:08.224Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

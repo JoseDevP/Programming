@@ -1,0 +1,15 @@
+C:\Users\josee\Desktop\Github\Programming\CS\Exercises\LINQ\LINQ\LINQ4\bin\Debug\net8.0\LINQ4.exe
+C:\Users\josee\Desktop\Github\Programming\CS\Exercises\LINQ\LINQ\LINQ4\bin\Debug\net8.0\LINQ4.deps.json
+C:\Users\josee\Desktop\Github\Programming\CS\Exercises\LINQ\LINQ\LINQ4\bin\Debug\net8.0\LINQ4.runtimeconfig.json
+C:\Users\josee\Desktop\Github\Programming\CS\Exercises\LINQ\LINQ\LINQ4\bin\Debug\net8.0\LINQ4.dll
+C:\Users\josee\Desktop\Github\Programming\CS\Exercises\LINQ\LINQ\LINQ4\bin\Debug\net8.0\LINQ4.pdb
+C:\Users\josee\Desktop\Github\Programming\CS\Exercises\LINQ\LINQ\LINQ4\obj\Debug\net8.0\LINQ4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josee\Desktop\Github\Programming\CS\Exercises\LINQ\LINQ\LINQ4\obj\Debug\net8.0\LINQ4.AssemblyInfoInputs.cache
+C:\Users\josee\Desktop\Github\Programming\CS\Exercises\LINQ\LINQ\LINQ4\obj\Debug\net8.0\LINQ4.AssemblyInfo.cs
+C:\Users\josee\Desktop\Github\Programming\CS\Exercises\LINQ\LINQ\LINQ4\obj\Debug\net8.0\LINQ4.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\Github\Programming\CS\Exercises\LINQ\LINQ\LINQ4\obj\Debug\net8.0\LINQ4.sourcelink.json
+C:\Users\josee\Desktop\Github\Programming\CS\Exercises\LINQ\LINQ\LINQ4\obj\Debug\net8.0\LINQ4.dll
+C:\Users\josee\Desktop\Github\Programming\CS\Exercises\LINQ\LINQ\LINQ4\obj\Debug\net8.0\refint\LINQ4.dll
+C:\Users\josee\Desktop\Github\Programming\CS\Exercises\LINQ\LINQ\LINQ4\obj\Debug\net8.0\LINQ4.pdb
+C:\Users\josee\Desktop\Github\Programming\CS\Exercises\LINQ\LINQ\LINQ4\obj\Debug\net8.0\LINQ4.genruntimeconfig.cache
+C:\Users\josee\Desktop\Github\Programming\CS\Exercises\LINQ\LINQ\LINQ4\obj\Debug\net8.0\ref\LINQ4.dll

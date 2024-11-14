@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{504DBE54-34C9-47C0-AFF9-8258CDC0FF98}|BlogCore.DataAccess\\BlogCore.DataAccess.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\blogcore\\blogcore\\blogcore.dataaccess\\data\\repository\\irepository\\workcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{504DBE54-34C9-47C0-AFF9-8258CDC0FF98}|BlogCore.DataAccess\\BlogCore.DataAccess.csproj|solutionrelative:blogcore.dataaccess\\data\\repository\\irepository\\workcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{93FF47F7-F7A1-4422-AC04-0C0E49FB2AB7}|BlogCore\\BlogCore.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\blogcore\\blogcore\\blogcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93FF47F7-F7A1-4422-AC04-0C0E49FB2AB7}|BlogCore\\BlogCore.csproj|solutionrelative:blogcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{504DBE54-34C9-47C0-AFF9-8258CDC0FF98}|BlogCore.DataAccess\\BlogCore.DataAccess.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\blogcore\\blogcore\\blogcore.dataaccess\\data\\repository\\irepository\\iworkcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{504DBE54-34C9-47C0-AFF9-8258CDC0FF98}|BlogCore.DataAccess\\BlogCore.DataAccess.csproj|solutionrelative:blogcore.dataaccess\\data\\repository\\irepository\\iworkcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{504DBE54-34C9-47C0-AFF9-8258CDC0FF98}|BlogCore.DataAccess\\BlogCore.DataAccess.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\blogcore\\blogcore\\blogcore.dataaccess\\data\\repository\\irepository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{504DBE54-34C9-47C0-AFF9-8258CDC0FF98}|BlogCore.DataAccess\\BlogCore.DataAccess.csproj|solutionrelative:blogcore.dataaccess\\data\\repository\\irepository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{504DBE54-34C9-47C0-AFF9-8258CDC0FF98}|BlogCore.DataAccess\\BlogCore.DataAccess.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\blogcore\\blogcore\\blogcore.dataaccess\\data\\repository\\irepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{504DBE54-34C9-47C0-AFF9-8258CDC0FF98}|BlogCore.DataAccess\\BlogCore.DataAccess.csproj|solutionrelative:blogcore.dataaccess\\data\\repository\\irepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{504DBE54-34C9-47C0-AFF9-8258CDC0FF98}|BlogCore.DataAccess\\BlogCore.DataAccess.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\blogcore\\blogcore\\blogcore.dataaccess\\data\\repository\\irepository\\icategoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -19,12 +23,16 @@
       "RelativeMoniker": "D:0:0:{504DBE54-34C9-47C0-AFF9-8258CDC0FF98}|BlogCore.DataAccess\\BlogCore.DataAccess.csproj|solutionrelative:blogcore.dataaccess\\data\\repository\\irepository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{504DBE54-34C9-47C0-AFF9-8258CDC0FF98}|BlogCore.DataAccess\\BlogCore.DataAccess.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\blogcore\\blogcore\\blogcore.dataaccess\\data\\repository\\irepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{504DBE54-34C9-47C0-AFF9-8258CDC0FF98}|BlogCore.DataAccess\\BlogCore.DataAccess.csproj|solutionrelative:blogcore.dataaccess\\data\\repository\\irepository\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{504DBE54-34C9-47C0-AFF9-8258CDC0FF98}|BlogCore.DataAccess\\BlogCore.DataAccess.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\blogcore\\blogcore\\blogcore.dataaccess\\data\\repository\\irepository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{504DBE54-34C9-47C0-AFF9-8258CDC0FF98}|BlogCore.DataAccess\\BlogCore.DataAccess.csproj|solutionrelative:blogcore.dataaccess\\data\\repository\\irepository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{504DBE54-34C9-47C0-AFF9-8258CDC0FF98}|BlogCore.DataAccess\\BlogCore.DataAccess.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\blogcore\\blogcore\\blogcore.dataaccess\\data\\repository\\irepository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{504DBE54-34C9-47C0-AFF9-8258CDC0FF98}|BlogCore.DataAccess\\BlogCore.DataAccess.csproj|solutionrelative:blogcore.dataaccess\\data\\repository\\irepository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{504DBE54-34C9-47C0-AFF9-8258CDC0FF98}|BlogCore.DataAccess\\BlogCore.DataAccess.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\blogcore\\blogcore\\blogcore.dataaccess\\data\\repository\\irepository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{504DBE54-34C9-47C0-AFF9-8258CDC0FF98}|BlogCore.DataAccess\\BlogCore.DataAccess.csproj|solutionrelative:blogcore.dataaccess\\data\\repository\\irepository\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{504DBE54-34C9-47C0-AFF9-8258CDC0FF98}|BlogCore.DataAccess\\BlogCore.DataAccess.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\blogcore\\blogcore\\blogcore.dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{504DBE54-34C9-47C0-AFF9-8258CDC0FF98}|BlogCore.DataAccess\\BlogCore.DataAccess.csproj|solutionrelative:blogcore.dataaccess\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,79 +47,105 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "WorkContainer.cs",
-              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore.DataAccess\\Data\\Repository\\IRepository\\WorkContainer.cs",
-              "RelativeDocumentMoniker": "BlogCore.DataAccess\\Data\\Repository\\IRepository\\WorkContainer.cs",
-              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore.DataAccess\\Data\\Repository\\IRepository\\WorkContainer.cs",
-              "RelativeToolTip": "BlogCore.DataAccess\\Data\\Repository\\IRepository\\WorkContainer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA1AAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\Program.cs",
+              "RelativeDocumentMoniker": "BlogCore\\Program.cs",
+              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\Program.cs",
+              "RelativeToolTip": "BlogCore\\Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T23:22:44.159Z",
+              "WhenOpened": "2024-11-14T22:18:42.7Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "IWorkContainer.cs",
-              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore.DataAccess\\Data\\Repository\\IRepository\\IWorkContainer.cs",
-              "RelativeDocumentMoniker": "BlogCore.DataAccess\\Data\\Repository\\IRepository\\IWorkContainer.cs",
-              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore.DataAccess\\Data\\Repository\\IRepository\\IWorkContainer.cs",
-              "RelativeToolTip": "BlogCore.DataAccess\\Data\\Repository\\IRepository\\IWorkContainer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T23:18:38.646Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore.DataAccess\\Data\\Repository\\IRepository\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "BlogCore.DataAccess\\Data\\Repository\\IRepository\\CategoryRepository.cs",
-              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore.DataAccess\\Data\\Repository\\IRepository\\CategoryRepository.cs",
-              "RelativeToolTip": "BlogCore.DataAccess\\Data\\Repository\\IRepository\\CategoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T22:53:13.805Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ICategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore.DataAccess\\Data\\Repository\\IRepository\\ICategoryRepository.cs",
-              "RelativeDocumentMoniker": "BlogCore.DataAccess\\Data\\Repository\\IRepository\\ICategoryRepository.cs",
-              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore.DataAccess\\Data\\Repository\\IRepository\\ICategoryRepository.cs",
-              "RelativeToolTip": "BlogCore.DataAccess\\Data\\Repository\\IRepository\\ICategoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T22:45:50.559Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore.DataAccess\\Data\\Repository\\IRepository\\Repository.cs",
               "RelativeDocumentMoniker": "BlogCore.DataAccess\\Data\\Repository\\IRepository\\Repository.cs",
               "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore.DataAccess\\Data\\Repository\\IRepository\\Repository.cs",
               "RelativeToolTip": "BlogCore.DataAccess\\Data\\Repository\\IRepository\\Repository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA0AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T20:06:27.761Z",
+              "WhenOpened": "2024-11-14T21:21:49.225Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore.DataAccess\\Data\\Repository\\IRepository\\IRepository.cs",
               "RelativeDocumentMoniker": "BlogCore.DataAccess\\Data\\Repository\\IRepository\\IRepository.cs",
               "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore.DataAccess\\Data\\Repository\\IRepository\\IRepository.cs",
               "RelativeToolTip": "BlogCore.DataAccess\\Data\\Repository\\IRepository\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-12T19:45:46.554Z",
+              "WhenOpened": "2024-11-14T21:21:42.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore.DataAccess\\Data\\Repository\\IRepository\\ICategoryRepository.cs",
+              "RelativeDocumentMoniker": "BlogCore.DataAccess\\Data\\Repository\\IRepository\\ICategoryRepository.cs",
+              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore.DataAccess\\Data\\Repository\\IRepository\\ICategoryRepository.cs",
+              "RelativeToolTip": "BlogCore.DataAccess\\Data\\Repository\\IRepository\\ICategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T21:20:23.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore.DataAccess\\Data\\Repository\\IRepository\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "BlogCore.DataAccess\\Data\\Repository\\IRepository\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore.DataAccess\\Data\\Repository\\IRepository\\CategoryRepository.cs",
+              "RelativeToolTip": "BlogCore.DataAccess\\Data\\Repository\\IRepository\\CategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T21:16:37.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore.DataAccess\\Data\\Repository\\IRepository\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "BlogCore.DataAccess\\Data\\Repository\\IRepository\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore.DataAccess\\Data\\Repository\\IRepository\\UnitOfWork.cs",
+              "RelativeToolTip": "BlogCore.DataAccess\\Data\\Repository\\IRepository\\UnitOfWork.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T21:13:40.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore.DataAccess\\Data\\Repository\\IRepository\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "BlogCore.DataAccess\\Data\\Repository\\IRepository\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore.DataAccess\\Data\\Repository\\IRepository\\IUnitOfWork.cs",
+              "RelativeToolTip": "BlogCore.DataAccess\\Data\\Repository\\IRepository\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T21:10:24.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore.DataAccess\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "BlogCore.DataAccess\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore.DataAccess\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "BlogCore.DataAccess\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T21:06:39.261Z",
               "EditorCaption": ""
             }
           ]
