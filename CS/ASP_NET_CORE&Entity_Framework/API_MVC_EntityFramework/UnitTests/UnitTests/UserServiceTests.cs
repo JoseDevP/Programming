@@ -4,9 +4,9 @@ using Xunit;
 using FluentAssertions;
 using System.Linq.Expressions;
 using BeerShop.Aplication.Services;
-using BeerShop.Infrastructure.Configurations;
 using Core.DTOs;
 using Core.Interfaces;
+using Infrastructure.Configurations;
 
 namespace UnitTests
 {
