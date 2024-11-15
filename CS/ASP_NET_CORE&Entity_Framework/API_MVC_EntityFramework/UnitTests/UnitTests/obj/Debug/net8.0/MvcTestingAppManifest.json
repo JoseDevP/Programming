@@ -1,0 +1,6 @@
+{
+  "Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE&Entity_Framework\\API_MVC_EntityFramework\\Application",
+  "BeerShop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE&Entity_Framework\\API_MVC_EntityFramework\\BeerShopControllerAPI",
+  "Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE&Entity_Framework\\API_MVC_EntityFramework\\Core",
+  "Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE&Entity_Framework\\API_MVC_EntityFramework\\Infrastructure"
+}
