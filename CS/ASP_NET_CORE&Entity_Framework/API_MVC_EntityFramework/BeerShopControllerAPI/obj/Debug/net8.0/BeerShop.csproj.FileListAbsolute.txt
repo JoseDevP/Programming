@@ -1,11 +1,3 @@
-C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\API_MVC_EntityFramework\BeerShopControllerAPI\obj\Debug\net8.0\BeerShop.csproj.AssemblyReference.cache
-C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\API_MVC_EntityFramework\BeerShopControllerAPI\obj\Debug\net8.0\BeerShop.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\API_MVC_EntityFramework\BeerShopControllerAPI\obj\Debug\net8.0\BeerShop.AssemblyInfoInputs.cache
-C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\API_MVC_EntityFramework\BeerShopControllerAPI\obj\Debug\net8.0\BeerShop.AssemblyInfo.cs
-C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\API_MVC_EntityFramework\BeerShopControllerAPI\obj\Debug\net8.0\BeerShop.csproj.CoreCompileInputs.cache
-C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\API_MVC_EntityFramework\BeerShopControllerAPI\obj\Debug\net8.0\BeerShop.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\API_MVC_EntityFramework\BeerShopControllerAPI\obj\Debug\net8.0\BeerShop.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\API_MVC_EntityFramework\BeerShopControllerAPI\obj\Debug\net8.0\BeerShop.sourcelink.json
 C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\API_MVC_EntityFramework\BeerShopControllerAPI\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\API_MVC_EntityFramework\BeerShopControllerAPI\bin\Debug\net8.0\appsettings.json
 C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\API_MVC_EntityFramework\BeerShopControllerAPI\bin\Debug\net8.0\Documentation.json
@@ -149,6 +141,14 @@ C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\API_M
 C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\API_MVC_EntityFramework\BeerShopControllerAPI\bin\Debug\net8.0\Application.pdb
 C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\API_MVC_EntityFramework\BeerShopControllerAPI\bin\Debug\net8.0\Core.pdb
 C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\API_MVC_EntityFramework\BeerShopControllerAPI\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\API_MVC_EntityFramework\BeerShopControllerAPI\obj\Debug\net8.0\BeerShop.csproj.AssemblyReference.cache
+C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\API_MVC_EntityFramework\BeerShopControllerAPI\obj\Debug\net8.0\BeerShop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\API_MVC_EntityFramework\BeerShopControllerAPI\obj\Debug\net8.0\BeerShop.AssemblyInfoInputs.cache
+C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\API_MVC_EntityFramework\BeerShopControllerAPI\obj\Debug\net8.0\BeerShop.AssemblyInfo.cs
+C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\API_MVC_EntityFramework\BeerShopControllerAPI\obj\Debug\net8.0\BeerShop.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\API_MVC_EntityFramework\BeerShopControllerAPI\obj\Debug\net8.0\BeerShop.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\API_MVC_EntityFramework\BeerShopControllerAPI\obj\Debug\net8.0\BeerShop.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\API_MVC_EntityFramework\BeerShopControllerAPI\obj\Debug\net8.0\BeerShop.sourcelink.json
 C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\API_MVC_EntityFramework\BeerShopControllerAPI\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\API_MVC_EntityFramework\BeerShopControllerAPI\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\API_MVC_EntityFramework\BeerShopControllerAPI\obj\Debug\net8.0\staticwebassets\msbuild.BeerShop.Microsoft.AspNetCore.StaticWebAssets.props

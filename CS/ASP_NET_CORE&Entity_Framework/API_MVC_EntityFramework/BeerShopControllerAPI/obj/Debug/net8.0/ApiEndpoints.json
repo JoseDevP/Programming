@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "BeerShop.API.Controllers.BeerController",
+    "ContainingType": "BeerShop.Controllers.BeerController",
     "Method": "Get",
     "RelativePath": "api/Beer",
     "HttpMethod": "GET",
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "ContainingType": "BeerShop.API.Controllers.BeerController",
+    "ContainingType": "BeerShop.Controllers.BeerController",
     "Method": "Add",
     "RelativePath": "api/Beer",
     "HttpMethod": "POST",
@@ -46,7 +46,7 @@
     ]
   },
   {
-    "ContainingType": "BeerShop.API.Controllers.BeerController",
+    "ContainingType": "BeerShop.Controllers.BeerController",
     "Method": "GetByID",
     "RelativePath": "api/Beer/{id}",
     "HttpMethod": "GET",
@@ -72,7 +72,7 @@
     ]
   },
   {
-    "ContainingType": "BeerShop.API.Controllers.BeerController",
+    "ContainingType": "BeerShop.Controllers.BeerController",
     "Method": "Update",
     "RelativePath": "api/Beer/{id}",
     "HttpMethod": "PUT",
@@ -103,7 +103,7 @@
     ]
   },
   {
-    "ContainingType": "BeerShop.API.Controllers.BeerController",
+    "ContainingType": "BeerShop.Controllers.BeerController",
     "Method": "Delete",
     "RelativePath": "api/Beer/{id}",
     "HttpMethod": "DELETE",
@@ -129,7 +129,7 @@
     ]
   },
   {
-    "ContainingType": "BeerShop.API.Controllers.BrandController",
+    "ContainingType": "BeerShop.Controllers.BrandController",
     "Method": "Get",
     "RelativePath": "api/Brand",
     "HttpMethod": "GET",
@@ -149,7 +149,7 @@
     ]
   },
   {
-    "ContainingType": "BeerShop.API.Controllers.BrandController",
+    "ContainingType": "BeerShop.Controllers.BrandController",
     "Method": "Add",
     "RelativePath": "api/Brand",
     "HttpMethod": "POST",
@@ -175,7 +175,7 @@
     ]
   },
   {
-    "ContainingType": "BeerShop.API.Controllers.BrandController",
+    "ContainingType": "BeerShop.Controllers.BrandController",
     "Method": "GetById",
     "RelativePath": "api/Brand/{id}",
     "HttpMethod": "GET",
@@ -201,7 +201,7 @@
     ]
   },
   {
-    "ContainingType": "BeerShop.API.Controllers.BrandController",
+    "ContainingType": "BeerShop.Controllers.BrandController",
     "Method": "Edit",
     "RelativePath": "api/Brand/{id}",
     "HttpMethod": "PUT",
@@ -232,7 +232,7 @@
     ]
   },
   {
-    "ContainingType": "BeerShop.API.Controllers.BrandController",
+    "ContainingType": "BeerShop.Controllers.BrandController",
     "Method": "Delete",
     "RelativePath": "api/Brand/{id}",
     "HttpMethod": "DELETE",
@@ -258,7 +258,7 @@
     ]
   },
   {
-    "ContainingType": "BeerShop.API.Controllers.UserController",
+    "ContainingType": "BeerShop.Controllers.UserController",
     "Method": "Get",
     "RelativePath": "api/User",
     "HttpMethod": "GET",
@@ -278,7 +278,7 @@
     ]
   },
   {
-    "ContainingType": "BeerShop.API.Controllers.UserController",
+    "ContainingType": "BeerShop.Controllers.UserController",
     "Method": "GetByID",
     "RelativePath": "api/User/{id}",
     "HttpMethod": "GET",
@@ -304,7 +304,7 @@
     ]
   },
   {
-    "ContainingType": "BeerShop.API.Controllers.UserController",
+    "ContainingType": "BeerShop.Controllers.UserController",
     "Method": "DeleteUser",
     "RelativePath": "api/User/{id}",
     "HttpMethod": "DELETE",
@@ -330,7 +330,7 @@
     ]
   },
   {
-    "ContainingType": "BeerShop.API.Controllers.UserController",
+    "ContainingType": "BeerShop.Controllers.UserController",
     "Method": "SignIn",
     "RelativePath": "api/User/SignIn",
     "HttpMethod": "POST",
@@ -356,7 +356,7 @@
     ]
   },
   {
-    "ContainingType": "BeerShop.API.Controllers.UserController",
+    "ContainingType": "BeerShop.Controllers.UserController",
     "Method": "SignUp",
     "RelativePath": "api/User/SignUp",
     "HttpMethod": "POST",
@@ -382,7 +382,7 @@
     ]
   },
   {
-    "ContainingType": "BeerShop.API.Controllers.UserController",
+    "ContainingType": "BeerShop.Controllers.UserController",
     "Method": "SignUpAdmin",
     "RelativePath": "api/User/SignUp/Admin",
     "HttpMethod": "POST",
@@ -408,7 +408,7 @@
     ]
   },
   {
-    "ContainingType": "BeerShop.API.Controllers.UserController",
+    "ContainingType": "BeerShop.Controllers.UserController",
     "Method": "SignUpUser",
     "RelativePath": "api/User/SignUp/User",
     "HttpMethod": "POST",
