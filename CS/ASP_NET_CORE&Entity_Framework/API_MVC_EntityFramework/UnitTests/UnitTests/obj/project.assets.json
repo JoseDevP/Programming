@@ -2083,11 +2083,29 @@
           "build/net6.0/xunit.runner.visualstudio.props": {}
         }
       },
+      "Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "AutoMapper": "12.0.1",
+          "Core": "1.0.0",
+          "FluentValidation": "11.10.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.10"
+        },
+        "compile": {
+          "bin/placeholder/Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.dll": {}
+        }
+      },
       "BeerShop/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "Application": "1.0.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+          "Core": "1.0.0",
           "FluentValidation": "11.10.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.10",
           "Microsoft.EntityFrameworkCore": "8.0.10",
@@ -2104,6 +2122,16 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
+      },
+      "Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Core.dll": {}
+        }
       }
     }
   },
@@ -5355,10 +5383,20 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
+    "Application/1.0.0": {
+      "type": "project",
+      "path": "../../Application/Application.csproj",
+      "msbuildProject": "../../Application/Application.csproj"
+    },
     "BeerShop/1.0.0": {
       "type": "project",
       "path": "../../BeerShopControllerAPI/BeerShop.csproj",
       "msbuildProject": "../../BeerShopControllerAPI/BeerShop.csproj"
+    },
+    "Core/1.0.0": {
+      "type": "project",
+      "path": "../../Core/Core.csproj",
+      "msbuildProject": "../../Core/Core.csproj"
     }
   },
   "projectFileDependencyGroups": {

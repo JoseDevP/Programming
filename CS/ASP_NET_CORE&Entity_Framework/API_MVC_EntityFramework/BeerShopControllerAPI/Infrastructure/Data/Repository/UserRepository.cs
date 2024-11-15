@@ -1,4 +1,4 @@
-﻿using BeerShop.Core.Interfaces;
+﻿using Core.Interfaces;
 using Microsoft.EntityFrameworkCore;
 
 namespace BeerShop.Infrastructure.Data.Repository

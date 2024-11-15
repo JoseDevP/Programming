@@ -3,10 +3,10 @@ using Xunit;
 using AutoMapper;
 using FluentAssertions;
 using System.Linq.Expressions;
-using BeerShop.Core.Models;
-using BeerShop.Core.Interfaces;
-using BeerShop.Aplication.DTOs.Brand;
 using BeerShop.Aplication.Services;
+using Core.Models;
+using Core.DTOs.Brand;
+using Core.Interfaces;
 
 namespace UnitTests
 {

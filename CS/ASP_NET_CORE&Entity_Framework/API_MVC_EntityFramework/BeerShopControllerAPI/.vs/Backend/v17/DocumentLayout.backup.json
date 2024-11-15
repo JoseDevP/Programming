@@ -3,7 +3,13 @@
   "WorkspaceRootPath": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API_MVC_EntityFramework\\BeerShopControllerAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{118C8232-0263-4E90-BAD5-AF5A9231D0F4}|..\\UnitTests\\UnitTests\\UnitTests.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\api_mvc_entityframework\\unittests\\unittests\\beerservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8920A08-0199-4D1E-934E-C1AEFB2BB3D3}|..\\Application\\Application.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\api_mvc_entityframework\\application\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8920A08-0199-4D1E-934E-C1AEFB2BB3D3}|..\\Application\\Application.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\api_mvc_entityframework\\application\\services\\beerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8920A08-0199-4D1E-934E-C1AEFB2BB3D3}|..\\Application\\Application.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\api_mvc_entityframework\\application\\validators\\brand\\brandupdatevalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,14 +24,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "BeerServiceTests.cs",
-              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API_MVC_EntityFramework\\UnitTests\\UnitTests\\BeerServiceTests.cs",
-              "RelativeDocumentMoniker": "..\\UnitTests\\UnitTests\\BeerServiceTests.cs",
-              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API_MVC_EntityFramework\\UnitTests\\UnitTests\\BeerServiceTests.cs",
-              "RelativeToolTip": "..\\UnitTests\\UnitTests\\BeerServiceTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAgAAAAAAAAAA==",
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API_MVC_EntityFramework\\Application\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API_MVC_EntityFramework\\Application\\Services\\AuthService.cs",
+              "RelativeToolTip": "..\\Application\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-14T23:07:05.866Z",
+              "WhenOpened": "2024-11-15T16:05:22.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BeerService.cs",
+              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API_MVC_EntityFramework\\Application\\Services\\BeerService.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Services\\BeerService.cs",
+              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API_MVC_EntityFramework\\Application\\Services\\BeerService.cs",
+              "RelativeToolTip": "..\\Application\\Services\\BeerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T16:05:11.632Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BrandUpdateValidator.cs",
+              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API_MVC_EntityFramework\\Application\\Validators\\Brand\\BrandUpdateValidator.cs",
+              "RelativeDocumentMoniker": "..\\Application\\Validators\\Brand\\BrandUpdateValidator.cs",
+              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API_MVC_EntityFramework\\Application\\Validators\\Brand\\BrandUpdateValidator.cs",
+              "RelativeToolTip": "..\\Application\\Validators\\Brand\\BrandUpdateValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T16:05:01.529Z",
               "EditorCaption": ""
             }
           ]

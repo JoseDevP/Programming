@@ -3,10 +3,10 @@ using Moq;
 using Xunit;
 using FluentAssertions;
 using System.Linq.Expressions;
-using BeerShop.Core.Interfaces;
-using BeerShop.Aplication.DTOs;
 using BeerShop.Aplication.Services;
 using BeerShop.Infrastructure.Configurations;
+using Core.DTOs;
+using Core.Interfaces;
 
 namespace UnitTests
 {

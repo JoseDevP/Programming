@@ -1,5 +1,5 @@
-﻿using BeerShop.Aplication.DTOs.Brand;
-using BeerShop.Core.Interfaces;
+﻿using Core.DTOs.Brand;
+using Core.Interfaces;
 using FluentValidation;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;

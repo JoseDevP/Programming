@@ -1,4 +1,5 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using Core.Interfaces;
+using Microsoft.Extensions.Configuration;
 
 namespace BeerShop.Infrastructure.Configurations
 {

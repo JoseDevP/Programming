@@ -22,10 +22,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Core\DomainServices\" />
-    <Folder Include="Core\Specifications\" />
     <Folder Include="Infrastructure\ExternalServices\" />
     <Folder Include="Migrations\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Application\Application.csproj" />
+    <ProjectReference Include="..\Core\Core.csproj" />
   </ItemGroup>
 
 </Project>

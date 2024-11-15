@@ -1743,9 +1743,28 @@
         }
       },
       "xunit.runner.visualstudio/2.8.2": {},
+      "Application/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "12.0.1",
+          "Core": "1.0.0",
+          "FluentValidation": "11.10.0",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.10"
+        },
+        "runtime": {
+          "Application.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "Application.dll": {}
+        }
+      },
       "BeerShop/1.0.0": {
         "dependencies": {
+          "Application": "1.0.0",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "12.0.1",
+          "Core": "1.0.0",
           "FluentValidation": "11.10.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.10",
           "Microsoft.EntityFrameworkCore": "8.0.10",
@@ -1761,6 +1780,17 @@
         },
         "compile": {
           "BeerShop.dll": {}
+        }
+      },
+      "Core/1.0.0": {
+        "runtime": {
+          "Core.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "Core.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/8.0.0.0": {
@@ -4298,7 +4328,17 @@
       "path": "xunit.runner.visualstudio/2.8.2",
       "hashPath": "xunit.runner.visualstudio.2.8.2.nupkg.sha512"
     },
+    "Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "BeerShop/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Core/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

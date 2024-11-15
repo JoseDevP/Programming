@@ -1,4 +1,4 @@
-﻿using BeerShop.Core.Models;
+﻿using Core.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace BeerShop.Infrastructure.Data

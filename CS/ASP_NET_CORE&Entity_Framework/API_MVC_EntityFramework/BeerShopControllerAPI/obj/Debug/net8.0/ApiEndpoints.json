@@ -9,7 +9,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[BeerShop.Aplication.DTOs.Beer.BeerDTO, BeerShop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Core.DTOs.Beer.BeerDTO, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -29,13 +29,13 @@
     "Parameters": [
       {
         "Name": "beerInsertDTO",
-        "Type": "BeerShop.Aplication.DTOs.Beer.BeerInsertDTO",
+        "Type": "Core.DTOs.Beer.BeerInsertDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "BeerShop.Aplication.DTOs.Beer.BeerDTO",
+        "Type": "Core.DTOs.Beer.BeerDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -61,7 +61,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "BeerShop.Aplication.DTOs.Beer.BeerDTO",
+        "Type": "Core.DTOs.Beer.BeerDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -86,13 +86,13 @@
       },
       {
         "Name": "beerUpdateDTO",
-        "Type": "BeerShop.Aplication.DTOs.Beer.BeerUpdateDTO",
+        "Type": "Core.DTOs.Beer.BeerUpdateDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "BeerShop.Aplication.DTOs.Beer.BeerDTO",
+        "Type": "Core.DTOs.Beer.BeerDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -118,7 +118,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "BeerShop.Aplication.DTOs.Beer.BeerDTO",
+        "Type": "Core.DTOs.Beer.BeerDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -138,7 +138,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[BeerShop.Aplication.DTOs.Brand.BrandDTO, BeerShop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Core.DTOs.Brand.BrandDTO, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -158,13 +158,13 @@
     "Parameters": [
       {
         "Name": "brandInsertDTO",
-        "Type": "BeerShop.Aplication.DTOs.Brand.BrandInsertDTO",
+        "Type": "Core.DTOs.Brand.BrandInsertDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "BeerShop.Aplication.DTOs.Brand.BrandDTO",
+        "Type": "Core.DTOs.Brand.BrandDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -190,7 +190,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "BeerShop.Aplication.DTOs.Brand.BrandDTO",
+        "Type": "Core.DTOs.Brand.BrandDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -215,13 +215,13 @@
       },
       {
         "Name": "brandUpdateDTO",
-        "Type": "BeerShop.Aplication.DTOs.Brand.BrandUpdateDTO",
+        "Type": "Core.DTOs.Brand.BrandUpdateDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "BeerShop.Aplication.DTOs.Brand.BrandDTO",
+        "Type": "Core.DTOs.Brand.BrandDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -247,7 +247,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "BeerShop.Aplication.DTOs.Brand.BrandDTO",
+        "Type": "Core.DTOs.Brand.BrandDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -267,7 +267,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[BeerShop.Aplication.DTOs.UserDTO, BeerShop, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Core.DTOs.UserDTO, Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -293,7 +293,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "BeerShop.Aplication.DTOs.UserDTO",
+        "Type": "Core.DTOs.UserDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -319,7 +319,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "BeerShop.Aplication.DTOs.UserDTO",
+        "Type": "Core.DTOs.UserDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -339,13 +339,13 @@
     "Parameters": [
       {
         "Name": "userLogingDTO",
-        "Type": "BeerShop.Aplication.DTOs.UserLogingDTO",
+        "Type": "Core.DTOs.UserLogingDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "BeerShop.Aplication.DTOs.UserDTO",
+        "Type": "Core.DTOs.UserDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -365,13 +365,13 @@
     "Parameters": [
       {
         "Name": "userRegisterDTO",
-        "Type": "BeerShop.Aplication.DTOs.UserRegisterDTO",
+        "Type": "Core.DTOs.UserRegisterDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "BeerShop.Aplication.DTOs.UserDTO",
+        "Type": "Core.DTOs.UserDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -391,13 +391,13 @@
     "Parameters": [
       {
         "Name": "userRegisterDTO",
-        "Type": "BeerShop.Aplication.DTOs.UserRegisterDTO",
+        "Type": "Core.DTOs.UserRegisterDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "BeerShop.Aplication.DTOs.UserDTO",
+        "Type": "Core.DTOs.UserDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -417,13 +417,13 @@
     "Parameters": [
       {
         "Name": "userRegisterDTO",
-        "Type": "BeerShop.Aplication.DTOs.UserRegisterDTO",
+        "Type": "Core.DTOs.UserRegisterDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "BeerShop.Aplication.DTOs.UserDTO",
+        "Type": "Core.DTOs.UserDTO",
         "MediaTypes": [
           "text/plain",
           "application/json",
