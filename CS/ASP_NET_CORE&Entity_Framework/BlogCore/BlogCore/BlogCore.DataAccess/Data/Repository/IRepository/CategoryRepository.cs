@@ -1,5 +1,6 @@
 ﻿using BlogCore.Data;
 using BlogCore.Models;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -18,13 +19,20 @@ namespace BlogCore.DataAccess.Data.Repository.IRepository
             _applicationDbContext = applicationDbContext;
         }
 
+        public IEnumerable<SelectListItem> GetCategoryList()
+        {
+            return _applicationDbContext.Categories.Select(i=> new SelectListItem()
+            {
+                Text = i.Name,
+                Value = i.Id.ToString()
+            });
+        }
+
         public async Task Update(Category category)
         {
             var obj = await _applicationDbContext.Categories.FirstOrDefaultAsync(c => c.Id == category.Id);
             obj.Name = category.Name;
             obj.Order = category.Order;
-
-            await _applicationDbContext.SaveChangesAsync();
         }
     }
 }

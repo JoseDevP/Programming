@@ -13,6 +13,14 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE&Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\wwwroot\\images\\articles\\579475fc-6e30-4e3f-9ff1-85a959923aab.jpg",
+      "PackagePath": "staticwebassets\\images\\articles\\579475fc-6e30-4e3f-9ff1-85a959923aab.jpg"
+    },
+    {
+      "Id": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE&Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\wwwroot\\js\\article.js",
+      "PackagePath": "staticwebassets\\js\\article.js"
+    },
+    {
       "Id": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE&Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\wwwroot\\js\\category.js",
       "PackagePath": "staticwebassets\\js\\category.js"
     },

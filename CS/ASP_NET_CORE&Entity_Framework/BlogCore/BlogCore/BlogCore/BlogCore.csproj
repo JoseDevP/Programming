@@ -20,4 +20,8 @@
     <ProjectReference Include="..\BlogCore.DataAccess\BlogCore.DataAccess.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\images\articles\" />
+  </ItemGroup>
+
 </Project>

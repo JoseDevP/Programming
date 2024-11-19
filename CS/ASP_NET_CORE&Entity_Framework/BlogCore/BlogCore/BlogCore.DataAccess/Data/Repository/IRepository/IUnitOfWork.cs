@@ -10,6 +10,7 @@ namespace BlogCore.DataAccess.Data.Repository.IRepository
     {
         //Repositorios
         ICategoryRepository CategoryRepository { get; }
+        IArticleRepository ArticleRepository { get; }
         Task Save();
     }
 }

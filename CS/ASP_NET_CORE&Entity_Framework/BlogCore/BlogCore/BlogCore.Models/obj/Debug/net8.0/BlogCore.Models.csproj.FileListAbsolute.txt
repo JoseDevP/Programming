@@ -10,3 +10,4 @@ C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\BlogC
 C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\BlogCore\BlogCore\BlogCore.Models\obj\Debug\net8.0\refint\BlogCore.Models.dll
 C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\BlogCore\BlogCore\BlogCore.Models\obj\Debug\net8.0\BlogCore.Models.pdb
 C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\BlogCore\BlogCore\BlogCore.Models\obj\Debug\net8.0\ref\BlogCore.Models.dll
+C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\BlogCore\BlogCore\BlogCore.Models\obj\Debug\net8.0\BlogCore.Models.csproj.AssemblyReference.cache

@@ -26,6 +26,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\BlogCore\BlogCore\BlogCore
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/josee/Desktop/Github/Programming/CS/ASP_NET_CORE&Entity_Framework/BlogCore/BlogCore/BlogCore/Areas/Admin/Views/Articles/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXJ0aWNsZXNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/josee/Desktop/Github/Programming/CS/ASP_NET_CORE&Entity_Framework/BlogCore/BlogCore/BlogCore/Areas/Admin/Views/Articles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQXJ0aWNsZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/josee/Desktop/Github/Programming/CS/ASP_NET_CORE&Entity_Framework/BlogCore/BlogCore/BlogCore/Areas/Admin/Views/Categories/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcQWRtaW5cVmlld3NcQ2F0ZWdvcmllc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

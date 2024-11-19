@@ -272,3 +272,5 @@ C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\BlogC
 C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\BlogCore\BlogCore\BlogCore\bin\Debug\net8.0\BlogCore.DataAccess.pdb
 C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\BlogCore\BlogCore\BlogCore\bin\Debug\net8.0\BlogCore.Models.pdb
 C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\BlogCore\BlogCore\BlogCore\bin\Debug\net8.0\BlogCore.Utilities.pdb
+C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\BlogCore\BlogCore\BlogCore\bin\Debug\net8.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\BlogCore\BlogCore\BlogCore\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
