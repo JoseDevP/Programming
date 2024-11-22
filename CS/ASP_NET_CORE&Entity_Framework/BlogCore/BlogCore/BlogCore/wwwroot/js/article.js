@@ -16,6 +16,12 @@ function chargeDatatable() {
             { "data": "id", "width": "5%" },
             { "data": "name", "width": "20%" },
             { "data": "category.name", "width": "15%" },
+            {
+                "data": "urlImagen",
+                "render": function (imagen) {
+                    return `<img src="../${imagen}" width="120">`
+                }
+            },
             { "data": "creationDate", "width": "15%" },
             {
                 "data": "id",

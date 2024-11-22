@@ -13,8 +13,36 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE&Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\wwwroot\\images\\articles\\579475fc-6e30-4e3f-9ff1-85a959923aab.jpg",
-      "PackagePath": "staticwebassets\\images\\articles\\579475fc-6e30-4e3f-9ff1-85a959923aab.jpg"
+      "Id": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE&Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\wwwroot\\images\\articles\\38347183-eb7d-436e-aff1-ff88194473f0.jpeg",
+      "PackagePath": "staticwebassets\\images\\articles\\38347183-eb7d-436e-aff1-ff88194473f0.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE&Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\wwwroot\\images\\articles\\72ec93cb-4db6-4396-9e60-4499564c1083.jpeg",
+      "PackagePath": "staticwebassets\\images\\articles\\72ec93cb-4db6-4396-9e60-4499564c1083.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE&Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\wwwroot\\images\\articles\\e88972d9-f0bd-4e80-8f16-f4177a3d8459.webp",
+      "PackagePath": "staticwebassets\\images\\articles\\e88972d9-f0bd-4e80-8f16-f4177a3d8459.webp"
+    },
+    {
+      "Id": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE&Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\wwwroot\\images\\sliders\\5e67d744-ee90-4ac8-996c-6804e2cb2739.webp",
+      "PackagePath": "staticwebassets\\images\\sliders\\5e67d744-ee90-4ac8-996c-6804e2cb2739.webp"
+    },
+    {
+      "Id": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE&Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\wwwroot\\images\\sliders\\9cfc96f2-d34f-4274-b36f-2d7e9e50e4b2.webp",
+      "PackagePath": "staticwebassets\\images\\sliders\\9cfc96f2-d34f-4274-b36f-2d7e9e50e4b2.webp"
+    },
+    {
+      "Id": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE&Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\wwwroot\\images\\sliders\\f3fa556c-865a-49ea-9566-0f94d820a4e2.webp",
+      "PackagePath": "staticwebassets\\images\\sliders\\f3fa556c-865a-49ea-9566-0f94d820a4e2.webp"
+    },
+    {
+      "Id": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE&Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\wwwroot\\images\\sliders\\slider1.jpeg",
+      "PackagePath": "staticwebassets\\images\\sliders\\slider1.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE&Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\wwwroot\\images\\sliders\\slider2.jpeg",
+      "PackagePath": "staticwebassets\\images\\sliders\\slider2.jpeg"
     },
     {
       "Id": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE&Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\wwwroot\\js\\article.js",
@@ -27,6 +55,10 @@
     {
       "Id": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE&Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE&Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\wwwroot\\js\\slider.js",
+      "PackagePath": "staticwebassets\\js\\slider.js"
     },
     {
       "Id": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE&Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\wwwroot\\lib\\bootstrap\\LICENSE",

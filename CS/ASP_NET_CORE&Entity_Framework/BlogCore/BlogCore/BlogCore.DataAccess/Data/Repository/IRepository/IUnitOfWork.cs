@@ -11,6 +11,7 @@ namespace BlogCore.DataAccess.Data.Repository.IRepository
         //Repositorios
         ICategoryRepository CategoryRepository { get; }
         IArticleRepository ArticleRepository { get; }
+        ISliderRepository SliderRepository { get; }
         Task Save();
     }
 }

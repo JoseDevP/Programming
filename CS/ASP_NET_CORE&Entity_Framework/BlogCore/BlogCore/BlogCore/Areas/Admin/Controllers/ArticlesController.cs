@@ -73,6 +73,78 @@ namespace BlogCore.Areas.Admin.Controllers
             return View(articleVM);
         }
 
+        [HttpGet]
+        public async Task<IActionResult> Edit(int? id)
+        {
+            ArticleVM articleVM = new ArticleVM()
+            {
+                Article = new BlogCore.Models.Article(),
+                CategoriesList = _unitOfWork.CategoryRepository.GetCategoryList()
+            };
+            
+            if(id != null)
+            {
+                articleVM.Article = await _unitOfWork.ArticleRepository.GetById(id.GetValueOrDefault());
+            }
+
+            return View(articleVM);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Edit(ArticleVM articleVM)
+        {
+            if (ModelState.IsValid)
+            {
+                string primaryRoute = _webHostEnvironment.WebRootPath;
+                var files = HttpContext.Request.Form.Files;
+
+                var articleFromDB = await _unitOfWork.ArticleRepository.GetById(articleVM.Article.Id);
+
+                //New image for the article
+                if (files.Count > 0)
+                {
+                    string fileName = Guid.NewGuid().ToString();
+                    var uploads = Path.Combine(primaryRoute, @"images\articles");
+                    var extension = Path.GetExtension(files[0].FileName);
+                    var newExtension = Path.GetExtension(files[0].FileName);
+
+                    var imageRoute = Path.Combine(primaryRoute, articleFromDB.UrlImagen.TrimStart('\\'));
+
+                    if (System.IO.File.Exists(imageRoute))
+                    {
+                        System.IO.File.Delete(imageRoute);
+                    }
+
+                    //upload new file
+                    using (var fileStreams = new FileStream(Path.Combine(uploads, fileName + extension), FileMode.Create))
+                    {
+                        files[0].CopyTo(fileStreams);
+                    }
+
+                    articleVM.Article.UrlImagen = @"\images\articles\" + fileName + extension;
+                    articleVM.Article.CreationDate = DateTime.Now.ToString();
+
+                    
+                }
+                else //Didn't change the image
+                {
+                    articleVM.Article.UrlImagen = articleFromDB.UrlImagen;
+                }
+
+                await _unitOfWork.ArticleRepository.Update(articleVM.Article);
+                await _unitOfWork.Save();
+
+                return RedirectToAction(nameof(Index));
+            }
+
+            articleVM.CategoriesList = _unitOfWork.CategoryRepository.GetCategoryList();
+
+            return View(articleVM);
+        }
+
+        
+
         #region API Calls
 
         [HttpGet]
@@ -84,13 +156,22 @@ namespace BlogCore.Areas.Admin.Controllers
         [HttpDelete]
         public async Task<IActionResult> Delete(int id)
         {
-            var objFromDb = await _unitOfWork.ArticleRepository.GetById(id);
-            if (objFromDb == null)
+            var articleFromDb = await _unitOfWork.ArticleRepository.GetById(id);
+
+            var primaryRoute = _webHostEnvironment.WebRootPath;
+            var imageRoute = Path.Combine(primaryRoute, articleFromDb.UrlImagen.TrimStart('\\'));
+
+            if (System.IO.File.Exists(imageRoute))
+            {
+                System.IO.File.Delete(imageRoute);
+            }
+
+            if (articleFromDb == null)
                 return Json(new { success = false, message = "Error Borrando artículo" });
 
-            _unitOfWork.ArticleRepository.Remove(objFromDb);
+            _unitOfWork.ArticleRepository.Remove(articleFromDb);
             await _unitOfWork.Save();
-            return Json(new { success = true, message = "Articulo borrado correctamente" });
+            return Json(new { success = true, message = "Artículo borrado correctamente" });
 
         }
 

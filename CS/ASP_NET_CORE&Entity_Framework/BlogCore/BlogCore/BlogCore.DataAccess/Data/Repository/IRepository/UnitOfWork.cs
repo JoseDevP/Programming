@@ -13,11 +13,14 @@ namespace BlogCore.DataAccess.Data.Repository.IRepository
         public ICategoryRepository CategoryRepository { get; private set; }
         public IArticleRepository ArticleRepository { get; private set; }
 
+        public ISliderRepository SliderRepository { get; private set; }
+
         public UnitOfWork(ApplicationDbContext db)
         {
             _db = db;
             CategoryRepository = new CategoryRepository(_db);
             ArticleRepository = new ArticleRepository(_db);
+            SliderRepository = new SliderRepository(_db);
         }
 
 
