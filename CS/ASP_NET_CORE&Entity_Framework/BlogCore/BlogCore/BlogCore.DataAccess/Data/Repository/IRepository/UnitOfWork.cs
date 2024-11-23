@@ -15,12 +15,15 @@ namespace BlogCore.DataAccess.Data.Repository.IRepository
 
         public ISliderRepository SliderRepository { get; private set; }
 
+        public IUserRepository UserRepository { get; private set; }
+
         public UnitOfWork(ApplicationDbContext db)
         {
             _db = db;
             CategoryRepository = new CategoryRepository(_db);
             ArticleRepository = new ArticleRepository(_db);
             SliderRepository = new SliderRepository(_db);
+            UserRepository = new UserRepository(_db);
         }
 
 

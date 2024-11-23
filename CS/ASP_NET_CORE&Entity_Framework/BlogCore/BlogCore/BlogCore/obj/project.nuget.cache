@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OcOId2e+Vwo=",
+  "dgSpecHash": "nUpMVfOn0gI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE&Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\BlogCore.csproj",
+  "projectFilePath": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE&Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\BlogCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\josee\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\josee\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
