@@ -3,6 +3,7 @@ using BlogCore.Models;
 using BlogCore.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
+using System.Drawing.Printing;
 
 namespace BlogCore.Areas.Client.Controllers
 {
@@ -17,18 +18,55 @@ namespace BlogCore.Areas.Client.Controllers
             _unitOfWork = unitOfWork;
         }
 
+        //First version InitialPage without pagination
+        //[HttpGet]
+        //public async Task<IActionResult> Index()
+        //{
+        //    HomeVM homeVM = new HomeVM()
+        //    {
+        //        Sliders = await _unitOfWork.SliderRepository.GetAll(),
+        //        ArticleList = await _unitOfWork.ArticleRepository.GetAll(),
+        //    };
+
+        //    ViewBag.IsHome = true;
+
+        //    return View(homeVM);
+        //}
+
         [HttpGet]
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(int page = 1, int pageSize = 6)
         {
+            var articles = _unitOfWork.ArticleRepository.AsQueryable();
+            var paginatedEntries = articles.Skip((page - 1) * pageSize).Take(pageSize);
+
             HomeVM homeVM = new HomeVM()
             {
                 Sliders = await _unitOfWork.SliderRepository.GetAll(),
-                ArticleList = await _unitOfWork.ArticleRepository.GetAll(),
+                ArticleList = paginatedEntries.ToList(),
+                PageIndex = page,
+                TotalPages = (int)Math.Ceiling(articles.Count() / (double)pageSize)
             };
 
             ViewBag.IsHome = true;
 
             return View(homeVM);
+        }
+
+        //search
+        [HttpGet]
+        public IActionResult SearchResult(string searchString, int page = 1, int pageSize = 3)
+        {
+            var articles = _unitOfWork.ArticleRepository.AsQueryable();
+
+            if(!string.IsNullOrEmpty(searchString))
+            {
+                articles = articles.Where(e=> e.Name.Contains(searchString));
+            }
+
+            var paginatedEntries = articles.Skip((page - 1) * pageSize).Take(pageSize);
+
+            var model = new PaginatedList<Article>(paginatedEntries.ToList(), articles.Count(), page, pageSize, searchString);
+            return View(model);
         }
 
         [HttpGet]

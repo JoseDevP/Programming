@@ -10,5 +10,7 @@ namespace BlogCore.DataAccess.Data.Repository.IRepository
     public interface IArticleRepository : IRepository<Article>
     {
         Task Update(Article article);
+
+        IQueryable<Article> AsQueryable();
     }
 }

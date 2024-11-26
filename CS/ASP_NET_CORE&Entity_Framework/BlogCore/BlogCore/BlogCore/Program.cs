@@ -1,5 +1,6 @@
 using BlogCore.Data;
 using BlogCore.DataAccess.Data.Repository.IRepository;
+using BlogCore.DataAccess.Initializer;
 using BlogCore.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -21,6 +22,9 @@ builder.Services.AddControllersWithViews();
 //UnitOfWork
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
+//Seeding
+builder.Services.AddScoped<IInicializerDb, InicializerDb>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -34,6 +38,8 @@ else
 }
 app.UseStaticFiles();
 
+await DataSeeding();
+
 app.UseRouting();
 
 app.UseAuthorization();
@@ -44,3 +50,12 @@ app.MapControllerRoute(
 app.MapRazorPages();
 
 app.Run();
+
+async Task DataSeeding()
+{
+    using (var scope = app.Services.CreateScope())
+    {
+        var dbInitializer = scope.ServiceProvider.GetRequiredService<IInicializerDb>();
+        await dbInitializer.Inicialize();
+    }
+}

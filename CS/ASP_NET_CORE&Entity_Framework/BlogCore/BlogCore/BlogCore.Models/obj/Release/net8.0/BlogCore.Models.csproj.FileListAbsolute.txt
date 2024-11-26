@@ -1,0 +1,13 @@
+C:\Users\josee\Desktop\p\CS\ASP_NET_CORE&Entity_Framework\BlogCore\BlogCore\BlogCore.Models\bin\Release\net8.0\BlogCore.Models.deps.json
+C:\Users\josee\Desktop\p\CS\ASP_NET_CORE&Entity_Framework\BlogCore\BlogCore\BlogCore.Models\bin\Release\net8.0\BlogCore.Models.dll
+C:\Users\josee\Desktop\p\CS\ASP_NET_CORE&Entity_Framework\BlogCore\BlogCore\BlogCore.Models\bin\Release\net8.0\BlogCore.Models.pdb
+C:\Users\josee\Desktop\p\CS\ASP_NET_CORE&Entity_Framework\BlogCore\BlogCore\BlogCore.Models\obj\Release\net8.0\BlogCore.Models.csproj.AssemblyReference.cache
+C:\Users\josee\Desktop\p\CS\ASP_NET_CORE&Entity_Framework\BlogCore\BlogCore\BlogCore.Models\obj\Release\net8.0\BlogCore.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josee\Desktop\p\CS\ASP_NET_CORE&Entity_Framework\BlogCore\BlogCore\BlogCore.Models\obj\Release\net8.0\BlogCore.Models.AssemblyInfoInputs.cache
+C:\Users\josee\Desktop\p\CS\ASP_NET_CORE&Entity_Framework\BlogCore\BlogCore\BlogCore.Models\obj\Release\net8.0\BlogCore.Models.AssemblyInfo.cs
+C:\Users\josee\Desktop\p\CS\ASP_NET_CORE&Entity_Framework\BlogCore\BlogCore\BlogCore.Models\obj\Release\net8.0\BlogCore.Models.csproj.CoreCompileInputs.cache
+C:\Users\josee\Desktop\p\CS\ASP_NET_CORE&Entity_Framework\BlogCore\BlogCore\BlogCore.Models\obj\Release\net8.0\BlogCore.Models.sourcelink.json
+C:\Users\josee\Desktop\p\CS\ASP_NET_CORE&Entity_Framework\BlogCore\BlogCore\BlogCore.Models\obj\Release\net8.0\BlogCore.Models.dll
+C:\Users\josee\Desktop\p\CS\ASP_NET_CORE&Entity_Framework\BlogCore\BlogCore\BlogCore.Models\obj\Release\net8.0\refint\BlogCore.Models.dll
+C:\Users\josee\Desktop\p\CS\ASP_NET_CORE&Entity_Framework\BlogCore\BlogCore\BlogCore.Models\obj\Release\net8.0\BlogCore.Models.pdb
+C:\Users\josee\Desktop\p\CS\ASP_NET_CORE&Entity_Framework\BlogCore\BlogCore\BlogCore.Models\obj\Release\net8.0\ref\BlogCore.Models.dll

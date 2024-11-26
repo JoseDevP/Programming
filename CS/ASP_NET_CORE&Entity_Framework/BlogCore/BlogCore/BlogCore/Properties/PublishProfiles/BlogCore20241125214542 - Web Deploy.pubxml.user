@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAtTNZGi84aEemDZpSdRWz6gAAAAACAAAAAAAQZgAAAAEAACAAAADZzzITMC8C2mLZGShozO/5iVxbzMbsv3TqnlgwqxrmSgAAAAAOgAAAAAIAACAAAAC82MSyIMttQ1BmvEQW+2z6LPG9gNgTgzeIymqNz8yaOIAAAABoM9JRNW5ttQbN27bVa8brUT47UbM9qx8nrh/OfSC0m3yoxQcCRObsAPBalv8nmkjdX2Zli9pzbKxGTQ+KoFCCckCXhPldl3aoQimSb0CXDOLnuJKytDbyTt1wEth9kGsYJwWWCy1xUDan7RMyyEhAJRQlS5f8eYPZtnbOfFFqA0AAAAD4/7dIwBpAcCj/uqQOApxULkDXrrnNlzLDM8Fnk6DFsGjckGyVmkVW7UdiX4rHVwxmkvdMH8GTG+vc7XmMjkZ+</EncryptedPassword>
+    <History>True|2024-11-25T21:08:04.8479953Z||;True|2024-11-25T22:05:21.5240443+01:00||;True|2024-11-25T22:00:32.5401047+01:00||;True|2024-11-25T21:55:02.4262396+01:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="ApplicationDbContextConnection">
+      <Value>Server=tcp:josee.database.windows.net,1433%3bInitial Catalog=BlogCoreAZ%3bPersist Security Info=False%3bUser ID=joseadmin%3bPassword=Jose0831%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+    <DestinationConnectionStrings Include="SQLConnection">
+      <Value>Server=tcp:josee.database.windows.net,1433%3bInitial Catalog=BlogCoreAZ%3bPersist Security Info=False%3bUser ID=joseadmin%3bPassword=Jose0831%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

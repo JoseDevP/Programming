@@ -18,6 +18,11 @@ namespace BlogCore.DataAccess.Data.Repository.IRepository
             _applicationDbContext = applicationDbContext;
         }
 
+        public IQueryable<Article> AsQueryable()
+        {
+            return _applicationDbContext.Set<Article>().AsQueryable();
+        }
+
         public async Task Update(Article article)
         {
             var obj = await _applicationDbContext.Articles.FirstOrDefaultAsync(c => c.Id == article.Id);

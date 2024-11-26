@@ -10,5 +10,9 @@ namespace BlogCore.Models.ViewModels
     {
         public IEnumerable<Slider> Sliders { get; set; }
         public IEnumerable<Article> ArticleList { get; set; }
+        
+        //pagination 
+        public int PageIndex { get; set; }
+        public int TotalPages { get; set; }
     }
 }
