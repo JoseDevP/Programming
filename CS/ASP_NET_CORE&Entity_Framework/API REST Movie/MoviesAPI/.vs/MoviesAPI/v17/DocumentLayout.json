@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A1EB57F2-531D-4A5F-8F1A-6AFAD1968A43}|MoviesAPI\\MoviesAPI.csproj|c:\\users\\josee\\desktop\\p\\cs\\asp_net_core\u0026entity_framework\\api rest movie\\moviesapi\\moviesapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1EB57F2-531D-4A5F-8F1A-6AFAD1968A43}|MoviesAPI\\MoviesAPI.csproj|solutionrelative:moviesapi\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1EB57F2-531D-4A5F-8F1A-6AFAD1968A43}|MoviesAPI\\MoviesAPI.csproj|c:\\users\\josee\\desktop\\p\\cs\\asp_net_core\u0026entity_framework\\api rest movie\\moviesapi\\moviesapi\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1EB57F2-531D-4A5F-8F1A-6AFAD1968A43}|MoviesAPI\\MoviesAPI.csproj|solutionrelative:moviesapi\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1EB57F2-531D-4A5F-8F1A-6AFAD1968A43}|MoviesAPI\\MoviesAPI.csproj|c:\\users\\josee\\desktop\\p\\cs\\asp_net_core\u0026entity_framework\\api rest movie\\moviesapi\\moviesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1EB57F2-531D-4A5F-8F1A-6AFAD1968A43}|MoviesAPI\\MoviesAPI.csproj|solutionrelative:moviesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\MoviesAPI\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "MoviesAPI\\Repository\\Repository.cs",
+              "ToolTip": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\MoviesAPI\\Repository\\Repository.cs",
+              "RelativeToolTip": "MoviesAPI\\Repository\\Repository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T18:57:54.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\MoviesAPI\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "MoviesAPI\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\MoviesAPI\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "MoviesAPI\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAJEAAAAAAAAAAAAcwJcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T17:57:07.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\MoviesAPI\\Program.cs",
+              "RelativeDocumentMoniker": "MoviesAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\MoviesAPI\\Program.cs",
+              "RelativeToolTip": "MoviesAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-29T15:39:31.791Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
