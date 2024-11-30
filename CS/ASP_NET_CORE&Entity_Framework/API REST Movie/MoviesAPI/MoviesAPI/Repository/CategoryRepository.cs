@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace MoviesAPI.Repository
 {
-    public class CategoryRepository : Repository<Category>, IRepository<Category>
+    public class CategoryRepository : Repository<Category>, ICategoryRepository
     {
         private readonly ApplicationDbContext _db;
 

@@ -92,30 +92,30 @@ namespace MoviesAPI.Controllers
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
         [ProducesResponseType(StatusCodes.Status401Unauthorized)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<IActionResult> PatchCategory(int categoryId,[FromBody] CategoryDTO categoryDTO)
+        public async Task<IActionResult> PatchCategory(int categoryId, [FromBody] CategoryDTO categoryDTO)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
-            if (categoryDTO == null || categoryId  != categoryDTO.Id)
+            if (categoryDTO == null || categoryId != categoryDTO.Id)
                 return BadRequest();
 
-            var currentCategory = _unitOfWork.CategoryRepository.GetById(categoryDTO.Id);
+            var currentCategory = await _unitOfWork.CategoryRepository.GetById(categoryId);
             if (currentCategory == null)
-                return NotFound($"No se encontró la categoria con id {categoryDTO.Id}");
+                return NotFound($"No se encontró la categoría con id {categoryId}");
 
-            var category = _mapper.Map<Category>(categoryDTO);
+            _mapper.Map(categoryDTO, currentCategory);
 
-            _unitOfWork.CategoryRepository.UpdateCategory(category);
-
+            // Guardar cambios
             if (!await _unitOfWork.Save())
             {
-                ModelState.AddModelError("", $"Algo ha salido mal al actualizar el registro {category.Name}");
-                return StatusCode(404, ModelState);
+                ModelState.AddModelError("", $"Algo ha salido mal al actualizar el registro {currentCategory.Name}");
+                return StatusCode(500, ModelState);
             }
 
             return NoContent();
         }
+
 
         [HttpPut("{categoryId:int}", Name = "PutCategory")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]

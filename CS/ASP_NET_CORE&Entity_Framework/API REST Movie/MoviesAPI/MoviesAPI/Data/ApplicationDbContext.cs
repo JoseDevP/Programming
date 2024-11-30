@@ -8,5 +8,6 @@ namespace MoviesAPI.Data
         public ApplicationDbContext(DbContextOptions dbContextOptions) :base(dbContextOptions) { }
 
         public DbSet<Category> Category { get; set; }
+        public DbSet<Movie> Movie { get; set; }
     }
 }
