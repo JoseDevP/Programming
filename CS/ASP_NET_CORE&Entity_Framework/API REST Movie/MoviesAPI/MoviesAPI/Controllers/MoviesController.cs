@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MoviesAPI.Models;
 using MoviesAPI.Models.DTOs;
+using MoviesAPI.Repository;
 using MoviesAPI.Repository.IRepository;
 
 namespace MoviesAPI.Controllers
@@ -140,5 +141,47 @@ namespace MoviesAPI.Controllers
 
             return NoContent();
         }
-    }
+
+        [HttpGet("GetMoviesInCategory/{idCategory:int}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<IActionResult> GetMoviesInCategory(int idCategory)
+        {
+            var moviesList = await _unitOfWork.MovieRepository.GetMoviesInCategory(idCategory);
+
+            if(moviesList == null)
+                return NotFound();
+
+            var movieItem = new List<MovieDTO>();
+            foreach (var movie in moviesList)
+            {
+                movieItem.Add(_mapper.Map<MovieDTO>(movie));
+            }
+
+            return Ok(movieItem);
+        }
+
+        [HttpGet("Search")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public async Task<IActionResult> Search(string name)
+        {           
+            try
+            {
+                var result = await _unitOfWork.MovieRepository.SearchMovie(name);
+                if (result.Any())
+                {
+                    return Ok(result);
+                }
+
+                return NotFound();
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError,"Error recuperando datos del servidor");   
+            }
+        }
+    }   
 }

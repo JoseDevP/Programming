@@ -4,6 +4,7 @@
     {
         CategoryRepository CategoryRepository { get; }
         MovieRepository MovieRepository { get; }
+        UserRepository UserRepository { get; }
         Task<bool> Save();
     }
 }

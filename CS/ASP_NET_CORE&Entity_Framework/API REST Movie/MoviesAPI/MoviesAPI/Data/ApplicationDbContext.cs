@@ -9,5 +9,6 @@ namespace MoviesAPI.Data
 
         public DbSet<Category> Category { get; set; }
         public DbSet<Movie> Movie { get; set; }
+        public DbSet<User> User { get; set; }
     }
 }

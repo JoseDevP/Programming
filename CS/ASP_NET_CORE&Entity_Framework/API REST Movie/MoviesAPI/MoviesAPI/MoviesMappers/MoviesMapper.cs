@@ -13,6 +13,12 @@ namespace MoviesAPI.MoviesMappers
 
             CreateMap<Movie, MovieDTO>().ReverseMap();
             CreateMap<Movie, MovieCreateDTO>().ReverseMap();
+
+            CreateMap<User, UserDataDTO>().ReverseMap();
+            CreateMap<User, UserDTO>().ReverseMap();
+            CreateMap<User, UserLoggingDTO>().ReverseMap();
+            CreateMap<User, UserLogingResponseDTO>().ReverseMap();
+            CreateMap<User, UserRegisterDTO>().ReverseMap();
         }
     }
 }

@@ -8,11 +8,14 @@ namespace MoviesAPI.Repository
         public readonly ApplicationDbContext _db;
         public CategoryRepository CategoryRepository { get; }
         public MovieRepository MovieRepository { get; }
-        public UnitOfWork(ApplicationDbContext db)
+        public UserRepository UserRepository { get; }
+
+        public UnitOfWork(ApplicationDbContext db, IConfiguration config)
         {
             _db = db;
             CategoryRepository = new CategoryRepository(db);
             MovieRepository = new MovieRepository(db);
+            UserRepository = new UserRepository(db,config);
         }
         public void Dispose()
         {
