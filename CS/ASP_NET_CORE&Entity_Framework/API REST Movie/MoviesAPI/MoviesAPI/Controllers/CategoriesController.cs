@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MoviesAPI.Models;
@@ -22,6 +23,7 @@ namespace MoviesAPI.Controllers
         [HttpGet("categories")]
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
         [ProducesResponseType(StatusCodes.Status200OK)]
+        //[EnableCors("CorsPolitic")]
         public async Task<IActionResult> GetCategories()
         {
             var categoriesList = await _unitOfWork.CategoryRepository.GetAllElements();
