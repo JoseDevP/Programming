@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MoviesAPI.Models;
@@ -20,7 +21,7 @@ namespace MoviesAPI.Controllers
             _mapper = mapper;
         }
 
-        [HttpGet("movies")]
+        [HttpGet]
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<IActionResult> GetMovies()
@@ -55,6 +56,7 @@ namespace MoviesAPI.Controllers
             return Ok(movieItemDTO);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPost]
         [ProducesResponseType(201, Type = typeof(MovieDTO))]
         [ProducesResponseType(StatusCodes.Status201Created)]
@@ -89,6 +91,7 @@ namespace MoviesAPI.Controllers
             return CreatedAtRoute("GetMovie", new { movieId = movie.Id }, movie);
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpPatch("{movieId:int}", Name = "PatchMovie")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]
@@ -118,6 +121,7 @@ namespace MoviesAPI.Controllers
             return NoContent();
         }
 
+        [Authorize(Roles = "Admin")]
         [HttpDelete("{movieId:int}", Name = "DeleteMovie")]
         [ProducesResponseType(StatusCodes.Status204NoContent)]
         [ProducesResponseType(StatusCodes.Status400BadRequest)]

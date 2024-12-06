@@ -23,7 +23,7 @@ namespace MoviesAPI.Controllers
             this._responseAPI = new ResponseAPI();
         }
 
-        [HttpGet("users")]
+        [HttpGet]
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<IActionResult> GetUsers()

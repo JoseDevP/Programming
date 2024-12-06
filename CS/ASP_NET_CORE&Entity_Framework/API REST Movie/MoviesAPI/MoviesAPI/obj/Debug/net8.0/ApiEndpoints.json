@@ -1,6 +1,31 @@
 [
   {
     "ContainingType": "MoviesAPI.Controllers.CategoriesController",
+    "Method": "GetCategories",
+    "RelativePath": "api/Categories",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 403
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "MoviesAPI.Controllers.CategoriesController",
     "Method": "CreateCategory",
     "RelativePath": "api/Categories",
     "HttpMethod": "POST",
@@ -261,9 +286,9 @@
     "EndpointName": "DeleteCategory"
   },
   {
-    "ContainingType": "MoviesAPI.Controllers.CategoriesController",
-    "Method": "GetCategories",
-    "RelativePath": "api/Categories/categories",
+    "ContainingType": "MoviesAPI.Controllers.MoviesController",
+    "Method": "GetMovies",
+    "RelativePath": "api/Movies",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -524,31 +549,6 @@
   },
   {
     "ContainingType": "MoviesAPI.Controllers.MoviesController",
-    "Method": "GetMovies",
-    "RelativePath": "api/Movies/movies",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 403
-      },
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
-  },
-  {
-    "ContainingType": "MoviesAPI.Controllers.MoviesController",
     "Method": "Search",
     "RelativePath": "api/Movies/Search",
     "HttpMethod": "GET",
@@ -580,6 +580,31 @@
         "Type": "System.Void",
         "MediaTypes": [],
         "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "MoviesAPI.Controllers.UsersController",
+    "Method": "GetUsers",
+    "RelativePath": "api/Users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 403
+      },
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
       }
     ]
   },
@@ -702,31 +727,6 @@
         "Type": "System.Void",
         "MediaTypes": [],
         "StatusCode": 500
-      }
-    ]
-  },
-  {
-    "ContainingType": "MoviesAPI.Controllers.UsersController",
-    "Method": "GetUsers",
-    "RelativePath": "api/Users/users",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": [
-      {
-        "Type": "Microsoft.AspNetCore.Mvc.ProblemDetails",
-        "MediaTypes": [
-          "text/plain",
-          "application/json",
-          "text/json"
-        ],
-        "StatusCode": 403
-      },
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
       }
     ]
   }

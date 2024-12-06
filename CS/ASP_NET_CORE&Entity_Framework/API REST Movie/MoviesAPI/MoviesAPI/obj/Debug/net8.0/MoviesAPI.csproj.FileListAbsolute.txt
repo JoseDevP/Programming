@@ -170,3 +170,4 @@ C:\Users\josee\Desktop\p\CS\ASP_NET_CORE&Entity_Framework\API REST Movie\MoviesA
 C:\Users\josee\Desktop\p\CS\ASP_NET_CORE&Entity_Framework\API REST Movie\MoviesAPI\MoviesAPI\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\josee\Desktop\p\CS\ASP_NET_CORE&Entity_Framework\API REST Movie\MoviesAPI\MoviesAPI\bin\Debug\net8.0\Microsoft.Practices.ServiceLocation.dll
 C:\Users\josee\Desktop\p\CS\ASP_NET_CORE&Entity_Framework\API REST Movie\MoviesAPI\MoviesAPI\bin\Debug\net8.0\XAct.Core.PCL.dll
+C:\Users\josee\Desktop\p\CS\ASP_NET_CORE&Entity_Framework\API REST Movie\MoviesAPI\MoviesAPI\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
