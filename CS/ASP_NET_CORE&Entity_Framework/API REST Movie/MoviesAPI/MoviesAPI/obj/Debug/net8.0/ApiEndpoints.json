@@ -1,8 +1,8 @@
 [
   {
-    "ContainingType": "MoviesAPI.Controllers.CategoriesController",
+    "ContainingType": "MoviesAPI.Controllers.CategoriesControllerV1",
     "Method": "GetCategories",
-    "RelativePath": "api/Categories",
+    "RelativePath": "api/v1/CategoriesControllerV",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -25,9 +25,9 @@
     ]
   },
   {
-    "ContainingType": "MoviesAPI.Controllers.CategoriesController",
+    "ContainingType": "MoviesAPI.Controllers.CategoriesControllerV1",
     "Method": "CreateCategory",
-    "RelativePath": "api/Categories",
+    "RelativePath": "api/v1/CategoriesControllerV",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -70,9 +70,9 @@
     ]
   },
   {
-    "ContainingType": "MoviesAPI.Controllers.CategoriesController",
+    "ContainingType": "MoviesAPI.Controllers.CategoriesControllerV1",
     "Method": "GetCategory",
-    "RelativePath": "api/Categories/{categoryId}",
+    "RelativePath": "api/v1/CategoriesControllerV/{categoryId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -120,9 +120,9 @@
     "EndpointName": "GetCategory"
   },
   {
-    "ContainingType": "MoviesAPI.Controllers.CategoriesController",
+    "ContainingType": "MoviesAPI.Controllers.CategoriesControllerV1",
     "Method": "PatchCategory",
-    "RelativePath": "api/Categories/{categoryId}",
+    "RelativePath": "api/v1/CategoriesControllerV/{categoryId}",
     "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,
@@ -171,9 +171,9 @@
     "EndpointName": "PatchCategory"
   },
   {
-    "ContainingType": "MoviesAPI.Controllers.CategoriesController",
+    "ContainingType": "MoviesAPI.Controllers.CategoriesControllerV1",
     "Method": "PutCategory",
-    "RelativePath": "api/Categories/{categoryId}",
+    "RelativePath": "api/v1/CategoriesControllerV/{categoryId}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -231,9 +231,9 @@
     "EndpointName": "PutCategory"
   },
   {
-    "ContainingType": "MoviesAPI.Controllers.CategoriesController",
+    "ContainingType": "MoviesAPI.Controllers.CategoriesControllerV1",
     "Method": "DeleteCategory",
-    "RelativePath": "api/Categories/{categoryId}",
+    "RelativePath": "api/v1/CategoriesControllerV/{categoryId}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -288,7 +288,7 @@
   {
     "ContainingType": "MoviesAPI.Controllers.MoviesController",
     "Method": "GetMovies",
-    "RelativePath": "api/Movies",
+    "RelativePath": "api/v1/Movies",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -313,7 +313,7 @@
   {
     "ContainingType": "MoviesAPI.Controllers.MoviesController",
     "Method": "CreateMovie",
-    "RelativePath": "api/Movies",
+    "RelativePath": "api/v1/Movies",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -358,7 +358,7 @@
   {
     "ContainingType": "MoviesAPI.Controllers.MoviesController",
     "Method": "GetMovie",
-    "RelativePath": "api/Movies/{movieId}",
+    "RelativePath": "api/v1/Movies/{movieId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -408,7 +408,7 @@
   {
     "ContainingType": "MoviesAPI.Controllers.MoviesController",
     "Method": "PatchMovie",
-    "RelativePath": "api/Movies/{movieId}",
+    "RelativePath": "api/v1/Movies/{movieId}",
     "HttpMethod": "PATCH",
     "IsController": true,
     "Order": 0,
@@ -459,7 +459,7 @@
   {
     "ContainingType": "MoviesAPI.Controllers.MoviesController",
     "Method": "DeleteMovie",
-    "RelativePath": "api/Movies/{movieId}",
+    "RelativePath": "api/v1/Movies/{movieId}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -514,7 +514,7 @@
   {
     "ContainingType": "MoviesAPI.Controllers.MoviesController",
     "Method": "GetMoviesInCategory",
-    "RelativePath": "api/Movies/GetMoviesInCategory/{idCategory}",
+    "RelativePath": "api/v1/Movies/GetMoviesInCategory/{idCategory}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -550,7 +550,7 @@
   {
     "ContainingType": "MoviesAPI.Controllers.MoviesController",
     "Method": "Search",
-    "RelativePath": "api/Movies/Search",
+    "RelativePath": "api/v1/Movies/Search",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -586,7 +586,7 @@
   {
     "ContainingType": "MoviesAPI.Controllers.UsersController",
     "Method": "GetUsers",
-    "RelativePath": "api/Users",
+    "RelativePath": "api/v1/Users",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -611,7 +611,7 @@
   {
     "ContainingType": "MoviesAPI.Controllers.UsersController",
     "Method": "GetUser",
-    "RelativePath": "api/Users/{userId}",
+    "RelativePath": "api/v1/Users/{userId}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -661,7 +661,7 @@
   {
     "ContainingType": "MoviesAPI.Controllers.UsersController",
     "Method": "LoginUser",
-    "RelativePath": "api/Users/login",
+    "RelativePath": "api/v1/Users/login",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -697,7 +697,7 @@
   {
     "ContainingType": "MoviesAPI.Controllers.UsersController",
     "Method": "RegisterUser",
-    "RelativePath": "api/Users/register",
+    "RelativePath": "api/v1/Users/register",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -727,6 +727,26 @@
         "Type": "System.Void",
         "MediaTypes": [],
         "StatusCode": 500
+      }
+    ]
+  },
+  {
+    "ContainingType": "MoviesAPI.Controllers.CategoriesControllerV2",
+    "Method": "Get",
+    "RelativePath": "api/v2/CategoriesControllerV",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
       }
     ]
   }

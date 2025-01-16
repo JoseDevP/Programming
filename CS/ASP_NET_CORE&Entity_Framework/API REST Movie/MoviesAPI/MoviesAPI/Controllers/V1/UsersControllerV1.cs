@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using Asp.Versioning;
+using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MoviesAPI.Models;
@@ -6,21 +7,23 @@ using MoviesAPI.Models.DTOs;
 using MoviesAPI.Repository.IRepository;
 using System.Net;
 
-namespace MoviesAPI.Controllers
+namespace MoviesAPI.Controllers.V1
 {
-    [Route("api/[controller]")]
+    [ResponseCache(CacheProfileName = "Default")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     [ApiController]
-    public class UsersController : ControllerBase
+    [ApiVersion("1.0")]
+    public class UsersControllerV1 : ControllerBase
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
         protected ResponseAPI _responseAPI;
 
-        public UsersController(IUnitOfWork unitOfWork, IMapper mapper)
+        public UsersControllerV1(IUnitOfWork unitOfWork, IMapper mapper)
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
-            this._responseAPI = new ResponseAPI();
+            _responseAPI = new ResponseAPI();
         }
 
         [HttpGet]
@@ -65,7 +68,7 @@ namespace MoviesAPI.Controllers
         public async Task<IActionResult> RegisterUser([FromBody] UserRegisterDTO userRegisterDTO)
         {
             bool validateUserNameUnique = await _unitOfWork.UserRepository.IsUniqueUser(userRegisterDTO.UserName);
-            if(!validateUserNameUnique)
+            if (!validateUserNameUnique)
             {
                 _responseAPI.StatusCode = HttpStatusCode.BadRequest;
 

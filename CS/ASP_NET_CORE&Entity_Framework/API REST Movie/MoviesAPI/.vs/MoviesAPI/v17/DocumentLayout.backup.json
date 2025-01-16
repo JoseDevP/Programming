@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A1EB57F2-531D-4A5F-8F1A-6AFAD1968A43}|MoviesAPI\\MoviesAPI.csproj|c:\\users\\josee\\desktop\\p\\cs\\asp_net_core\u0026entity_framework\\api rest movie\\moviesapi\\moviesapi\\controllers\\categoriescontrollerv1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1EB57F2-531D-4A5F-8F1A-6AFAD1968A43}|MoviesAPI\\MoviesAPI.csproj|solutionrelative:moviesapi\\controllers\\categoriescontrollerv1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1EB57F2-531D-4A5F-8F1A-6AFAD1968A43}|MoviesAPI\\MoviesAPI.csproj|c:\\users\\josee\\desktop\\p\\cs\\asp_net_core\u0026entity_framework\\api rest movie\\moviesapi\\moviesapi\\controllers\\categoriescontrollerv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1EB57F2-531D-4A5F-8F1A-6AFAD1968A43}|MoviesAPI\\MoviesAPI.csproj|solutionrelative:moviesapi\\controllers\\categoriescontrollerv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A1EB57F2-531D-4A5F-8F1A-6AFAD1968A43}|MoviesAPI\\MoviesAPI.csproj|c:\\users\\josee\\desktop\\p\\cs\\asp_net_core\u0026entity_framework\\api rest movie\\moviesapi\\moviesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1EB57F2-531D-4A5F-8F1A-6AFAD1968A43}|MoviesAPI\\MoviesAPI.csproj|solutionrelative:moviesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CategoriesControllerV1.cs",
+              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\MoviesAPI\\Controllers\\CategoriesControllerV1.cs",
+              "RelativeDocumentMoniker": "MoviesAPI\\Controllers\\CategoriesControllerV1.cs",
+              "ToolTip": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\MoviesAPI\\Controllers\\CategoriesControllerV1.cs",
+              "RelativeToolTip": "MoviesAPI\\Controllers\\CategoriesControllerV1.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAUwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T16:48:39.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoriesControllerV2.cs",
+              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\MoviesAPI\\Controllers\\CategoriesControllerV2.cs",
+              "RelativeDocumentMoniker": "MoviesAPI\\Controllers\\CategoriesControllerV2.cs",
+              "ToolTip": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\MoviesAPI\\Controllers\\CategoriesControllerV2.cs",
+              "RelativeToolTip": "MoviesAPI\\Controllers\\CategoriesControllerV2.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwA4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-16T13:01:46.42Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\MoviesAPI\\Program.cs",
               "RelativeDocumentMoniker": "MoviesAPI\\Program.cs",
               "ToolTip": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\MoviesAPI\\Program.cs",
               "RelativeToolTip": "MoviesAPI\\Program.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAAADIAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAJIAAAAAAAAAAAAiwHMAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T14:29:19.154Z",
               "EditorCaption": ""

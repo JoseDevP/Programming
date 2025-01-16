@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using Asp.Versioning;
+using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -7,15 +8,17 @@ using MoviesAPI.Models.DTOs;
 using MoviesAPI.Repository;
 using MoviesAPI.Repository.IRepository;
 
-namespace MoviesAPI.Controllers
+namespace MoviesAPI.Controllers.V1
 {
-    [Route("api/[controller]")]
+    [ResponseCache(CacheProfileName = "Default")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     [ApiController]
-    public class MoviesController : ControllerBase
+    [ApiVersion("1.0")]
+    public class MoviesControllerV1 : ControllerBase
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
-        public MoviesController(IUnitOfWork unitOfWork, IMapper mapper)
+        public MoviesControllerV1(IUnitOfWork unitOfWork, IMapper mapper)
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
@@ -109,8 +112,8 @@ namespace MoviesAPI.Controllers
             if (currentMovie == null)
                 return NotFound($"No se encontró la película con id {movieId}");
 
-            _mapper.Map(movieDTO, currentMovie); 
-            currentMovie.CreationDate = DateTime.Now; 
+            _mapper.Map(movieDTO, currentMovie);
+            currentMovie.CreationDate = DateTime.Now;
 
             if (!await _unitOfWork.Save())
             {
@@ -154,7 +157,7 @@ namespace MoviesAPI.Controllers
         {
             var moviesList = await _unitOfWork.MovieRepository.GetMoviesInCategory(idCategory);
 
-            if(moviesList == null)
+            if (moviesList == null)
                 return NotFound();
 
             var movieItem = new List<MovieDTO>();
@@ -171,7 +174,7 @@ namespace MoviesAPI.Controllers
         [ProducesResponseType(StatusCodes.Status404NotFound)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> Search(string name)
-        {           
+        {
             try
             {
                 var result = await _unitOfWork.MovieRepository.SearchMovie(name);
@@ -184,8 +187,8 @@ namespace MoviesAPI.Controllers
             }
             catch (Exception)
             {
-                return StatusCode(StatusCodes.Status500InternalServerError,"Error recuperando datos del servidor");   
+                return StatusCode(StatusCodes.Status500InternalServerError, "Error recuperando datos del servidor");
             }
         }
-    }   
+    }
 }

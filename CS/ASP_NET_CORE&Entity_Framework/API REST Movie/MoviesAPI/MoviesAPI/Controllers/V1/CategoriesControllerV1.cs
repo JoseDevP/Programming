@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using Asp.Versioning;
+using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Http;
@@ -7,21 +8,24 @@ using MoviesAPI.Models;
 using MoviesAPI.Models.DTOs;
 using MoviesAPI.Repository.IRepository;
 
-namespace MoviesAPI.Controllers
+namespace MoviesAPI.Controllers.V1
 {
-    [Route("api/[controller]")]
+    [ResponseCache(CacheProfileName = "Default")]
+    [Route("api/v{version:apiVersion}/[controller]")]
     [ApiController]
-    public class CategoriesController : ControllerBase
+    [ApiVersion("1.0")]
+    public class CategoriesControllerV1 : ControllerBase
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
-        public CategoriesController(IUnitOfWork unitOfWork, IMapper mapper)
+        public CategoriesControllerV1(IUnitOfWork unitOfWork, IMapper mapper)
         {
             _unitOfWork = unitOfWork;
             _mapper = mapper;
         }
 
         [HttpGet()]
+        //[MapToApiVersion("1.0")]
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
         [ProducesResponseType(StatusCodes.Status200OK)]
         //[EnableCors("CorsPolitic")]
@@ -39,6 +43,9 @@ namespace MoviesAPI.Controllers
             return Ok(dtoCategoriesList);
         }
 
+
+
+
         [HttpGet("{categoryId:int}", Name = "GetCategory")]
         [ProducesResponseType(StatusCodes.Status403Forbidden)]
         [ProducesResponseType(StatusCodes.Status200OK)]
@@ -48,7 +55,7 @@ namespace MoviesAPI.Controllers
         {
             var categoryItem = await _unitOfWork.CategoryRepository.GetById(categoryId);
 
-            if(categoryItem == null) 
+            if (categoryItem == null)
                 return NotFound();
 
             var cartegoryItemDTO = _mapper.Map<CategoryDTO>(categoryItem);
@@ -71,10 +78,10 @@ namespace MoviesAPI.Controllers
             if (categoryCreateDTO == null)
                 return BadRequest();
 
-            if(await _unitOfWork.CategoryRepository.ElementExist(categoryCreateDTO.Name))
+            if (await _unitOfWork.CategoryRepository.ElementExist(categoryCreateDTO.Name))
             {
-                ModelState.AddModelError("",$"La categoria ya existe");
-                return StatusCode(404,ModelState);
+                ModelState.AddModelError("", $"La categoria ya existe");
+                return StatusCode(404, ModelState);
             }
 
             var category = _mapper.Map<Category>(categoryCreateDTO);
@@ -82,13 +89,13 @@ namespace MoviesAPI.Controllers
 
             await _unitOfWork.CategoryRepository.CreateElement(category);
 
-            if (! await _unitOfWork.Save())
+            if (!await _unitOfWork.Save())
             {
                 ModelState.AddModelError("", $"Algo ha salido mal al guardar el registro {category.Name}");
                 return StatusCode(404, ModelState);
             }
 
-            return CreatedAtRoute("GetCategory", new {categoryId = category.Id}, category);
+            return CreatedAtRoute("GetCategory", new { categoryId = category.Id }, category);
         }
 
         [Authorize(Roles = "Admin")]
@@ -137,7 +144,7 @@ namespace MoviesAPI.Controllers
                 return BadRequest();
 
             var currentCategory = _unitOfWork.CategoryRepository.GetById(categoryDTO.Id);
-            if (currentCategory == null) 
+            if (currentCategory == null)
                 return NotFound($"No se encontró la categoria con id {categoryDTO.Id}");
 
             var category = _mapper.Map<Category>(categoryDTO);
@@ -162,7 +169,7 @@ namespace MoviesAPI.Controllers
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<IActionResult> DeleteCategory(int categoryId)
         {
-            if (! await _unitOfWork.CategoryRepository.ElementExist(categoryId))
+            if (!await _unitOfWork.CategoryRepository.ElementExist(categoryId))
                 return NotFound();
 
             var category = await _unitOfWork.CategoryRepository.GetById(categoryId);
