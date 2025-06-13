@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE&Entity_Framework\\API_EntityFramework\\Core\\Core.csproj",
+      "projectUniqueName": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE&Entity_Framework\\API_EntityFramework\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE&Entity_Framework\\API_EntityFramework\\Core\\Core.csproj",
+      "projectPath": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE&Entity_Framework\\API_EntityFramework\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\josee\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE&Entity_Framework\\API_EntityFramework\\Core\\obj\\",
+      "outputPath": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE&Entity_Framework\\API_EntityFramework\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -51,7 +51,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -72,7 +73,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

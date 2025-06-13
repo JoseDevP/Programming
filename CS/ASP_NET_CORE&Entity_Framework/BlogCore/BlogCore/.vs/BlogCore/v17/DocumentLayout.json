@@ -1,29 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\",
+  "WorkspaceRootPath": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{93FF47F7-F7A1-4422-AC04-0C0E49FB2AB7}|BlogCore\\BlogCore.csproj|c:\\users\\josee\\desktop\\p\\cs\\asp_net_core\u0026entity_framework\\blogcore\\blogcore\\blogcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{93FF47F7-F7A1-4422-AC04-0C0E49FB2AB7}|BlogCore\\BlogCore.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\blogcore\\blogcore\\blogcore\\areas\\admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93FF47F7-F7A1-4422-AC04-0C0E49FB2AB7}|BlogCore\\BlogCore.csproj|solutionrelative:blogcore\\areas\\admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93FF47F7-F7A1-4422-AC04-0C0E49FB2AB7}|BlogCore\\BlogCore.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\blogcore\\blogcore\\blogcore\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93FF47F7-F7A1-4422-AC04-0C0E49FB2AB7}|BlogCore\\BlogCore.csproj|solutionrelative:blogcore\\areas\\admin\\controllers\\categoriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93FF47F7-F7A1-4422-AC04-0C0E49FB2AB7}|BlogCore\\BlogCore.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\blogcore\\blogcore\\blogcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93FF47F7-F7A1-4422-AC04-0C0E49FB2AB7}|BlogCore\\BlogCore.csproj|solutionrelative:blogcore\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93FF47F7-F7A1-4422-AC04-0C0E49FB2AB7}|BlogCore\\BlogCore.csproj|c:\\users\\josee\\desktop\\p\\cs\\asp_net_core\u0026entity_framework\\blogcore\\blogcore\\blogcore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{93FF47F7-F7A1-4422-AC04-0C0E49FB2AB7}|BlogCore\\BlogCore.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\blogcore\\blogcore\\blogcore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{93FF47F7-F7A1-4422-AC04-0C0E49FB2AB7}|BlogCore\\BlogCore.csproj|solutionrelative:blogcore\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{504DBE54-34C9-47C0-AFF9-8258CDC0FF98}|BlogCore.DataAccess\\BlogCore.DataAccess.csproj|c:\\users\\josee\\desktop\\p\\cs\\asp_net_core\u0026entity_framework\\blogcore\\blogcore\\blogcore.dataaccess\\initializer\\inicializerdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{504DBE54-34C9-47C0-AFF9-8258CDC0FF98}|BlogCore.DataAccess\\BlogCore.DataAccess.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\blogcore\\blogcore\\blogcore.dataaccess\\initializer\\inicializerdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{504DBE54-34C9-47C0-AFF9-8258CDC0FF98}|BlogCore.DataAccess\\BlogCore.DataAccess.csproj|solutionrelative:blogcore.dataaccess\\initializer\\inicializerdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{504DBE54-34C9-47C0-AFF9-8258CDC0FF98}|BlogCore.DataAccess\\BlogCore.DataAccess.csproj|c:\\users\\josee\\desktop\\p\\cs\\asp_net_core\u0026entity_framework\\blogcore\\blogcore\\blogcore.dataaccess\\initializer\\iinicializerdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{504DBE54-34C9-47C0-AFF9-8258CDC0FF98}|BlogCore.DataAccess\\BlogCore.DataAccess.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\blogcore\\blogcore\\blogcore.dataaccess\\initializer\\iinicializerdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{504DBE54-34C9-47C0-AFF9-8258CDC0FF98}|BlogCore.DataAccess\\BlogCore.DataAccess.csproj|solutionrelative:blogcore.dataaccess\\initializer\\iinicializerdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93FF47F7-F7A1-4422-AC04-0C0E49FB2AB7}|BlogCore\\BlogCore.csproj|c:\\users\\josee\\desktop\\p\\cs\\asp_net_core\u0026entity_framework\\blogcore\\blogcore\\blogcore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{93FF47F7-F7A1-4422-AC04-0C0E49FB2AB7}|BlogCore\\BlogCore.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\blogcore\\blogcore\\blogcore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{93FF47F7-F7A1-4422-AC04-0C0E49FB2AB7}|BlogCore\\BlogCore.csproj|solutionrelative:blogcore\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93FF47F7-F7A1-4422-AC04-0C0E49FB2AB7}|BlogCore\\BlogCore.csproj|c:\\users\\josee\\desktop\\p\\cs\\asp_net_core\u0026entity_framework\\blogcore\\blogcore\\blogcore\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{93FF47F7-F7A1-4422-AC04-0C0E49FB2AB7}|BlogCore\\BlogCore.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\blogcore\\blogcore\\blogcore\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{93FF47F7-F7A1-4422-AC04-0C0E49FB2AB7}|BlogCore\\BlogCore.csproj|solutionrelative:blogcore\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
@@ -34,28 +42,53 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\appsettings.json",
-              "RelativeDocumentMoniker": "BlogCore\\appsettings.json",
-              "ToolTip": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\appsettings.json",
-              "RelativeToolTip": "BlogCore\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-26T10:02:52.609Z",
+              "DocumentIndex": 0,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "BlogCore\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "BlogCore\\Areas\\Admin\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:14:14.283Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "CategoriesController.cs",
+              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "RelativeDocumentMoniker": "BlogCore\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "RelativeToolTip": "BlogCore\\Areas\\Admin\\Controllers\\CategoriesController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T17:13:54.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\appsettings.json",
+              "RelativeDocumentMoniker": "BlogCore\\appsettings.json",
+              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\appsettings.json",
+              "RelativeToolTip": "BlogCore\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-26T10:02:52.609Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\Program.cs",
               "RelativeDocumentMoniker": "BlogCore\\Program.cs",
-              "ToolTip": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\Program.cs",
+              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\Program.cs",
               "RelativeToolTip": "BlogCore\\Program.cs",
               "ViewState": "AgIAACAAAAAAAAAAAAAAACQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -64,24 +97,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "InicializerDb.cs",
-              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore.DataAccess\\Initializer\\InicializerDb.cs",
+              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore.DataAccess\\Initializer\\InicializerDb.cs",
               "RelativeDocumentMoniker": "BlogCore.DataAccess\\Initializer\\InicializerDb.cs",
-              "ToolTip": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore.DataAccess\\Initializer\\InicializerDb.cs",
+              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore.DataAccess\\Initializer\\InicializerDb.cs",
               "RelativeToolTip": "BlogCore.DataAccess\\Initializer\\InicializerDb.cs",
               "ViewState": "AgIAABUAAAAAAAAAAAAhwC8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T18:22:25.065Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-25T18:22:25.065Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "IInicializerDb.cs",
-              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore.DataAccess\\Initializer\\IInicializerDb.cs",
+              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore.DataAccess\\Initializer\\IInicializerDb.cs",
               "RelativeDocumentMoniker": "BlogCore.DataAccess\\Initializer\\IInicializerDb.cs",
-              "ToolTip": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore.DataAccess\\Initializer\\IInicializerDb.cs",
+              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore.DataAccess\\Initializer\\IInicializerDb.cs",
               "RelativeToolTip": "BlogCore.DataAccess\\Initializer\\IInicializerDb.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -89,11 +121,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\wwwroot\\css\\site.css",
+              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "BlogCore\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\wwwroot\\css\\site.css",
               "RelativeToolTip": "BlogCore\\wwwroot\\css\\site.css",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAACcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -101,11 +133,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "BlogCore\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\BlogCore\\BlogCore\\BlogCore\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "BlogCore\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAEsAAAAAAAAAAAAAAF4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",

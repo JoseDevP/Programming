@@ -1,18 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A1EB57F2-531D-4A5F-8F1A-6AFAD1968A43}|MoviesAPI\\MoviesAPI.csproj|c:\\users\\josee\\desktop\\p\\cs\\asp_net_core\u0026entity_framework\\api rest movie\\moviesapi\\moviesapi\\controllers\\v1\\categoriescontrollerv1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1EB57F2-531D-4A5F-8F1A-6AFAD1968A43}|MoviesAPI\\MoviesAPI.csproj|solutionrelative:moviesapi\\controllers\\v1\\categoriescontrollerv1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1EB57F2-531D-4A5F-8F1A-6AFAD1968A43}|MoviesAPI\\MoviesAPI.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\api rest movie\\moviesapi\\moviesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1EB57F2-531D-4A5F-8F1A-6AFAD1968A43}|MoviesAPI\\MoviesAPI.csproj|solutionrelative:moviesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1EB57F2-531D-4A5F-8F1A-6AFAD1968A43}|MoviesAPI\\MoviesAPI.csproj|c:\\users\\josee\\desktop\\p\\cs\\asp_net_core\u0026entity_framework\\api rest movie\\moviesapi\\moviesapi\\controllers\\v2\\categoriescontrollerv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A1EB57F2-531D-4A5F-8F1A-6AFAD1968A43}|MoviesAPI\\MoviesAPI.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\api rest movie\\moviesapi\\moviesapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A1EB57F2-531D-4A5F-8F1A-6AFAD1968A43}|MoviesAPI\\MoviesAPI.csproj|solutionrelative:moviesapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1EB57F2-531D-4A5F-8F1A-6AFAD1968A43}|MoviesAPI\\MoviesAPI.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\api rest movie\\moviesapi\\moviesapi\\controllers\\v2\\categoriescontrollerv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A1EB57F2-531D-4A5F-8F1A-6AFAD1968A43}|MoviesAPI\\MoviesAPI.csproj|solutionrelative:moviesapi\\controllers\\v2\\categoriescontrollerv2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1EB57F2-531D-4A5F-8F1A-6AFAD1968A43}|MoviesAPI\\MoviesAPI.csproj|c:\\users\\josee\\desktop\\p\\cs\\asp_net_core\u0026entity_framework\\api rest movie\\moviesapi\\moviesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1EB57F2-531D-4A5F-8F1A-6AFAD1968A43}|MoviesAPI\\MoviesAPI.csproj|solutionrelative:moviesapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A1EB57F2-531D-4A5F-8F1A-6AFAD1968A43}|MoviesAPI\\MoviesAPI.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\api rest movie\\moviesapi\\moviesapi\\controllers\\v1\\moviescontrollerv1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1EB57F2-531D-4A5F-8F1A-6AFAD1968A43}|MoviesAPI\\MoviesAPI.csproj|solutionrelative:moviesapi\\controllers\\v1\\moviescontrollerv1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1EB57F2-531D-4A5F-8F1A-6AFAD1968A43}|MoviesAPI\\MoviesAPI.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\api rest movie\\moviesapi\\moviesapi\\controllers\\v1\\categoriescontrollerv1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1EB57F2-531D-4A5F-8F1A-6AFAD1968A43}|MoviesAPI\\MoviesAPI.csproj|solutionrelative:moviesapi\\controllers\\v1\\categoriescontrollerv1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1EB57F2-531D-4A5F-8F1A-6AFAD1968A43}|MoviesAPI\\MoviesAPI.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\api rest movie\\moviesapi\\moviesapi\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1EB57F2-531D-4A5F-8F1A-6AFAD1968A43}|MoviesAPI\\MoviesAPI.csproj|solutionrelative:moviesapi\\repository\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1EB57F2-531D-4A5F-8F1A-6AFAD1968A43}|MoviesAPI\\MoviesAPI.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\api rest movie\\moviesapi\\moviesapi\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1EB57F2-531D-4A5F-8F1A-6AFAD1968A43}|MoviesAPI\\MoviesAPI.csproj|solutionrelative:moviesapi\\repository\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1EB57F2-531D-4A5F-8F1A-6AFAD1968A43}|MoviesAPI\\MoviesAPI.csproj|c:\\users\\josee\\desktop\\github\\programming\\cs\\asp_net_core\u0026entity_framework\\api rest movie\\moviesapi\\moviesapi\\repository\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1EB57F2-531D-4A5F-8F1A-6AFAD1968A43}|MoviesAPI\\MoviesAPI.csproj|solutionrelative:moviesapi\\repository\\movierepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,43 +42,105 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\MoviesAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "MoviesAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\MoviesAPI\\appsettings.json",
+              "RelativeToolTip": "MoviesAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-07T16:58:58.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MoviesControllerV1.cs",
+              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\MoviesAPI\\Controllers\\V1\\MoviesControllerV1.cs",
+              "RelativeDocumentMoniker": "MoviesAPI\\Controllers\\V1\\MoviesControllerV1.cs",
+              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\MoviesAPI\\Controllers\\V1\\MoviesControllerV1.cs",
+              "RelativeToolTip": "MoviesAPI\\Controllers\\V1\\MoviesControllerV1.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-07T16:36:39.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\MoviesAPI\\Repository\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "MoviesAPI\\Repository\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\MoviesAPI\\Repository\\UnitOfWork.cs",
+              "RelativeToolTip": "MoviesAPI\\Repository\\UnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T14:46:44.776Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MovieRepository.cs",
+              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\MoviesAPI\\Repository\\MovieRepository.cs",
+              "RelativeDocumentMoniker": "MoviesAPI\\Repository\\MovieRepository.cs",
+              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\MoviesAPI\\Repository\\MovieRepository.cs",
+              "RelativeToolTip": "MoviesAPI\\Repository\\MovieRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T10:49:32.44Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\MoviesAPI\\Repository\\Repository.cs",
+              "RelativeDocumentMoniker": "MoviesAPI\\Repository\\Repository.cs",
+              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\MoviesAPI\\Repository\\Repository.cs",
+              "RelativeToolTip": "MoviesAPI\\Repository\\Repository.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAA5wAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-02T10:43:41.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "CategoriesControllerV1.cs",
-              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\MoviesAPI\\Controllers\\V1\\CategoriesControllerV1.cs",
+              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\MoviesAPI\\Controllers\\V1\\CategoriesControllerV1.cs",
               "RelativeDocumentMoniker": "MoviesAPI\\Controllers\\V1\\CategoriesControllerV1.cs",
-              "ToolTip": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\MoviesAPI\\Controllers\\V1\\CategoriesControllerV1.cs",
+              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\MoviesAPI\\Controllers\\V1\\CategoriesControllerV1.cs",
               "RelativeToolTip": "MoviesAPI\\Controllers\\V1\\CategoriesControllerV1.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAUwB8AAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-11T16:48:39.48Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CategoriesControllerV2.cs",
-              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\MoviesAPI\\Controllers\\V2\\CategoriesControllerV2.cs",
+              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\MoviesAPI\\Controllers\\V2\\CategoriesControllerV2.cs",
               "RelativeDocumentMoniker": "MoviesAPI\\Controllers\\V2\\CategoriesControllerV2.cs",
-              "ToolTip": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\MoviesAPI\\Controllers\\V2\\CategoriesControllerV2.cs",
+              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\MoviesAPI\\Controllers\\V2\\CategoriesControllerV2.cs",
               "RelativeToolTip": "MoviesAPI\\Controllers\\V2\\CategoriesControllerV2.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAiwA0AAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-16T13:01:46.42Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\MoviesAPI\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\MoviesAPI\\Program.cs",
               "RelativeDocumentMoniker": "MoviesAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\MoviesAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE\u0026Entity_Framework\\API REST Movie\\MoviesAPI\\MoviesAPI\\Program.cs",
               "RelativeToolTip": "MoviesAPI\\Program.cs",
-              "ViewState": "AgIAAJIAAAAAAAAAAAAiwHMAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAHMAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T14:29:19.154Z",
               "EditorCaption": ""

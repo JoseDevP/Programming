@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "dXfTsxsaxgM=",
+  "dgSpecHash": "7T2tK+vtZdQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE&Entity_Framework\\API_EntityFramework\\BeerShopControllerAPI\\BeerShop.csproj",
+  "projectFilePath": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE&Entity_Framework\\API_EntityFramework\\BeerShopControllerAPI\\BeerShop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\josee\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\josee\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

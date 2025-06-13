@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4S9T4030VDI=",
+  "dgSpecHash": "8SEAsgdkLME=",
   "success": true,
-  "projectFilePath": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE&Entity_Framework\\API_EntityFramework\\UnitTests\\UnitTests\\UnitTests.csproj",
+  "projectFilePath": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE&Entity_Framework\\API_EntityFramework\\UnitTests\\UnitTests\\UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\josee\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\josee\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

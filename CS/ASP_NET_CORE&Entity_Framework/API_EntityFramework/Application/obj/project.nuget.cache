@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FlUsHWYsd14=",
+  "dgSpecHash": "y3Sp/zcA/wQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\josee\\Desktop\\p\\CS\\ASP_NET_CORE&Entity_Framework\\API_EntityFramework\\Application\\Application.csproj",
+  "projectFilePath": "C:\\Users\\josee\\Desktop\\Github\\Programming\\CS\\ASP_NET_CORE&Entity_Framework\\API_EntityFramework\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\josee\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\josee\\.nuget\\packages\\fluentvalidation\\11.10.0\\fluentvalidation.11.10.0.nupkg.sha512",
