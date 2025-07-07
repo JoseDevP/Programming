@@ -16,6 +16,7 @@ C:\Users\josee\Desktop\Github\Programming\WebFabi\Web\Web\wwwroot\lib\bootstrap\
 C:\Users\josee\Desktop\Github\Programming\WebFabi\Web\Web\wwwroot\lib\bootstrap\dist\js\bootstrap.esm.min.js.map
 C:\Users\josee\Desktop\Github\Programming\WebFabi\Web\Web\wwwroot\lib\jquery\dist\jquery.slim.min.js
 C:\Users\josee\Desktop\Github\Programming\WebFabi\Web\Web\wwwroot\lib\bootstrap\dist\css\bootstrap-reboot.min.css
+C:\Users\josee\Desktop\Github\Programming\WebFabi\Web\Web\wwwroot\js\category.js
 C:\Users\josee\Desktop\Github\Programming\WebFabi\Web\Web\wwwroot\lib\bootstrap\dist\css\bootstrap-utilities.min.css.map
 C:\Users\josee\Desktop\Github\Programming\WebFabi\Web\Web\wwwroot\lib\bootstrap\dist\js\bootstrap.js
 C:\Users\josee\Desktop\Github\Programming\WebFabi\Web\Web\wwwroot\favicon.ico
@@ -62,6 +63,7 @@ C:\Users\josee\Desktop\Github\Programming\WebFabi\Web\Web\wwwroot\lib\bootstrap\
 C:\Users\josee\Desktop\Github\Programming\WebFabi\Web\Web\wwwroot\lib\bootstrap\dist\css\bootstrap-grid.rtl.min.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
+wwwroot\js\category.js
 wwwroot\js\site.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map

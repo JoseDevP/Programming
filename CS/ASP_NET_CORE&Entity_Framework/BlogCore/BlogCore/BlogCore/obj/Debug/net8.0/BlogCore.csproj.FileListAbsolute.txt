@@ -602,3 +602,7 @@ C:\Users\josee\Desktop\p\CS\ASP_NET_CORE&Entity_Framework\BlogCore\BlogCore\Blog
 C:\Users\josee\Desktop\p\CS\ASP_NET_CORE&Entity_Framework\BlogCore\BlogCore\BlogCore\obj\Debug\net8.0\BlogCore.pdb
 C:\Users\josee\Desktop\p\CS\ASP_NET_CORE&Entity_Framework\BlogCore\BlogCore\BlogCore\obj\Debug\net8.0\BlogCore.genruntimeconfig.cache
 C:\Users\josee\Desktop\p\CS\ASP_NET_CORE&Entity_Framework\BlogCore\BlogCore\BlogCore\obj\Debug\net8.0\ref\BlogCore.dll
+C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\BlogCore\BlogCore\BlogCore\bin\Debug\net8.0\BlogCore.staticwebassets.endpoints.json
+C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\BlogCore\BlogCore\BlogCore\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\BlogCore\BlogCore\BlogCore\obj\Debug\net8.0\staticwebassets\msbuild.BlogCore.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\josee\Desktop\Github\Programming\CS\ASP_NET_CORE&Entity_Framework\BlogCore\BlogCore\BlogCore\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
