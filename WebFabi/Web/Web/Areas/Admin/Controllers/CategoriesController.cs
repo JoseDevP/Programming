@@ -1,4 +1,5 @@
-﻿using BlogCore.Models;
+﻿using Core.Interfaces;
+using Core.Models;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Web.Areas.Admin.Controllers
@@ -6,6 +7,13 @@ namespace Web.Areas.Admin.Controllers
     [Area("Admin")]
     public class CategoriesController : Controller
     {
+        private readonly IUnitOfWork _unitOfWork;
+
+        public CategoriesController(IUnitOfWork unitOfWork)
+        {
+            _unitOfWork = unitOfWork;
+        }
+
         [HttpGet]
         public IActionResult Index()
         {
@@ -28,14 +36,28 @@ namespace Web.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create(Category category)
         {
-            return RedirectToAction(nameof(Index));
+            if (ModelState.IsValid)
+            {
+                await _unitOfWork._categoriesRepository.CreateElement(category);
+                await _unitOfWork.Save();
+                return RedirectToAction(nameof(Index));
+            }
+
+            return View(category);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(Category category)
         {
-            return RedirectToAction(nameof(Index));
+            if (ModelState.IsValid)
+            {
+                _unitOfWork._categoriesRepository.Update(category);
+                await _unitOfWork.Save();
+                return RedirectToAction(nameof(Index));
+            }
+
+            return View(category);
         }
 
         #region API Calls
@@ -43,18 +65,19 @@ namespace Web.Areas.Admin.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
-            var categorias = new List<Category>
-            {
-                new Category { Id = 1, Name = "Categoría 1", Order = 1 },
-                new Category { Id = 2, Name = "Categoría 2", Order = 2 }
-            };
-            return Json(new { data = categorias });
+            return Json(new { data = await _unitOfWork._categoriesRepository.GetAllElements() });
         }
 
         [HttpDelete]
         public async Task<IActionResult> Delete(int id)
         {
-            return Json(new { success = true, message = "Eliminado (simulado)" });
+            var objFromDb = await _unitOfWork._categoriesRepository.GetElementById(id);
+            if (objFromDb == null)
+                return Json(new { success = false, message = "Error Borrando categoria" });
+
+            _unitOfWork._categoriesRepository.DeleteElement(objFromDb);
+            await _unitOfWork.Save();
+            return Json(new { success = true, message = "Categoria borrada correctamente" });
         }
 
         #endregion

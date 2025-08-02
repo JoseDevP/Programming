@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BlogCore.Models
+namespace Core.Models
 {
     public class Slider
     {
