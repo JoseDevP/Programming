@@ -18,7 +18,7 @@ public class CalculadoraBasica {
     {
         Scanner sc = new Scanner(System.in); //creo instancia del scanner
         
-        double num1 = 0;        
+        double num1 = 0.3;        
         double num2 = 0;
         
         System.out.println("Primer número: ");
