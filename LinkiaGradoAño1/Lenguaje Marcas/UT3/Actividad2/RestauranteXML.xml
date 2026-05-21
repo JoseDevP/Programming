@@ -1,0 +1,186 @@
+<Restaurantes>
+
+
+<Restaurante id="001" tipo="Gourmet">
+
+<Informacion>
+    <Nombre>Restaurante Jose principal</Nombre>
+    <Direccion codigoPostal="0523">Gran Via</Direccion>
+    <Telefono prefijo="+65">654725132</Telefono>
+</Informacion>
+
+<Menu vigente="true">
+    <Categoria nombre="Entrantes" orden="1">
+        <Plato id="1" disponible="true" precio="8.60">
+            <Nombre>Nachos</Nombre>
+        </Plato>
+        <Plato id="2" disponible="true" precio="2.53">
+            <Nombre>Ensalada</Nombre>
+        </Plato>
+        <Plato id="3" disponible="false" precio="5.50">
+            <Nombre>Chicharron</Nombre>
+        </Plato>
+    </Categoria>
+
+    <Categoria nombre="Principales" orden="2">
+        <Plato id="4" disponible="true" precio="12">
+            <Nombre>Canelones</Nombre>
+        </Plato>
+        <Plato id="5" disponible="true" precio="13.20">
+            <Nombre>Alcachofas</Nombre>
+        </Plato>
+        <Plato id="6" disponible="false" precio="8">
+            <Nombre>Patatas fritas</Nombre>
+        </Plato>
+    </Categoria>
+
+    <Categoria nombre="Segundos" orden="3">
+        <Plato id="7" disponible="false" precio="15">
+            <Nombre>Salchichas</Nombre>
+        </Plato>
+        <Plato id="8" disponible="true" precio="18">
+            <Nombre>Solomillo</Nombre>
+        </Plato>
+        <Plato id="9" disponible="true" precio="20">
+            <Nombre>Chuleton</Nombre>
+        </Plato>
+    </Categoria>
+
+    <Categoria nombre="Postres" orden="4">
+        <Plato id="10" disponible="true" precio="5">
+            <Nombre>Tarta de Queso</Nombre>
+        </Plato>
+        <Plato id="11" disponible="true" precio="3.50">
+            <Nombre>Crema catalana</Nombre>
+        </Plato>
+        <Plato id="12" disponible="true" precio="6">
+            <Nombre>Pastel de zanahoria</Nombre>
+        </Plato>
+    </Categoria>
+</Menu>
+
+<Empleados>
+    <Empleado id="1" puesto="Chef" activo="true">
+        <Nombre>Antonio</Nombre>
+    </Empleado>
+    <Empleado id="2" puesto="Ayudante de cocina" activo="false">
+        <Nombre>Maite</Nombre>
+    </Empleado>
+    <Empleado id="3" puesto="Camarero" activo="true">
+        <Nombre>Juan</Nombre>
+    </Empleado>
+</Empleados>
+
+<Reservas>
+    <Reserva id="1" fecha="2026-09-03" hora="22:00" estado="confirmada">
+        <Nombre>Juan Balmes</Nombre>
+    </Reserva>
+    <Reserva id="2" fecha="2026-12-11" hora="16:00" estado="pendiente">
+        <Nombre>Roberto Calabacin</Nombre>
+    </Reserva>
+</Reservas>
+
+<Eventos>
+    <Evento id="1" tipo="Boda" fecha="2026-02-03" privado="true">
+        <Nombre>Boda Maite</Nombre>
+    </Evento>
+    <Evento id="2" tipo="Celebración fin de curso" fecha="2026-03-03" privado="true">
+        <Nombre>Celebración Promoción Caceres</Nombre>
+    </Evento>
+</Eventos>
+
+</Restaurante>
+
+
+
+<Restaurante id="002" tipo="Vegetariano">
+
+<Informacion>
+    <Nombre>Restaurante Jose secundario</Nombre>
+    <Direccion codigoPostal="0421">Gran Via 2</Direccion>
+    <Telefono prefijo="+65">6852135124</Telefono>
+</Informacion>
+
+<Menu vigente="true">
+    <Categoria nombre="Entrantes" orden="1">
+        <Plato id="13" disponible="true" precio="8.60">
+            <Nombre>Nachos</Nombre>
+        </Plato>
+        <Plato id="14" disponible="true" precio="2.53">
+            <Nombre>Ensalada</Nombre>
+        </Plato>
+        <Plato id="15" disponible="false" precio="5.50">
+            <Nombre>Gazpacho</Nombre>
+        </Plato>
+    </Categoria>
+
+    <Categoria nombre="Principales" orden="2">
+        <Plato id="16" disponible="true" precio="12">
+            <Nombre>Verduras al punto</Nombre>
+        </Plato>
+        <Plato id="17" disponible="true" precio="13.20">
+            <Nombre>Alcachofas</Nombre>
+        </Plato>
+        <Plato id="18" disponible="false" precio="8">
+            <Nombre>Patatas fritas</Nombre>
+        </Plato>
+    </Categoria>
+
+    <Categoria nombre="Segundos" orden="3">
+        <Plato id="19" disponible="false" precio="15">
+            <Nombre>Hamburguesa vegana</Nombre>
+        </Plato>
+        <Plato id="20" disponible="true" precio="18">
+            <Nombre>Aros de cebolla</Nombre>
+        </Plato>
+        <Plato id="21" disponible="true" precio="20">
+            <Nombre>Croquetas de calabacin</Nombre>
+        </Plato>
+    </Categoria>
+
+    <Categoria nombre="Postres" orden="4">
+        <Plato id="22" disponible="true" precio="5">
+            <Nombre>Tarta de Queso</Nombre>
+        </Plato>
+        <Plato id="23" disponible="true" precio="3.50">
+            <Nombre>Crema catalana</Nombre>
+        </Plato>
+        <Plato id="24" disponible="true" precio="6">
+            <Nombre>Pastel de zanahoria</Nombre>
+        </Plato>
+    </Categoria>
+</Menu>
+
+<Empleados>
+    <Empleado id="4" puesto="Chef" activo="true">
+        <Nombre>Petra</Nombre>
+    </Empleado>
+    <Empleado id="5" puesto="Ayudante de cocina" activo="true">
+        <Nombre>Luxanna</Nombre>
+    </Empleado>
+    <Empleado id="6" puesto="Camarero" activo="true">
+        <Nombre>Diego</Nombre>
+    </Empleado>
+</Empleados>
+
+<Reservas>
+    <Reserva id="3" fecha="2026-09-03" hora="22:00" estado="confirmada">
+        <Nombre>Juan Balmes</Nombre>
+    </Reserva>
+    <Reserva id="4" fecha="2026-12-11" hora="16:00" estado="pendiente">
+        <Nombre>Roberto Calabacin</Nombre>
+    </Reserva>
+</Reservas>
+
+<Eventos>
+    <Evento id="3" tipo="Boda" fecha="2026-02-03" privado="true">
+        <Nombre>Boda Maite</Nombre>
+    </Evento>
+    <Evento id="4" tipo="Celebración fin de curso" fecha="2026-03-03" privado="true">
+        <Nombre>Celebración Promoción Caceres</Nombre>
+    </Evento>
+</Eventos>
+
+</Restaurante>
+
+</Restaurantes>

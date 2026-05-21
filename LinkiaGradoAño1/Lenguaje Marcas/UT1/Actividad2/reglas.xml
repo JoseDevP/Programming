@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"> <!--usar element y complextype-->
+
+<xs:simpleType name="TextoType"><!--Tipo simple para texto-->
+    <xs:restriction base="xs:string"/><!--Quiero que sea un string-->
+</xs:simpleType>
+
+
+<xs:simpleType name="HorasType"><!--Tipo simple que sera para cuando quiera un entero postivo-->
+    <xs:restriction base="xs:positiveInteger"/>
+</xs:simpleType>
+
+
+<xs:complexType name="RequisitosType"> <!--Tipo complejo para requisitos-->
+    <xs:sequence>
+        <xs:element name="requisito" type ="TextoType" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence> <!--Se tiene que llamar requisito y como minimo que aparezca una vez y maximo las que quiera-->
+</xs:complexType>
+
+<xs:complexType name="ResultadosType"><!--Tipo complejo para resultados-->
+        <xs:sequence>
+            <xs:element name="resultado" type="TextoType" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>  <!--Se tiene que llamar resultado y como minimo que aparezca una vez y maximo las que quiera-->
+</xs:complexType>
+
+
+<xs:complexType name="UnidadesType"><!--Tipo complejo para unidades-->
+    <xs:sequence>
+        <xs:element name="unidad" type="TextoType" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence> <!--Se tiene que llamar unidad y como minimo que aparezca una vez y maximo las que quiera-->
+</xs:complexType>
+
+
+
+
+
+<xs:complexType name="ModuloType"> <!--Tipo complejo para modulo-->
+    <xs:sequence>
+        <xs:element name="nombre" type ="TextoType"/>
+        <xs:element name="horas" type ="HorasType"/>
+        <xs:element name="requisitos" type="RequisitosType" minOccurs="1" maxOccurs="unbounded"/>
+        <xs:element name="resultados" type="ResultadosType" minOccurs="1" maxOccurs="unbounded"/>
+        <xs:element name="unidades" type="UnidadesType" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="id" type="xs:ID" use="required"/> <!--Exijo atributo llamado id del tipo ID y que sea obligatorio-->
+</xs:complexType>
+
+
+
+<xs:element name="oferta"> <!--Raiz-->
+    <xs:complexType>
+        <xs:sequence>
+            <xs:element name="modulo" type="ModuloType" minOccurs="1" maxOccurs="unbounded"/> <!--Como minimo tiene que tener un modulo-->
+        </xs:sequence>
+
+        <xs:unique name="UniqueModuloID"> <!--Nombre restricción-->
+            <xs:selector xpath="modulo"/> <!--Se aplicará en todos los modulos-->
+            <xs:field xpath="@id"/> <!--Inidca que el id deber ser unico en cada uno-->
+        </xs:unique>
+    </xs:complexType>
+</xs:element>
+
+
+</xs:schema>

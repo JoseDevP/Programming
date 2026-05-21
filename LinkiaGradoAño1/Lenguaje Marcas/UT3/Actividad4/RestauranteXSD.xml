@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="Restaurantes">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Restaurante" maxOccurs="unbounded">
+                    <xs:complexType>
+
+                        <xs:sequence>
+
+                            <!-- Informacion -->
+                            <xs:element name="Informacion">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Nombre" type="xs:string"/>
+                                        <xs:element name="Direccion">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="codigoPostal" type="xs:string" use="required"/>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="Telefono">
+                                            <xs:complexType>
+                                                <xs:simpleContent>
+                                                    <xs:extension base="xs:string">
+                                                        <xs:attribute name="prefijo" type="xs:string" use="required"/>
+                                                    </xs:extension>
+                                                </xs:simpleContent>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <!-- Menu -->
+                            <xs:element name="Menu">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Categoria" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Plato" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="Nombre" type="xs:string"/>
+                                                            </xs:sequence>
+                                                            <xs:attribute name="id" type="xs:int" use="required"/>
+                                                            <xs:attribute name="disponible" type="xs:boolean" use="required"/>
+                                                            <xs:attribute name="precio" type="xs:decimal" use="required"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                                <xs:attribute name="nombre" type="xs:string" use="required"/>
+                                                <xs:attribute name="orden" type="xs:int" use="required"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="vigente" type="xs:boolean" use="required"/>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <!-- Empleados -->
+                            <xs:element name="Empleados">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Empleado" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Nombre" type="xs:string"/>
+                                                </xs:sequence>
+                                                <xs:attribute name="id" type="xs:int" use="required"/>
+                                                <xs:attribute name="puesto" type="xs:string" use="required"/>
+                                                <xs:attribute name="activo" type="xs:boolean" use="required"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <!-- Reservas -->
+                            <xs:element name="Reservas">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Reserva" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Nombre" type="xs:string"/>
+                                                </xs:sequence>
+                                                <xs:attribute name="id" type="xs:int" use="required"/>
+                                                <xs:attribute name="fecha" type="xs:date" use="required"/>
+                                                <xs:attribute name="hora" type="xs:string" use="required"/>
+                                                <xs:attribute name="estado" type="xs:string" use="required"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                            <!-- Eventos -->
+                            <xs:element name="Eventos">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Evento" maxOccurs="unbounded">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Nombre" type="xs:string"/>
+                                                </xs:sequence>
+                                                <xs:attribute name="id" type="xs:int" use="required"/>
+                                                <xs:attribute name="tipo" type="xs:string" use="required"/>
+                                                <xs:attribute name="fecha" type="xs:date" use="required"/>
+                                                <xs:attribute name="privado" type="xs:boolean" use="required"/>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+
+                        </xs:sequence>
+
+                        <!-- Atributos -->
+                        <xs:attribute name="id" type="xs:string" use="required"/>
+                        <xs:attribute name="tipo" type="xs:string" use="required"/>
+
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

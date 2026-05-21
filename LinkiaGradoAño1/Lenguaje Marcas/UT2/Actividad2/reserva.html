@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Instituto José es el instituto más valuado en ámbito de programación.">
+        <title>Restaurante José</title>
+
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <h1>Restaurante José</h1>
+        </header>
+
+        <nav id="navbar">
+            <ul>
+                <li><a href="index.html#menu"> Menú </a></li>
+                <li><a href="index.html#equipo"> Equipo </a></li>
+                <li><a href="index.html#experiencias"> Experiencias gastronómicas </a></li>
+                <li><a href="index.html#contacto"> Contacto </a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <section id="reserva">
+                <h2>Formulario de reserva</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+                <form action="#" method="post">
+                
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre" required><br><br>
+                
+                    <label for="email">Correo electrónico:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                
+                    <label for="telefono">Teléfono:</label><br>
+                    <input type="tel" id="telefono" name="telefono"><br><br>
+                
+                    <label for="personas">Número de personas:</label><br>
+                    <input type="number" id="personas" name="personas" min="1" max="20"><br><br>
+                
+                    <label for="fecha">Fecha de reserva:</label><br>
+                    <input type="date" id="fecha" name="fecha"><br><br>
+                
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="4" cols="40"></textarea><br><br>
+                
+                    <button type="submit">Enviar reserva</button>
+                
+                </form>
+            </section>
+
+        </main>
+        
+        
+
+        <footer>
+            <p>© 2026 Restaurante José. Todos los derechos reservados.</p>
+            <p>Dirección: Gran Via, Barcelona, España</p>
+            <p>Email: contactoJose@restaurantejose.com</p>
+            <p>Teléfono: +34 658 425 478</p>
+            <nav>
+                <ul>
+                    <li><a href="#aviso">Aviso legal</a></li>
+                    <li><a href="#privacidad">Política de privacidad</a></li>
+                    <li><a href="#cookies">Política de cookies</a></li>
+                </ul>
+            </nav>
+        </footer>
+
+        <section id="aviso" hidden></section>
+        <section id="privacidad" hidden></section>
+        <section id="cookies" hidden></section>
+    </body>
+</html>

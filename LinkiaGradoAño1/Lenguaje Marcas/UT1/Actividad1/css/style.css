@@ -1,0 +1,222 @@
+* /*reseteo a 0*/
+{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    max-width: 2000px;
+    margin: 0 auto; 
+    display: grid;
+    grid-template-columns: 3fr 1fr; /* main jutno con el aside */
+    grid-template-areas:
+        "header header" /*columna 1 y 2 header*/
+        "nav nav" /*columna 1 y 2 nav*/
+        "main aside" /*columna 1 main y 2 aside*/
+        "footer footer";/*columna 1 y 2 footer*/
+    font-family: 'Segoe UI', Tahoma, Geneva, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #222;
+    background-color: #f4f6f9;
+}
+
+
+
+header
+{
+    grid-area: header;
+    background-color: #20831d;
+    color: white;
+    padding: 1.5rem; /* 1 rem son 16 px */
+    text-align: center; /*ongo exto en centro*/
+    
+}
+
+
+/*Navbar*/
+#navbar
+{
+    grid-area: nav;
+    background-color: #45be4f;   
+    padding: 1rem 0;  
+}
+
+#navbar ul
+{
+    list-style: none; /*Quitar los puntos*/
+    display: flex; /*Para que salgan uno al lado del otro*/
+    justify-content: center; /*centro*/
+}
+
+#navbar li
+{
+    margin: 0 5rem; /*margen entre cada li de la lista ul*/
+}
+
+#navbar a
+{
+    color: white;
+    text-decoration: none; /*quitar subrayado*/
+    font-weight: bold; /*negrita*/
+}
+
+#navbar a:hover /*cursor*/, #navbar a:focus/*tab*/
+{
+    text-decoration: underline; /*subrayar el enlace*/
+}
+
+
+
+/*main*/
+main 
+{
+    grid-area: main; 
+    padding: 2rem 3rem;
+}
+
+
+
+/*Aside*/
+aside {
+    grid-area: aside;
+    background-color: #e9eef3;
+    padding: 2rem 2rem;
+    border-radius: 10px;          
+    box-shadow: 2px 4px 10px rgba(0, 0, 0, 0.08); 
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;                  
+}
+
+
+aside h2 {
+    margin-bottom: 1rem;
+    color: #20831d;               
+    font-size: 1.6rem;
+    border-bottom: 2px solid #45be4f;
+    padding-bottom: 0.5rem;
+}
+
+aside a {
+    color: #555;                  
+    font-size: 1.2rem;
+    text-decoration: none;    /*quito subrayado*/   
+    font-weight: 600;             
+    padding: 0.5rem 0;            
+    border-radius: 5px;           
+          
+}
+
+
+
+
+/*Sections de main*/
+#oferta, #profesorado, #salidas, #contacto{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    align-items: center; 
+    gap: 20px;
+    background-color: white;        
+    padding: 2rem;                   
+    margin-bottom: 6rem;          
+    border-radius: 10px;             
+    box-shadow: 3px 10px rgba(238, 255, 0, 0.08); 
+}
+
+#oferta h2, #profesorado h2, #salidas h2, #contacto h2 {
+    margin-bottom: 1rem;
+    color: #20831d;                  
+    font-size: 1.8rem;               
+    border-bottom: 2px solid #45be4f; 
+    padding-bottom: 0.5rem;
+}
+
+#oferta h3, #profesorado h3, #salidas h3, #contacto h3 {
+    margin-top: 1rem;
+    color: #333;
+    font-size: 1.3rem;
+}
+
+#oferta p, #profesorado p, #salidas p, #contacto p {
+    margin-top: 0.5rem;
+    margin-bottom: 3rem;
+    line-height: 1.7;
+    color: #555;
+}
+
+#oferta img, #profesorado img, #salidas img, #contacto img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto;
+    border-radius: 8px;  
+    object-fit: cover;           
+}
+
+
+
+/*footer*/
+footer
+{
+    grid-area: footer;
+    background-color: #20831d;
+    color: white;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+footer nav ul
+{
+    margin-top: 2rem;
+    list-style: none; /*Quitar los puntos*/
+    display: flex; /*Para que salgan uno al lado del otro*/
+    justify-content: center; /*centro*/
+}
+
+footer nav li
+{
+    margin: 0 5rem; /*margen entre cada li de la lista ul*/
+}
+
+footer nav a
+{
+    color: white;
+    text-decoration: none; /*quitar subrayado*/
+    font-weight: bold; /*negrita*/
+}
+
+
+
+/*Responsive*/
+@media (max-width: 768px) {
+    body {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "header"
+            "nav"
+            "main"
+            "aside"
+            "footer";
+    }
+
+    #navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar li {
+        margin: 0.5rem 0;
+    }
+
+    main, aside {
+        padding: 1rem; 
+    }
+
+    #oferta, #profesorado, #salidas, #contacto {
+        grid-template-columns: 1fr;  
+        gap: 1.5rem;                 /
+    }
+}
+

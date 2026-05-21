@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<oferta>
+    <modulo id="modulo1">
+        <nombre>Acceso a datos</nombre>
+        <horas>180</horas>
+
+        <requisitos> 
+            <requisito>Titulo de bachillerato</requisito>
+            <requisito>Titulo de grado medio</requisito>
+        </requisitos>
+
+        <resultados> 
+            <resultado>Aprender a usar programación en bases de datos</resultado>
+            <resultado>Aprendizaje en MySqlServer</resultado>
+        </resultados>
+
+        <unidades>
+            <unidad>UT1</unidad>
+            <unidad>UT2</unidad> 
+            <unidad>UT3</unidad> 
+            <unidad>UT4</unidad> 
+            <unidad>UT5</unidad> 
+            <unidad>UT6</unidad> 
+        </unidades>
+
+    </modulo>
+
+    <modulo id="modulo2">
+        <nombre>Desarrollo de Interfaces</nombre>
+        <horas>180</horas>
+
+        <requisitos> 
+            <requisito>Titulo de bachillerato</requisito>
+            <requisito>Titulo de grado medio</requisito>
+        </requisitos>
+
+        <resultados> 
+            <resultado>Aprender a desarrollar interfaces a nivel avanzado</resultado>
+            <resultado>Aprendizaje en HTML, CSS Y JAVASCRIPT</resultado>
+        </resultados>
+
+        <unidades>
+            <unidad>UT1</unidad>
+            <unidad>UT2</unidad> 
+            <unidad>UT3</unidad> 
+            <unidad>UT4</unidad> 
+            <unidad>UT5</unidad> 
+            <unidad>UT6</unidad> 
+            <unidad>UT7</unidad> 
+            <unidad>UT8</unidad> 
+            <unidad>UT9</unidad> 
+        </unidades>
+
+    </modulo>
+
+    <modulo id="modulo3">
+        <nombre>Programacion</nombre>
+        <horas>180</horas>
+
+        <requisitos> 
+            <requisito>Titulo de bachillerato</requisito>
+            <requisito>Titulo de grado medio</requisito>
+        </requisitos>
+
+        <resultados> 
+            <resultado>Aprender a usar programación avanzada</resultado>
+            <resultado>Aprendizaje en Java</resultado>
+        </resultados>
+
+        <unidades>
+            <unidad>UT1</unidad>
+            <unidad>UT2</unidad> 
+            <unidad>UT3</unidad> 
+            <unidad>UT4</unidad> 
+            <unidad>UT5</unidad> 
+            <unidad>UT6</unidad> 
+            <unidad>UT7</unidad> 
+            <unidad>UT8</unidad> 
+            <unidad>UT9</unidad> 
+        </unidades>
+
+    </modulo>
+</oferta>

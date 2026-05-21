@@ -13,7 +13,7 @@ import java.util.ArrayList;
 un ArrayList
 El alumno debe:
 • Crear una clase Usuario con nombre, email y edad.
-• Crear un ArrayList<Usuario> y añadir varios objetos.
+• Crear un ArrayList {@code Usuario}  y añadir varios objetos.
 • Mostrar los datos por consola usando un bucle.
  */
 public class Actividad1UT4 {

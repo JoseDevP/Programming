@@ -1,0 +1,1 @@
+document.getElementById("ejemplo").style.backgroundColor = "red";

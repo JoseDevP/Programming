@@ -8,7 +8,8 @@ package com.mycompany.ColegioDb;
  *
  * @author josee
  */
-public class ColegioDb {
+public class ColegioDb 
+{
 
     public static void main(String[] args) 
     {
